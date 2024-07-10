@@ -1,6 +1,7 @@
 ---
-title: " "
-output: markdown
+permalink: /
+title: "Teaching"
+author_profile: true
 ---
 **Teaching Assistant**
 - Introduction to Behavioral Economics 2018-2023

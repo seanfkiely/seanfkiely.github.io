@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+collection: teaching
 permalink: teaching/teaching_experience
 layout: default
 ---

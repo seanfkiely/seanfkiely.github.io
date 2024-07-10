@@ -1,5 +1,6 @@
 ---
 title: " "
+output: markdown
 ---
 **Teaching Assistant**
 - Introduction to Behavioral Economics 2018-2023

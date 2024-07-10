@@ -1,3 +1,9 @@
+---
+title: "Teaching"
+permalink: teaching/teaching_experience
+layout: default
+---
+
 **Teaching Assistant**
 - Introduction to Behavioral Economics 2018-2023
 - Managerial Marketing 2019, 2020, 2024

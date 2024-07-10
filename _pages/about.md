@@ -11,4 +11,4 @@ I am a Ph.D. Candidate in the [ARE Department](https://are.ucdavis.edu/) at the 
 
 Job Market Candidate
 ====================
-I am on the 2024-2025 job market. Please feel free to contact me with any inquiries via [sfkiely@ucdavis.edu](sfkiely@ucdavis.edu).
+I am on the 2024-2025 job market. Please feel free to contact me with any inquiries at sfkiely@ucdavis.edu

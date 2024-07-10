@@ -1,12 +1,3 @@
----
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
----
-
 **Teaching Assistant**
 - Introduction to Behavioral Economics 2018-2023
 - Managerial Marketing 2019, 2020, 2024

@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant, University of California, Davis"
 collection: teaching
-permalink: teaching/teaching_experience
+permalink: /teaching/teaching_experience
 layout: default
 ---
 - **Introduction to Behavioral Economics** (ARE 133) 2018-2023

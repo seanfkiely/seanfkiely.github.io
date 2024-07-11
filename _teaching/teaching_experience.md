@@ -2,9 +2,9 @@
 title: "Teaching Assistant, University of California, Davis"
 collection: teaching
 permalink: /teaching/teaching_experience
-venue: #
-date: #
-location: #
+venue: ""
+date: # 2024
+location: ""
 ---
 - **Introduction to Behavioral Economics** (ARE 133) 2018-2023
 - **Managerial Marketing** (ARE 136) 2019, 2020, 2024
@@ -14,3 +14,8 @@ location: #
 - **Educational Psychology** (EDU 110) 2017, 2018
 - **Philosophical and Social Foundations of Education** (EDU 120) 2017
 - **Introduction to Schools** (EDU 100) 2016
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"

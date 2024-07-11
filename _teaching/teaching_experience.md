@@ -1,5 +1,5 @@
-# Teaching Assistant, University of California, Davis
-
+Teaching Assistant, University of California, Davis
+===================================================
 - **Introduction to Behavioral Economics** (ARE 133) 2018-2023
 - **Managerial Marketing** (ARE 136) 2019, 2020, 2024
 - **Intermediate Microeconomics** (ARE 100B) 2019

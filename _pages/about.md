@@ -11,21 +11,21 @@ I am a Ph.D. Candidate in the [ARE Department](https://are.ucdavis.edu/) at the 
 
 Education
 =========
-PhD. in Agricultural and Resource Economics (Expected 2024)
+PhD. in Agricultural and Resource Economics (Expected 2024),
 <!--Dissertation: “”
 Committee: Kristin Kiesel, Travis Lybbert, Anujit Chakraborty-->
 University of California, Davis
 
-MSc. in Agricultural and Resource Economics (2019)
+MSc. in Agricultural and Resource Economics (2019),
 University of California, Davis
 
-MSc. in International Agricultural Development (2019)
+MSc. in International Agricultural Development (2019),
 University of California, Davis
 
-BSc. in Community, Environment, and Development (2013)
+BSc. in Community, Environment, and Development (2013),
 Pennsylvania State University
 
-BSc. in Environmental Resource Management (2013)
+BSc. in Environmental Resource Management (2013),
 Pennsylvania State University
 
 Job Market Candidate

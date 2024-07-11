@@ -14,8 +14,3 @@ location: ""
 - **Educational Psychology** (EDU 110) 2017, 2018
 - **Philosophical and Social Foundations of Education** (EDU 120) 2017
 - **Introduction to Schools** (EDU 100) 2016
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"

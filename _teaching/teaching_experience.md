@@ -1,10 +1,10 @@
 ---
-title: "Teaching Assistant, University of California, Davis"
+title: "Teaching Assistant"
 collection: teaching
 permalink: /teaching/teaching_experience
-venue: # ""
+venue: # "University of California"
 date: 2024-01-01
-location: # ""
+location: # "Davis"
 ---
 - **Introduction to Behavioral Economics** (ARE 133) 2018-2023
 - **Managerial Marketing** (ARE 136) 2019, 2020, 2024

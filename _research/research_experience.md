@@ -52,7 +52,7 @@ We study how individuals' risk preferences, subjective beliefs about future shoc
 
 ## Works in Progress
 
-### The Effect of Personal Experiences on Motivated Reasoning and Belief Updating: Evidence from A Retail Experiment in Vietnam} 
+### The Effect of Personal Experiences on Motivated Reasoning and Belief Updating: Evidence from A Retail Experiment in Vietnam 
 (with Kristin Kiesel and Ute Rink)
 
 

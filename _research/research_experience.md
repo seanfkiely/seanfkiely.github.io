@@ -4,6 +4,13 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+
+<style>
+p {
+  line-height: 1;
+}
+</style>
+
 ## Publications
 
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperative

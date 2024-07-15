@@ -15,6 +15,7 @@ p {
 
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperative
 (with Kristin Kiesel and Rachael Goodhue)
+
 Product Innovation and Promotion of Value-added Products via Marketing Cooperative&quot; <i>Handbook of Research on Cooperatives and Mutuals</i>. 2023. Northampton, MA: Edward Elgar, pp. 457–476.
 <details>
 <summary>Abstract</summary>
@@ -25,6 +26,7 @@ Product Innovation and Promotion of Value-added Products via Marketing Cooperati
 
 ### Worth the Hype? Tall Vines Raise Profits for Some–Tradeoffs for All
 (with Madeleine Langone, Lindsay McPhail, Lifeng Ren, Jesus Campos-Gatica, Minjung Joo, Jon Martindill, and Travis J. Lybbert)
+
 *American Journal of Enology and Viticulture* 5 (Suppl 1), 12-21
 <details>
 <summary>Abstract</summary>

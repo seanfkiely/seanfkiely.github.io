@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "Research :keyboard:"
+  - title: "Research"
     url: /research/
 
-  - title: "Teaching :school:"
+  - title: "Teaching"
     url: /teaching/  
 
   - title: "Publications"

@@ -27,7 +27,7 @@ Product Innovation and Promotion of Value-added Products via Marketing Cooperati
 ### Worth the Hype? Tall Vines Raise Profits for Some–Tradeoffs for All
 (with Madeleine Langone, Lindsay McPhail, Lifeng Ren, Jesus Campos-Gatica, Minjung Joo, Jon Martindill, and Travis J. Lybbert)
 
-*American Journal of Enology and Viticulture* 5 (Suppl 1), 12-21
+*American Journal of Enology and Viticulture* 5 (Suppl 1), 12-21 (2021)
 <details>
 <summary>Abstract</summary>
 <br>

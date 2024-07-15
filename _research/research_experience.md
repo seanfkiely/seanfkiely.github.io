@@ -10,15 +10,16 @@ author_profile: true
 (with Kristin Kiesel and Rachael Goodhue)
 Product Innovation and Promotion of Value-added Products via Marketing Cooperative&quot; <i>Handbook of Research on Cooperatives and Mutuals</i>. 2023. Northampton, MA: Edward Elgar, pp. 457–476.
 <details>
-<summary>Abstract</summary> | [Publication](https://www.elgaronline.com/edcollchap/book/9781802202618/book-part-9781802202618-42.xml)
+<summary>Abstract</summary>
 <br>
 'Marketing cooperatives (MCs) can have a competitive advantage over investor-owned firms (IOFs) when communicating complex qualities where information asymmetries exist between consumers and producers. For example, the cooperative business model lends credibility and authenticity to health, sustainability, and local production claims. We review the existing literature to discuss opportunities for cooperatives in modern agricultural markets characterized by increased product differentiation. Marketing orders (i.e., regulated producer organizations operating in select industries and geographic regions) can complement cooperatives’ investments in product innovation and brand-specific advertising, and we compare and contrast their actions with functions provided by MCs. A description of the efforts pursued by the Almond Board of California and Blue Diamond illustrates how coordinated producer and market research, product innovation, generic advertising, and brand promotion can ensure MCs' long-term growth and success. We conclude with a discussion of future data and research needs.
-</details>
+</details> 
+[Publication](https://www.elgaronline.com/edcollchap/book/9781802202618/book-part-9781802202618-42.xml)
 
 ### Worth the Hype? Tall Vines Raise Profits for Some–Tradeoffs for All
 (with Madeleine Langone, Lindsay McPhail, Lifeng Ren, Jesus Campos-Gatica, Minjung Joo, Jon Martindill, and Travis J. Lybbert)
 <details>
-<summary>Abstract</summary> | [Publication](https://www.ajevonline.org/content/5/Suppl_1/12)
+<summary>Abstract</summary>
 <br>
 The sudden popularity of tall vines among grapegrowers took some nurseries
 by surprise. Is this popularity rooted in economic reality? This analysis
@@ -28,6 +29,7 @@ potted green vine value estimates to discuss the forces that explain the recent
 emergence of tall vines in the California grape industry and their prospects for
 the future.
 </details>
+[Publication](https://www.ajevonline.org/content/5/Suppl_1/12)
 
 ## Working Papers
 

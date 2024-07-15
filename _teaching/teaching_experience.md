@@ -1,16 +1,23 @@
 ---
-title: "Teaching Assistant"
-collection: teaching
-permalink: /teaching/teaching_experience
-venue: # "University of California"
-date: 2024-01-01
-location: # "Davis"
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
 ---
-- **Introduction to Behavioral Economics** (ARE 133) 2018-2023
-- **Managerial Marketing** (ARE 136) 2019, 2020, 2024
-- **Intermediate Microeconomics** (ARE 100B) 2019
-- **Natural Resource Economics** (ARE 175) 2019
-- **Business Law** (ARE 018) 2018
-- **Educational Psychology** (EDU 110) 2017, 2018
-- **Philosophical and Social Foundations of Education** (EDU 120) 2017
-- **Introduction to Schools** (EDU 100) 2016
+
+### At UC Davis
+ * Applied Economics Research Workshop (undergraduate)
+ * Econometrics (undergraduate)
+ * Intermediate Microeconomics (undergraduate)
+ * Microeconomic Analysis (graduate)
+
+### At Instituto Desarrollo 
+ * Mathematics for Economists (graduate)
+ * Computational Methods (undergraduate)
+ * Research Workshop (undergraduate)
+
+### At Columbia University
+ * Calculus I–III (undergraduate)
+ * Intermediate Macroeconomics (undergraduate)
+ * Intermediate Microeconomics (undergraduate)
+

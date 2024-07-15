@@ -16,7 +16,7 @@ p {
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperative
 (with Kristin Kiesel and Rachael Goodhue)
 
-&quot;Product Innovation and Promotion of Value-added Products via Marketing Cooperative&quot; <i>Handbook of Research on Cooperatives and Mutuals</i>. 2023. Northampton, MA: Edward Elgar, pp. 457–476.
+<i>Handbook of Research on Cooperatives and Mutuals</i>. Northampton, MA: Edward Elgar, pp. 457–476. (2023).
 <details>
 <summary>Abstract</summary>
 <br>

@@ -44,7 +44,7 @@ the future.
 ## Job Market Paper
 
 ### The Effect of Personal Experiences on Motivated Reasoning and Belief Updating: Evidence from A Retail Experiment in Vietnam 
-(with Kristin Kiesel and Ute Rink)
+(with Kristin Kiesel and Ute Rink) [Working Paper]url: /files/Kiely Job Market Paper.pdf
 <details>
 <summary>Abstract</summary>
 <br>
@@ -54,7 +54,7 @@ Information provision can act as an effective quality signal preventing market f
 ## Working Papers
 
 ### Disentangling disability and poverty: A panel analysis of risk attitudes, behaviors, and the long-term effects of unexpected health shocks in Vietnam
-(with Dorothee Buehler, Ute Rink, and Kristin Kiesel) (under review)
+(with Dorothee Buehler, Ute Rink, and Kristin Kiesel) 
 <details>
 <summary>Abstract</summary>
 <br>

@@ -44,7 +44,7 @@ the future.
 ## Job Market Paper
 
 ### The Effect of Personal Experiences on Motivated Reasoning and Belief Updating: Evidence from A Retail Experiment in Vietnam 
-(with Kristin Kiesel and Ute Rink) [Working Paper]url: /files/Kiely Job Market Paper.pdf
+(with Kristin Kiesel and Ute Rink) [Working Paper](url: /files/Kiely Job Market Paper.pdf)
 <details>
 <summary>Abstract</summary>
 <br>

@@ -11,7 +11,7 @@ I am a Ph.D. Candidate in the [ARE Department](https://are.ucdavis.edu/) at the 
 
 Education 🎓
 =========
-PhD. in Agricultural and Resource Economics (Expected 2024),
+PhD. in Agricultural and Resource Economics (2024),
 <!--Dissertation: “”
 Committee: Kristin Kiesel, Travis Lybbert, Anujit Chakraborty-->
 University of California, Davis
@@ -30,4 +30,4 @@ Pennsylvania State University
 
 Job Market Candidate
 ====================
-I am on the 2024-2025 job market. Please feel free to contact me with any inquiries at sfkiely@ucdavis.edu
+I am on the 2024-2025 job market. Please feel free to contact me with any inquiries at kielys@nber.org

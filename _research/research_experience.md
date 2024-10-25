@@ -14,7 +14,7 @@ p {
 ## Job Market Paper
 
 ### The Effect of Personal Experiences on Motivated Reasoning and Belief Updating: Evidence from A Retail Experiment in Vietnam 
-(with Kristin Kiesel and Ute Rink) [Working Paper](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Kiely%20Job%20Market%20Paper.pdf)
+(with Kristin Kiesel and Ute Rink) [PDF](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Kiely%20Job%20Market%20Paper.pdf)
 <details>
 <summary>Abstract</summary>
 <br>
@@ -24,7 +24,7 @@ Information provision can act as an effective quality signal preventing market f
 ## Publications
 
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperative
-(with Kristin Kiesel and Rachael Goodhue) [Publication](https://www.elgaronline.com/edcollchap/book/9781802202618/book-part-9781802202618-42.xml)
+(with Kristin Kiesel and Rachael Goodhue) [DOI](https://doi.org/10.4337/9781802202618.00042)
 
 <i>Handbook of Research on Cooperatives and Mutuals</i>. Northampton, MA: Edward Elgar, pp. 457–476. (2023).
 <details>
@@ -34,7 +34,7 @@ Information provision can act as an effective quality signal preventing market f
 </details> 
 
 ### Worth the Hype? Tall Vines Raise Profits for Some–Tradeoffs for All
-(with Madeleine Langone, Lindsay McPhail, Lifeng Ren, Jesus Campos-Gatica, Minjung Joo, Jon Martindill, and Travis J. Lybbert) [Publication](https://www.ajevonline.org/content/5/Suppl_1/12)
+(with Madeleine Langone, Lindsay McPhail, Lifeng Ren, Jesus Campos-Gatica, Minjung Joo, Jon Martindill, and Travis J. Lybbert) [DOI](https://doi.org/10.5344/catalyst.2021.20009)
 
 *American Journal of Enology and Viticulture* 5 (Suppl 1), 12-21 (2021)
 <details>

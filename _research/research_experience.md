@@ -60,7 +60,7 @@ The livelihoods of households with a disabled member have been vastly underexami
 </details>
 
 ### The Impact of Natural Disasters on Risk Preferences, Subjective Beliefs, and Related Behavior: Evidence from Typhoon Ketsana 
-(with Marcos M. Sugastti) <!--[Working Paper | Slides]-->
+(with Marcos M. Sugastti) <!--[Working Paper | Slides]--> [Slides](https://github.com/seanfkiely/seanfkiely.github.io/blob/master/files/Slides-%20The%20Impact%20of%20Natural%20Disasters.pdf)
 
 <details>
 <summary>Abstract</summary>

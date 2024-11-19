@@ -51,14 +51,6 @@ the future.
 
 ## Working Papers
 
-### Disentangling disability and poverty: A panel analysis of risk attitudes, behaviors, and the long-term effects of unexpected health shocks in Vietnam
-(with Dorothee Buehler, Ute Rink, and Kristin Kiesel) 
-<details>
-<summary>Abstract</summary>
-<br>
-The livelihoods of households with a disabled member have been vastly underexamined in the existing literature, partly due to data limitations. Using unique household-level panel data from Vietnam, we investigate differences in the immediate effects of shocks on the income of households with a disabled member (DHs) and without a disabled member (NDHs) and the longer-term poverty dynamics of these households. Key to our analysis is that many of the disabilities reported in our data can be linked to the Vietnam War and exposure to chemical defoliants. When examining the immediate impact of shocks, we find that DHs are more resilient to each incremental health shock than NDHs, but more vulnerable when confronted with natural shocks (e.g., natural disasters, livestock diseases). While these immediate effects suggest that policies for DHs should offer assistance to cope with natural shocks, our poverty dynamics analysis paints a more nuanced picture. DHs are significantly more likely to have experienced chronic or transitory poverty when faced with additional health shocks than NDHs. Conversely, DHs are no more likely to end up in poverty than NDHs when faced with shocks outside of the health domain. Our analysis suggests that DHs have developed a greater resilience to health shocks, but the greater cumulative number of shocks experienced over time makes them more vulnerable to falling into poverty overall.
-</details>
-
 ### The Impact of Natural Disasters on Risk Preferences, Subjective Beliefs, and Related Behavior: Evidence from Typhoon Ketsana 
 (with Marcos M. Sugastti) <!--[Working Paper | Slides]--> [Slides](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Slides-%20The%20Impact%20of%20Natural%20Disasters.pdf)
 
@@ -66,6 +58,14 @@ The livelihoods of households with a disabled member have been vastly underexami
 <summary>Abstract</summary>
 <br>
 We study how individuals' risk preferences, subjective beliefs about future shocks, and related behavior change following a natural disaster. We focus on the impact of Typhoon Ketsana in 2009—one of the most devastating storms to hit Southeast Asia in recent times. Our analysis reveals that individuals who were affected by the typhoon become more risk averse a year after landfall. This effect persists up to four years later. We base our findings on household-level panel data from Vietnam and a difference-in-differences strategy with a continuous treatment variable that exploits variation in the intensity of the typhoon. We conclude that a standard deviation (SD) increase in excess rainfall during the typhoon leads to a 0.23 SD increase in risk averseness one year after landfall, and a 0.24 SD increase four years after landfall. Moreover, individuals exposed to higher excess rainfall are more likely to believe that storms will not transpire in the following five years or will occur with reduced frequency. This result supports the view that the main observed effects on risk preferences indeed reflect updated risk attitudes, rather than changes in the subjective probability structure assigned to the occurrence of storms. Finally, we show that individuals exposed to the typhoon increase their insurance purchasing in the long term. Our paper contributes to the literature that empirically documents how negative shocks may alter risk preferences and helps illuminate the way climate-related hazards can induce changes in the attitudes and economic behavior of individuals.
+</details>
+
+### Disentangling disability and poverty: A panel analysis of risk attitudes, behaviors, and the long-term effects of unexpected health shocks in Vietnam
+(with Dorothee Buehler, Ute Rink, and Kristin Kiesel) 
+<details>
+<summary>Abstract</summary> | Updated version coming soon
+<br>
+The livelihoods of households with a disabled member have been vastly underexamined in the existing literature, partly due to data limitations. Using unique household-level panel data from Vietnam, we investigate differences in the immediate effects of shocks on the income of households with a disabled member (DHs) and without a disabled member (NDHs) and the longer-term poverty dynamics of these households. Key to our analysis is that many of the disabilities reported in our data can be linked to the Vietnam War and exposure to chemical defoliants. When examining the immediate impact of shocks, we find that DHs are more resilient to each incremental health shock than NDHs, but more vulnerable when confronted with natural shocks (e.g., natural disasters, livestock diseases). While these immediate effects suggest that policies for DHs should offer assistance to cope with natural shocks, our poverty dynamics analysis paints a more nuanced picture. DHs are significantly more likely to have experienced chronic or transitory poverty when faced with additional health shocks than NDHs. Conversely, DHs are no more likely to end up in poverty than NDHs when faced with shocks outside of the health domain. Our analysis suggests that DHs have developed a greater resilience to health shocks, but the greater cumulative number of shocks experienced over time makes them more vulnerable to falling into poverty overall.
 </details>
 
 <!--## Works in Progress-->

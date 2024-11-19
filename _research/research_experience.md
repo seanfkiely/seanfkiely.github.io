@@ -24,7 +24,7 @@ Information provision can act as an effective quality signal preventing market f
 ## Publications
 
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperative
-(with Kristin Kiesel and Rachael Goodhue) [DOI](https://doi.org/10.4337/9781802202618.00042)
+(with Kristin Kiesel and Rachael Goodhue) 
 
 <i>Handbook of Research on Cooperatives and Mutuals</i>. Northampton, MA: Edward Elgar, pp. 457–476. (2023).
 <details>

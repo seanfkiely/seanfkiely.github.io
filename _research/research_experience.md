@@ -45,7 +45,7 @@ The livelihoods of households with a disabled member have been vastly underexami
 ## Publications
 
 ### Attracting and Re-engaging New Talent in Agricultural Economics 
-(with Kristin Kiesel, Sean Kiely, Steve Boucher and Jeffrey Williams)  
+(with Saloni Chopra, Kristin Kiesel, Steve Boucher, and Jeffrey Williams)  
 
 <i>Forthcoming. Applied Economics and Teaching Resources</i>.
 

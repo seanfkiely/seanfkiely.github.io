@@ -44,7 +44,12 @@ The livelihoods of households with a disabled member have been vastly underexami
 
 ## Publications
 
-### Product Innovation and Promotion of Value-added Products via Marketing Cooperative
+### Attracting and Re-engaging New Talent in Agricultural Economics 
+(with Kristin Kiesel, Sean Kiely, Steve Boucher and Jeffrey Williams)  
+
+<i>Forthcoming. Applied Economics and Teaching Resources</i>.
+
+### Product Innovation and Promotion of Value-added Products via Marketing Cooperatives
 (with Kristin Kiesel and Rachael Goodhue) 
 
 <i>Handbook of Research on Cooperatives and Mutuals</i>. Northampton, MA: Edward Elgar, pp. 457–476. (2023).

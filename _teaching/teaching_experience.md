@@ -14,3 +14,5 @@ author_profile: true
 - **Educational Psychology** (EDU 110) 2017, 2018
 - **Philosophical and Social Foundations of Education** (EDU 120) 2017
 - **Introduction to Schools** (EDU 100) 2016
+
+You can find my teaching evaluation scores and comments from students [here](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Kiely%20Teaching%20Evaluations.pdf).

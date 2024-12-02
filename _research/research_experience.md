@@ -21,6 +21,27 @@ p {
 Information provision can act as an effective quality signal preventing market failures. Food labels aim to reduce information asymmetries between consumers and producers, but evidence of their effectiveness is mixed. Past personal experiences can alter beliefs and affect how this information is engaged with, processed, and stored in memory. We implement a lab-in-the-field experiment in Vietnam to study the relative effectiveness of both a certified food safety label and retailer claim on purchasing decisions and belief updating and to evaluate the impact of two domain- and non-domain-specific personal experiences, illness from contaminated vegetables and exposure to chemical defoliants used in the Vietnam War, on food safety beliefs and information processing. We show that subjects exposed to chemical defoliants have significantly lower beliefs in food safety quality, while those who were ill do not hold these beliefs. This suggests that intense out-of-domain experiences can impact belief formation across domains. We find that individuals exposed to chemical defoliants employ several forms of motivated reasoning to avoid or misremember food safety information tied to these past experiences even at a financial cost. Our results suggest that individuals are motivated to maintain these beliefs as a means of self-preservation where the information processing costs of engaging with information tied to these experiences outweigh the perceived benefits. However, unbiased, disconfirmatory feedback mitigates the extent to which subjects engage in endogenous memory formation. This indicates a viable pathway to enhance policy design and information dissemination to improve decision-making and circumvent entrenched beliefs.
 </details>
 
+## Working Papers
+
+### The Impact of Natural Disasters on Risk Preferences, Subjective Beliefs, and Related Behavior: Evidence from Typhoon Ketsana 
+(with Marcos M. Sugastti) <!--[Working Paper | Slides]--> <!--[Slides](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Slides-%20The%20Impact%20of%20Natural%20Disasters.pdf)-->
+
+<details>
+<summary>Abstract | <a href="https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Slides-%20The%20Impact%20of%20Natural%20Disasters.pdf">Slides</a></summary>
+<br>
+We study how individuals' risk preferences, subjective beliefs about future shocks, and related behavior change following a natural disaster. We focus on the impact of Typhoon Ketsana in 2009—one of the most devastating storms to hit Southeast Asia in recent times. Our analysis reveals that individuals who were affected by the typhoon become more risk averse a year after landfall. This effect persists up to four years later. We base our findings on household-level panel data from Vietnam and a difference-in-differences strategy with a continuous treatment variable that exploits variation in the intensity of the typhoon. We conclude that a standard deviation (SD) increase in excess rainfall during the typhoon leads to a 0.23 SD increase in risk averseness one year after landfall, and a 0.24 SD increase four years after landfall. Moreover, individuals exposed to higher excess rainfall are more likely to believe that storms will not transpire in the following five years or will occur with reduced frequency. This result supports the view that the main observed effects on risk preferences indeed reflect updated risk attitudes, rather than changes in the subjective probability structure assigned to the occurrence of storms. Finally, we show that individuals exposed to the typhoon increase their insurance purchasing in the long term. Our paper contributes to the literature that empirically documents how negative shocks may alter risk preferences and helps illuminate the way climate-related hazards can induce changes in the attitudes and economic behavior of individuals.
+</details>
+
+### Disentangling disability and poverty: A panel analysis of risk attitudes, behaviors, and the long-term effects of unexpected health shocks in Vietnam
+(with Dorothee Buehler, Ute Rink, and Kristin Kiesel) 
+<details>
+<summary>Abstract | <span style="font-style: italic;">Updated version coming soon</span></summary>
+<br>
+The livelihoods of households with a disabled member have been vastly underexamined in the existing literature, partly due to data limitations. Using unique household-level panel data from Vietnam, we investigate differences in the immediate effects of shocks on the income of households with a disabled member (DHs) and without a disabled member (NDHs) and the longer-term poverty dynamics of these households. Key to our analysis is that many of the disabilities reported in our data can be linked to the Vietnam War and exposure to chemical defoliants. When examining the immediate impact of shocks, we find that DHs are more resilient to each incremental health shock than NDHs, but more vulnerable when confronted with natural shocks (e.g., natural disasters, livestock diseases). While these immediate effects suggest that policies for DHs should offer assistance to cope with natural shocks, our poverty dynamics analysis paints a more nuanced picture. DHs are significantly more likely to have experienced chronic or transitory poverty when faced with additional health shocks than NDHs. Conversely, DHs are no more likely to end up in poverty than NDHs when faced with shocks outside of the health domain. Our analysis suggests that DHs have developed a greater resilience to health shocks, but the greater cumulative number of shocks experienced over time makes them more vulnerable to falling into poverty overall.
+</details>
+
+<!--## Works in Progress-->
+
 ## Publications
 
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperative
@@ -48,27 +69,6 @@ potted green vine value estimates to discuss the forces that explain the recent
 emergence of tall vines in the California grape industry and their prospects for
 the future.
 </details>
-
-## Working Papers
-
-### The Impact of Natural Disasters on Risk Preferences, Subjective Beliefs, and Related Behavior: Evidence from Typhoon Ketsana 
-(with Marcos M. Sugastti) <!--[Working Paper | Slides]--> <!--[Slides](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Slides-%20The%20Impact%20of%20Natural%20Disasters.pdf)-->
-
-<details>
-<summary>Abstract | <a href="https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Slides-%20The%20Impact%20of%20Natural%20Disasters.pdf">Slides</a></summary>
-<br>
-We study how individuals' risk preferences, subjective beliefs about future shocks, and related behavior change following a natural disaster. We focus on the impact of Typhoon Ketsana in 2009—one of the most devastating storms to hit Southeast Asia in recent times. Our analysis reveals that individuals who were affected by the typhoon become more risk averse a year after landfall. This effect persists up to four years later. We base our findings on household-level panel data from Vietnam and a difference-in-differences strategy with a continuous treatment variable that exploits variation in the intensity of the typhoon. We conclude that a standard deviation (SD) increase in excess rainfall during the typhoon leads to a 0.23 SD increase in risk averseness one year after landfall, and a 0.24 SD increase four years after landfall. Moreover, individuals exposed to higher excess rainfall are more likely to believe that storms will not transpire in the following five years or will occur with reduced frequency. This result supports the view that the main observed effects on risk preferences indeed reflect updated risk attitudes, rather than changes in the subjective probability structure assigned to the occurrence of storms. Finally, we show that individuals exposed to the typhoon increase their insurance purchasing in the long term. Our paper contributes to the literature that empirically documents how negative shocks may alter risk preferences and helps illuminate the way climate-related hazards can induce changes in the attitudes and economic behavior of individuals.
-</details>
-
-### Disentangling disability and poverty: A panel analysis of risk attitudes, behaviors, and the long-term effects of unexpected health shocks in Vietnam
-(with Dorothee Buehler, Ute Rink, and Kristin Kiesel) 
-<details>
-<summary>Abstract | <span style="font-style: italic;">Updated version coming soon</span></summary>
-<br>
-The livelihoods of households with a disabled member have been vastly underexamined in the existing literature, partly due to data limitations. Using unique household-level panel data from Vietnam, we investigate differences in the immediate effects of shocks on the income of households with a disabled member (DHs) and without a disabled member (NDHs) and the longer-term poverty dynamics of these households. Key to our analysis is that many of the disabilities reported in our data can be linked to the Vietnam War and exposure to chemical defoliants. When examining the immediate impact of shocks, we find that DHs are more resilient to each incremental health shock than NDHs, but more vulnerable when confronted with natural shocks (e.g., natural disasters, livestock diseases). While these immediate effects suggest that policies for DHs should offer assistance to cope with natural shocks, our poverty dynamics analysis paints a more nuanced picture. DHs are significantly more likely to have experienced chronic or transitory poverty when faced with additional health shocks than NDHs. Conversely, DHs are no more likely to end up in poverty than NDHs when faced with shocks outside of the health domain. Our analysis suggests that DHs have developed a greater resilience to health shocks, but the greater cumulative number of shocks experienced over time makes them more vulnerable to falling into poverty overall.
-</details>
-
-<!--## Works in Progress-->
 
 
 

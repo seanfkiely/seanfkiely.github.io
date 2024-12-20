@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. Candidate in the [ARE Department](https://are.ucdavis.edu/) at the University of California, Davis. I will join [The National Bureau of Economic Research](https://www.nber.org/) as a Postdoctoral Fellow in Agricultural Economics in fall 2024. My fields of interest are agricultural, development, and behavioral economics. I am currently studying questions on labeling information, experience effects and motivated beliefs, risk and subjective beliefs, and disability policy in developing countries.
+Welcome! I am a Postdoctoral Fellow in Agricultural Economics at **[The National Bureau of Economic Research](https://www.nber.org/)**.
+I received my Ph.D. in the [ARE Department](https://are.ucdavis.edu/) at the University of California, Davis.  My fields of interest are agricultural, behavioral, and development economics. I am currently studying questions on labeling information, experience effects and motivated beliefs, risk and subjective beliefs, and disability policy in developing countries.
 
 Education 🎓
 =========

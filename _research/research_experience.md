@@ -48,6 +48,13 @@ The livelihoods of households with a disabled member have been vastly underexami
 (with Saloni Chopra, Kristin Kiesel, Steve Boucher, and Jeffrey Williams)  
 
 <i>Forthcoming. Applied Economics and Teaching Resources</i>.
+<details>
+<summary>Abstract</summary>
+<br>
+Employment in the U.S. agricultural sector is highly diverse. Technological advancements, demographic change, and targeted immigration policies have reduced the demand for seasonal farm labor. However, the demand for well-trained college graduates is less frequently discussed. Enrollment in agricultural disciplines across all higher education institutions has been trending downward, and the recent COVID-19 pandemic has not only created new pedagogical challenges but also exacerbated the misperception that the path to success is to eschew a career in agriculture, especially among historically underrepresented and disadvantaged students, who grew up in communities comprised of agricultural and food supply workers. This study analyzes which teaching methods and course designs can leverage students’ diverse backgrounds and identities to effectively engage
+and retain new talent in agricultural economics as an academic discipline, accelerate innovation in
+the agricultural and food industry, and strengthen the economic resilience of local communities. More specifically, we exploit exogenous variation in lecture attendance policies and test for differences in academic performance, course-specific sense of belonging, and students' overall learning experiences. Our findings suggest that Agribusiness courses adopting inclusive teaching approaches and course designs supporting learning growth can attract and retain talent and effectively prepare all students for successful careers in agriculture and related fields.
+</details> 
 
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperatives
 (with Kristin Kiesel and Rachael Goodhue) 
@@ -56,7 +63,7 @@ The livelihoods of households with a disabled member have been vastly underexami
 <details>
 <summary>Abstract | <a href="https://doi.org/10.4337/9781802202618.00042">DOI</a></summary>
 <br>
-'Marketing cooperatives (MCs) can have a competitive advantage over investor-owned firms (IOFs) when communicating complex qualities where information asymmetries exist between consumers and producers. For example, the cooperative business model lends credibility and authenticity to health, sustainability, and local production claims. We review the existing literature to discuss opportunities for cooperatives in modern agricultural markets characterized by increased product differentiation. Marketing orders (i.e., regulated producer organizations operating in select industries and geographic regions) can complement cooperatives’ investments in product innovation and brand-specific advertising, and we compare and contrast their actions with functions provided by MCs. A description of the efforts pursued by the Almond Board of California and Blue Diamond illustrates how coordinated producer and market research, product innovation, generic advertising, and brand promotion can ensure MCs' long-term growth and success. We conclude with a discussion of future data and research needs.
+Marketing cooperatives (MCs) can have a competitive advantage over investor-owned firms (IOFs) when communicating complex qualities where information asymmetries exist between consumers and producers. For example, the cooperative business model lends credibility and authenticity to health, sustainability, and local production claims. We review the existing literature to discuss opportunities for cooperatives in modern agricultural markets characterized by increased product differentiation. Marketing orders (i.e., regulated producer organizations operating in select industries and geographic regions) can complement cooperatives’ investments in product innovation and brand-specific advertising, and we compare and contrast their actions with functions provided by MCs. A description of the efforts pursued by the Almond Board of California and Blue Diamond illustrates how coordinated producer and market research, product innovation, generic advertising, and brand promotion can ensure MCs' long-term growth and success. We conclude with a discussion of future data and research needs.
 </details> 
 
 ### Worth the Hype? Tall Vines Raise Profits for Some–Tradeoffs for All

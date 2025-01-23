@@ -44,7 +44,7 @@ The livelihoods of households with a disabled member have been vastly underexami
 
 ## Publications
 
-### Attracting and Re-engaging New Talent in Agricultural Economics 
+### Incentivize or Penalize? The Effects of Teaching Approach and Course Design on Student Performance and Learning Experiences 
 (with Saloni Chopra, Kristin Kiesel, Steve Boucher, and Jeffrey Williams)  
 
 <i>Forthcoming. Applied Economics and Teaching Resources</i>.

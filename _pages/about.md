@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a Postdoctoral Fellow in Agricultural Economics at **[The National Bureau of Economic Research](https://www.nber.org/)**.
+Welcome! I am a Postdoctoral Fellow at **[The National Bureau of Economic Research](https://www.nber.org/)**.
 I received my Ph.D. in the **[ARE Department](https://are.ucdavis.edu/)** at the University of California, Davis.  My fields of interest are agricultural, behavioral, and development economics. I am currently studying questions on labeling information, experience effects and motivated beliefs, risk and subjective beliefs, and disability policy in developing countries.
 
 Education 🎓

@@ -31,4 +31,4 @@ Pennsylvania State University
 
 Job Market Candidate
 ====================
-I am on the 2024-2025 job market. Please feel free to contact me with any inquiries at [kielys[at]nber.org](mailto:kielys@nber.org)
+Please feel free to contact me with any inquiries at [kielys[at]nber.org](mailto:kielys@nber.org)

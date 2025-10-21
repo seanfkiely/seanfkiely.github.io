@@ -40,7 +40,11 @@ We study how individuals' risk preferences, subjective beliefs about future shoc
 The livelihoods of households with a disabled member have been vastly underexamined in the existing literature, partly due to data limitations. Using unique household-level panel data from Vietnam, we investigate differences in the immediate effects of shocks on the income of households with a disabled member (DHs) and without a disabled member (NDHs) and the longer-term poverty dynamics of these households. Key to our analysis is that many of the disabilities reported in our data can be linked to the Vietnam War and exposure to chemical defoliants. When examining the immediate impact of shocks, we find that DHs are more resilient to each incremental health shock than NDHs, but more vulnerable when confronted with natural shocks (e.g., natural disasters, livestock diseases). While these immediate effects suggest that policies for DHs should offer assistance to cope with natural shocks, our poverty dynamics analysis paints a more nuanced picture. DHs are significantly more likely to have experienced chronic or transitory poverty when faced with additional health shocks than NDHs. Conversely, DHs are no more likely to end up in poverty than NDHs when faced with shocks outside of the health domain. Our analysis suggests that DHs have developed a greater resilience to health shocks, but the greater cumulative number of shocks experienced over time makes them more vulnerable to falling into poverty overall.
 </details>
 
-<!--## Works in Progress-->
+## Works in Progress
+
+### Lowering the Legal Limit: Evidence from Utah’s 0.05 BAC Law
+
+### The Effect of Ignition-Interlock Device Mandates on Alcohol-Related Traffic Fatalities
 
 ## Publications
 

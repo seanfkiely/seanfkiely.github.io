@@ -14,9 +14,9 @@ header:
   overlay_filter: 0.4
   caption: "NFL field goal attempt distribution, 1999–2025"
 ---
-
+<div class="page__content" markdown="1">
 <body style="background-color:#f8f9fa;">
-
+<div style="background:#fafafa; border:1px solid #eee; border-radius:10px; padding:2em; box-shadow:0 2px 4px rgba(0,0,0,0.05);" markdown="1">
 
 
 # Evolution of the NFL Kicking Game
@@ -72,6 +72,8 @@ That’s exactly what the data show.
     <strong>Height = Share of FG Attempts in Era; Color = Make %</strong>
   </figcaption>
 </figure>
+
+</div>
 
 
 

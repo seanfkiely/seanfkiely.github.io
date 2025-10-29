@@ -1,5 +1,7 @@
 {% include base_path %}
-{% assign navigation = site.data.navigation[include.nav] %}
+{% assign nav_key = include.nav | default: "main" %}
+{% assign navigation = site.data.navigation[nav_key] %}
+
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<header><h4 class="nav__title" style="padding: 0;">{{ page.sidebar.title }}</h4></header>{% endif %}

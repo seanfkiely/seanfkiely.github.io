@@ -21,7 +21,8 @@ header:
 
 
 
-# Evolution of the NFL Kicking Game {% if page.tags %}
+# Evolution of the NFL Kicking Game 
+{% if page.tags %}
 <p style="margin-top:1em;">
   {% for t in page.tags %}
     <a href="{{ '/tags/#' | append: t | slugify | relative_url }}"

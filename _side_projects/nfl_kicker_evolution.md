@@ -57,7 +57,7 @@ As analytics-driven “go-for-it” play-calling has increased, especially near 
 
 - **Shorter kicks are less frequent.** Between the 1999–2006 and 2016–2024 eras, there's been a marked decrease in field-goal attempts under 25 yards.
 
-- **Longer kicks are far more common.** In the initial K-ball era, only ≈9 % of attempts were from 50+ yards, compared to nearly 20 % between 2016 and 2024 and almost 30 % so far in 2025.
+- **Longer kicks are far more common.** In the initial K-ball era, only ≈9% of attempts were from 50+ yards, compared to nearly 20% between 2016 and 2024 and almost 30% so far in 2025.
    
 - **Accuracy has improved everywhere.** After allowing teams one hour of preparation instead of official-only handling, make rates increased across every distance bin.
   

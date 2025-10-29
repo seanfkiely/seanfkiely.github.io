@@ -48,7 +48,7 @@ The dataset includes every field-goal attempt from 1999 to 2025, divided into fo
 3. **2016–2024** – Same rule, but assessing improvements in kicker talent and strategy over time.  
 4. **2025+** – Extended preparation period (“modern” K-ball rule).
 
-The code for producing the figure is available here. The results below cover data through **Week 8 of the 2025 season**, representing roughly 500 field-goal attempts. Running the code later will update the “extended preparation” era automatically, and I plan to refresh this figure at season’s end.
+The code for producing the figure is available [here](https://github.com/seanfkiely/nfl-field-goal-viz). The results below cover data through **Week 8 of the 2025 season**, representing roughly 500 field-goal attempts. Running the code later will update the “extended preparation” era automatically, and I plan to refresh this figure at season’s end.
 
 ## Analysis
 

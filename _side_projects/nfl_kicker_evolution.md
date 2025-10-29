@@ -14,8 +14,7 @@ header:
   caption: "NFL field goal attempt distribution, 1999–2025"
 ---
 
-This project visualizes how field goal distances and make percentages have changed over time.
-<insert figure or link to image>
+This project visualizes how NFL field goal distances and make percentages have changed over time.
 
 ## Background
 

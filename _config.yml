@@ -16,15 +16,6 @@ url                      : https://seanfkiely.github.io # the base hostname & pr
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "seanfkiely/seanfkiely.github.io"
 
-# Theme and plugins
-remote_theme: "mmistakes/academicpages"
-plugins:
-  - jekyll-include-cache
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html

@@ -7,6 +7,18 @@ author_profile: true
 
 Here are some of my non-academic projects, including data visualizations, sports analytics, and other explorations that I've created to have fun, learn, and improve my coding skills.
 
+{% if post.tags %}
+  <div style="margin-top:0.5em; display:flex; flex-wrap:wrap; gap:0.4em;">
+    {% for t in post.tags %}
+      <a href="{{ '/tags/#' | append: t | slugify | relative_url }}"
+         style="font-size:0.8em; background:#f0f3f7; border:1px solid #e2e6ea; border-radius:999px; padding:0.15em 0.6em; color:#334; text-decoration:none;">
+        #{{ t }}
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
 <style>
 .project-card {
   width: 300px;

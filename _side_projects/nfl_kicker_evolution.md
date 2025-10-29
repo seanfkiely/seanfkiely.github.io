@@ -1,17 +1,8 @@
 ---
+layout: archive
 title: "Evolution of the NFL Kicking Game"
-collection: side_projects
-date: 2025-10-28
-excerpt: "A data visualization of how NFL kicker accuracy and attempt ranges have evolved over time."
-tags:
- - Data Visualization
- - Sports Analytics
- - Python
- - NFL
-header:
-  overlay_image: /images/fg_kicks_final.png  # optional: banner image
-  overlay_filter: 0.4
-  caption: "NFL field goal attempt distribution, 1999–2025"
+permalink: /side-projects/
+author_profile: true
 ---
 
 This project visualizes how NFL field goal distances and make percentages have changed over time.

@@ -59,9 +59,11 @@ That’s exactly what the data show.
   While kickers are currently at 33% accuracy from 65-69 yards this only includes one made field goal by Chase McLaughlin of the Tampa Bay Buccaneers.
   It’s probably only a matter of time before Justin Tucker’s 66-yard record from the 2021 season is broken. Odds seem to currently be in favor of Dallas' Brandon Aubrey. Too bad he can't play defense too. 
   
-<figure>
-  <img src="/images/fg_kicks_final.png" alt="NFL field goal evolution" style="width:100%;">
-  <figcaption><strong>Height = Share of FG Attempts in Era; Color = Make %%</strong></figcaption>
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/images/fg_kicks_final.png" alt="NFL field goal evolution" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
+    <strong>Height = Share of FG Attempts in Era; Color = Make %%</strong>
+  </figcaption>
 </figure>
 
 

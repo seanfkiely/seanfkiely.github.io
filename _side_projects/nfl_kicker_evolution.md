@@ -60,9 +60,12 @@ Percentages above each bar display the make percentage for that bin.
 As analytics-driven “go-for-it” play-calling has increased, especially near the end zone, and kickers seem to be hitting kicks from tremendous distances, we might expect a rightward shift in the distribution of field-goal attempts.  
 That’s exactly what the data show.
 
-- **Shorter kicks are less frequent.** Between the 1999–2006 and 2016–2024 eras, there's been a marked decrease in field-goal attempts under 25 yards.  
-- **Longer kicks are far more common.** In the initial K-ball era, only ≈9 % of attempts were from 50+ yards, compared to nearly 20 % between 2016 and 2024 and almost 30 % so far in 2025.  
-- **Accuracy has improved everywhere.** After allowing teams one hour of preparation instead of official-only handling, make rates increased across every distance bin.  
+- **Shorter kicks are less frequent.** Between the 1999–2006 and 2016–2024 eras, there's been a marked decrease in field-goal attempts under 25 yards.
+
+- **Longer kicks are far more common.** In the initial K-ball era, only ≈9 % of attempts were from 50+ yards, compared to nearly 20 % between 2016 and 2024 and almost 30 % so far in 2025.
+   
+- **Accuracy has improved everywhere.** After allowing teams one hour of preparation instead of official-only handling, make rates increased across every distance bin.
+  
 - **Kickers have evolved.** From 2016–2024, kickers were 15–31% more likely to make a 50+ yard kick than in 1999–2006, and 7–18 % more likely than in 2007–2015.  
   In 2025 so far, kicks from 55–59 yards are 6% more likely to be made than in 2016–2024, and 60–64 yard kicks are being made at a whopping 71%.  
   While kickers are currently at 33% accuracy from 65-69 yards this only includes one made field goal by Chase McLaughlin of the Tampa Bay Buccaneers.

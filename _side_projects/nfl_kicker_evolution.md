@@ -27,7 +27,7 @@ This prompted me to explore the history of NFL kicking rules and the evolution o
 Starting in 1999, the first ''K-ball'', or kicking ball, rule took effect: only officials were allowed to prepare the footballs used for kicking. Special teams players, particularly kickers and punters, claimed that the balls were too hard and slick, making holds and kicks more difficult.
 The issue came to a head at the end of the 2006 season when Dallas Cowboys quarterback Tony Romo fumbled a snap as the holder on a potential game-winning field goal attempt, resulting in a playoff loss to the Seattle Seahawks.
 
-Following this Cowboys playoff meltdown (not their last), the league adapted a new rule for the 2007 season, giving teams 60 minutes of access to kicking balls before games to break in three balls using only two towels and a Wilson-branded brush. This offseason, the league extended that time further, allowing equipment staff to prepare balls in line with kicker preferences—similar to other game balls.
+Following this Cowboys playoff meltdown (not their [last](/images/ezekiel elliot center.jpeg)), the league adapted a new rule for the 2007 season, giving teams 60 minutes of access to kicking balls before games to break in three balls using only two towels and a Wilson-branded brush. This offseason, the league extended that time further, allowing equipment staff to prepare balls in line with kicker preferences—similar to other game balls.
 
 ## Data 
 

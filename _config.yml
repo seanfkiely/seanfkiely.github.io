@@ -215,9 +215,7 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  side_projects:
-    output: true
-    permalink: /side-projects/:path/
+
 
 
 # Defaults
@@ -283,15 +281,7 @@ defaults:
       layout: research
       author_profile: true
       share: true
-  # _side_projects
-  - scope:
-      path: ""
-      type: side_projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+
 
 
 

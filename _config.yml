@@ -215,7 +215,7 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  side-projects:
+  side_projects:
     output: true
     permalink: /side-projects/:path/
 

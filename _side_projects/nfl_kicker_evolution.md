@@ -60,8 +60,6 @@ That’s exactly what the data show.
   It’s probably only a matter of time before Justin Tucker’s 66-yard record from the 2021 season is broken. Odds seem to currently be in the favor of Dallas' Brandon Aubrey. Too bad he can't play defense too. 
   
 
-{% include figure image_path="/images/fg_kicks_final.png" caption="Height = Share of FG Attempts in Era; Color = Make %" width="100%" %}
-
 
 
 

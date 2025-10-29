@@ -13,8 +13,9 @@ header:
   overlay_filter: 0.4
   caption: "NFL field goal attempt distribution, 1999–2025"
 ---
+# Evolution of the NFL Kicking Game
 
-This project visualizes how NFL field goal distances and make percentages have changed over time.
+I created this project to visualize how NFL field goal distances, accuracy rates, and overall strategy have evolved over time. Using play-by-play data from 1999 through the 2025 season, the visualization highlights how rule changes, analytics, and the emergence of stronger kickers have shifted where teams attempt field goals and how often those attempts succeed.
 
 ## Background
 

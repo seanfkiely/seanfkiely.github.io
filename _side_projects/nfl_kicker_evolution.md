@@ -8,6 +8,7 @@ tags:
   - Sports Analytics
   - Python
   - NFL
+thumbnail: /images/fg_kicks_final.png
 header:
   overlay_image: /images/fg_kicks_final.png
   overlay_filter: 0.4

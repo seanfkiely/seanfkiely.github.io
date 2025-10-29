@@ -40,8 +40,7 @@ Following this Cowboys playoff meltdown (not their [last](/images/ezekiel elliot
 
 ## Data 
 
-I use NFL play-by-play data from **`read_nfl_py`** in Python to visualize how “K-ball” rules, kicker quality, and analytics have changed the NFL kicking game.  
-The dataset includes every field-goal attempt from 1999 to 2025, divided into four eras:
+I use NFL play-by-play data from **`read_nfl_py`** in Python to visualize how “K-ball” rules, kicker quality, and analytics have changed the NFL kicking game. The dataset includes every field-goal attempt from 1999 to 2025, divided into four eras:
 
 1. **1999–2006** – Officials handled all preparation of kicking balls.  
 2. **2007–2015** – Teams allowed 60 minutes of pre-game access.  
@@ -52,13 +51,9 @@ The code for producing the figure is available [here](https://github.com/seanfki
 
 ## Analysis
 
-The plot below breaks down field-goal attempts and kicker accuracy across these four periods.  
-The **x-axis** shows 5-yard bins of field-goal distance (15 to 70+ yards), and the **y-axis** shows the percentage of total field goals attempted.  
-Bar height corresponds to the share of attempts from that binned distance; bar color reflects accuracy (darker = higher make rate).  
-Percentages above each bar display the make percentage for that bin.
+The plot below breaks down field-goal attempts and kicker accuracy across these four periods. The **x-axis** shows 5-yard bins of field-goal distance (15 to 70+ yards), and the **y-axis** shows the percentage of total field goals attempted. Bar height corresponds to the share of attempts from that binned distance; bar color reflects accuracy (darker = higher make rate). Percentages above each bar display the make percentage for that bin.
 
-As analytics-driven “go-for-it” play-calling has increased, especially near the end zone, and kickers seem to be hitting kicks from tremendous distances, we might expect a rightward shift in the distribution of field-goal attempts.  
-That’s exactly what the data show.
+As analytics-driven “go-for-it” play-calling has increased, especially near the end zone, and kickers seem to be hitting kicks from tremendous distances, we might expect a rightward shift in the distribution of field-goal attempts. That’s exactly what the data show.
 
 - **Shorter kicks are less frequent.** Between the 1999–2006 and 2016–2024 eras, there's been a marked decrease in field-goal attempts under 25 yards.
 
@@ -66,10 +61,7 @@ That’s exactly what the data show.
    
 - **Accuracy has improved everywhere.** After allowing teams one hour of preparation instead of official-only handling, make rates increased across every distance bin.
   
-- **Kickers have evolved.** From 2016–2024, kickers were 15–31% more likely to make a 50+ yard kick than in 1999–2006, and 7–18 % more likely than in 2007–2015.  
-  In 2025 so far, kicks from 55–59 yards are 6% more likely to be made than in 2016–2024, and 60–64 yard kicks are being made at a whopping 71%.  
-  While kickers are currently at 33% accuracy from 65-69 yards this only includes one made field goal by Chase McLaughlin of the Tampa Bay Buccaneers.
-  It’s probably only a matter of time before Justin Tucker’s 66-yard record from the 2021 season is broken. Odds seem to currently be in favor of Dallas' Brandon Aubrey. Too bad he can't play defense too. 
+- **Kickers have evolved.** From 2016–2024, kickers were 15–31% more likely to make a 50+ yard kick than in 1999–2006, and 7–18 % more likely than in 2007–2015. In 2025 so far, kicks from 55–59 yards are 6% more likely to be made than in 2016–2024, and 60–64 yard kicks are being made at a whopping 71%. While kickers are currently at 33% accuracy from 65-69 yards this only includes one made field goal by Chase McLaughlin of the Tampa Bay Buccaneers. It’s probably only a matter of time before Justin Tucker’s 66-yard record from the 2021 season is broken. Odds seem to currently be in favor of Dallas' Brandon Aubrey. Too bad he can't play defense too. 
   
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/fg_kicks_final.png" alt="NFL field goal evolution" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">

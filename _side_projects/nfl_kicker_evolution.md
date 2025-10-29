@@ -21,7 +21,16 @@ header:
 
 
 
-# Evolution of the NFL Kicking Game
+# Evolution of the NFL Kicking Game {% if page.tags %}
+<p style="margin-top:1em;">
+  {% for t in page.tags %}
+    <a href="{{ '/tags/#' | append: t | slugify | relative_url }}"
+       style="font-size:0.85em; background:#f0f3f7; border:1px solid #e2e6ea; border-radius:999px; padding:0.2em 0.6em; margin-right:0.35em; text-decoration:none; color:#334;">
+      #{{ t }}
+    </a>
+  {% endfor %}
+</p>
+{% endif %}
 
 I created this project to visualize how NFL field goal distances, accuracy rates, and overall strategy have evolved over time. Using play-by-play data from 1999 through the 2025 season, the visualization highlights how rule changes, analytics, and the emergence of stronger kickers have shifted where teams attempt field goals and how often those attempts succeed.
 
@@ -69,18 +78,6 @@ As analytics-driven “go-for-it” play-calling has increased, especially near 
     <strong>Height = Share of FG Attempts in Era; Color = Make %</strong>
   </figcaption>
 </figure>
-
-{% if page.tags %}
-<p style="margin-top:1em;">
-  {% for t in page.tags %}
-    <a href="{{ '/tags/#' | append: t | slugify | relative_url }}"
-       style="font-size:0.85em; background:#f0f3f7; border:1px solid #e2e6ea; border-radius:999px; padding:0.2em 0.6em; margin-right:0.35em; text-decoration:none; color:#334;">
-      #{{ t }}
-    </a>
-  {% endfor %}
-</p>
-{% endif %}
-
 
 </div>
 

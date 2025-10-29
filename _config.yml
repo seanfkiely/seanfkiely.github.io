@@ -283,6 +283,16 @@ defaults:
       layout: research
       author_profile: true
       share: true
+  # _side_projects
+  - scope:
+      path: ""
+      type: side_projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
 
 
 # Sass/SCSS

@@ -32,15 +32,16 @@ I used to follow mixed martial arts fights in organizations like the UFC, WEC, S
 
 ### Elo ratings
 
-[The Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system) first began as a way to calculate the relative skill of chess players and can be applied to any players/teams that play zero-sum games, including [football](https://neilpaine.substack.com/p/2025-nfl-power-ratings-and-projections), [baseball](https://neilpaine.substack.com/p/2025-mlb-elo-power-ratings-playoff?open=false#%C2%A7mlb-elo-ratings-and-win-projections), and of course, MMA. 
+[The Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system) first began as a way to calculate the relative skill of chess players and can be applied to any players/teams that play zero-sum games, including [football](https://neilpaine.substack.com/p/2025-nfl-power-ratings-and-projections), [baseball](https://neilpaine.substack.com/p/2025-mlb-elo-power-ratings-playoff?open=false#%C2%A7mlb-elo-ratings-and-win-projections), and even [Pokémon battles](https://pokemonshowdown.com/pages/ladderhelp). 
 
-Note: Here I should probably add more stuff on the background of Elo ratings but then save the calculations of the system for later.
+Note: Here I should probably add more stuff on the background of Elo ratings, but then save the calculations of the system for later.
 
 ## Data Collection
 
-In order to establish Elo ratings for mixed martial artists we need to obtain results of each fight (win, lose, draw, no contest, etc.), the opponent, the rankings of each fighter at the time of their bout, and optionally, as we will see, whether the fight was a finish (KO/TKO or submission) or a championship fight. Gathering this data is not such a small feat as no database currently exists to my knowldge that houses all of this information. 
+### Webscraping
+In order to establish Elo ratings for mixed martial artists we need to obtain results of each fight (win, lose, draw, no contest, etc.), the opponent, the rankings of each fighter at the time of their bout, and optionally, as we will see, whether the fight was a finish (KO/TKO or submission) or a championship fight. Gathering this data is not such a small feat as no database currently exists to my knowledge that houses all of this information. 
 
-Therefore, to create this ranking system, I scrape Wikipedia pages of MMA fighters. First, I create a list of all mixed martial artists by scraping the names and wikipedia links of MMA fighters who have competed in the top organizations (including those now defunct) including:
+Therefore, to create this ranking system, I first start by scraping organization's event pages, notable alumni, or current active rosters on Wikipedia to build a dataset of fighters. The list of MMA organizations (including those now defunct) includes:
 
 1. UFC
 2. Pride
@@ -50,6 +51,8 @@ Therefore, to create this ranking system, I scrape Wikipedia pages of MMA fighte
 6. Bellator
 7. Invicta
 8. Rizin
+
+I then scrape the  pages of MMA fighters gathering information on their weight class and gender and then scraping the results of their MMA fight records including outcome, opponent, date, and method of victory. For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I had this on the link to my Github page below.  Overall, I scrape about XXX total webpages and establish a dataset of nearly 56,000 fights across XXX individual fighters. 
 
 Note 10/29/25: Stopping for now. Next steps include talking about the total list of fighters, why soem fighters are not included (too obscure for a wikipedia page), defining the rating system including the traditional elo model, the decay function, and bonuses for fight finishes and championship fights/wins (refer to the elo notebook for reference). Then need to decide on final tables and visuals. Also mention that eventually I plan to create more results such as current and all-time elo ratings my division and gender.
 

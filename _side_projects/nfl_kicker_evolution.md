@@ -39,14 +39,14 @@ I created this project to visualize how NFL field goal distances, accuracy rates
 
 In recent years, there's been much discussion about how the kicking game in the NFL has changed, with today's kickers becoming more accurate and hitting longer field goals than ever before. 
 Before the 2025 season, the NFL introduced a rule change allowing teams extended time to prepare, or break in, balls before games. 
-Many around the league, such as [Eagles defensive coordinator Vic Fangio](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-new-kicking-ball-procedures-have-drastically-changed-field-goals) (*Go Birds*), speculated that this so-called ''K-ball'' rule would further increase field-goal accuracy and attempts from greater distances.
+Many around the league, such as [Eagles defensive coordinator Vic Fangio](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-new-kicking-ball-procedures-have-drastically-changed-field-goals), speculated that this so-called ''K-ball'' rule would further increase field-goal accuracy and attempts from greater distances.
 
 This prompted me to explore the history of NFL kicking rules and the evolution of the kicking game. Prior to the 1999 season, team equipment staff would manipulate footballs in all sorts of ways to break them in, allegedly including placing them in dryers, saunas, and microwaves. There's even speculation that some balls were partially filled with helium.
 
 Starting in 1999, the first ''K-ball'', or kicking ball, rule took effect: only officials were allowed to prepare the footballs used for kicking. Special teams players, particularly kickers and punters, claimed that the balls were too hard and slick, making holds and kicks more difficult.
 The issue came to a head at the end of the 2006 season when Dallas Cowboys quarterback Tony Romo fumbled a snap as the holder on a potential game-winning field goal attempt, resulting in a playoff loss to the Seattle Seahawks.
 
-Following this Cowboys playoff meltdown (not their [last](/images/ezekiel elliot center.jpeg)), the league adapted a new rule for the 2007 season, giving teams 60 minutes of access to kicking balls before games to break in three balls using only two towels and a Wilson-branded brush. This offseason, the league extended that time further, allowing equipment staff to prepare balls in line with kicker preferences—similar to other game balls.
+The following season, the league adopted a new rule giving teams 60 minutes of access to kicking balls before games to break in three balls using only two towels and a Wilson-branded brush. This offseason, the league extended that time further, allowing equipment staff to prepare balls in line with kicker preferences—similar to other game balls.
 
 ## Data 
 

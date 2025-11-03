@@ -57,7 +57,7 @@ I use NFL play-by-play data from **`read_nfl_py`** in Python to visualize how �
 3. **2016–2024** – Same rule, but assessing improvements in kicker talent and strategy over time.  
 4. **2025+** – Extended preparation period (“modern” K-ball rule).
 
-The code for producing the figure is available [here](https://github.com/seanfkiely/nfl-field-goal-viz). The results below cover data through **Week 8 of the 2025 season**, including over 25,000 field goal attempts, with roughly 500 attempts made in the 2025 season so far. Running the code later will update the “extended preparation” era automatically, and I plan to refresh this figure at season’s end.
+The code for producing the figure is available [here](https://github.com/seanfkiely/nfl-field-goal-viz). The results below cover data through **Week 9 of the 2025 season**, including over 25,000 field goal attempts, with over 500 attempts made in the 2025 season so far. Running the code later will update the “extended preparation” era automatically, and I plan to refresh this figure at season’s end.
 
 ## Analysis
 
@@ -71,10 +71,10 @@ As analytics-driven “go-for-it” play-calling has increased, especially near 
    
 - **Accuracy has improved everywhere.** After allowing teams one hour of preparation instead of official-only handling, make rates increased across every distance bin.
   
-- **Kickers have evolved.** From 2016–2024, kickers were 15–31% more likely to make a 50+ yard kick than in 1999–2006, and 7–18 % more likely than in 2007–2015. In 2025 so far, kicks from 55–59 yards are 6% more likely to be made than in 2016–2024, and 60–64 yard kicks are being made at a whopping 71%. While kickers are currently at 33% accuracy from 65-69 yards this only includes one made field goal by Chase McLaughlin of the Tampa Bay Buccaneers. It’s probably only a matter of time before Justin Tucker’s 66-yard record from the 2021 season is broken. Odds seem to currently be in favor of Dallas' Brandon Aubrey. Too bad he can't play defense too. 
+- **Kickers have evolved.** From 2016–2024, kickers were 15–31% more likely to make a 50+ yard kick than in 1999–2006, and 7–18 % more likely than in 2007–2015. In 2025 so far, kicks from 55–59 yards are 6% more likely to be made than in 2016–2024, and 60–64 yard kicks are being made at a whopping 71%. I first wrote this analysis at the end of week 8 of the 2025 season, speculating that it was only a matter of time before Justin Tucker’s 66-yard record from the 2021 season was broken. Just five days later, Cam Little of the Jasonville Jaguars proved that right, drilling a 68-yard field goal to break the record and push make rates from 65+ yards this season to 50%. The newest K-Ball rule certainly has changed the kicking game once again. I would not be surprised to see this newest record broken by season's end.
   
 <figure style="text-align:center; margin: 2em 0;">
-  <img src="/images/fg_kicks_final.png" alt="NFL field goal evolution" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+  <img src="/images/fg_kicks_week9_2025season.png" alt="NFL field goal evolution" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
     <strong>Height = Share of FG Attempts in Era; Color = Make %</strong>
   </figcaption>

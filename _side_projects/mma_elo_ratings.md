@@ -73,4 +73,17 @@ $$
 \]
 $$
 
+|   Rank | Fighter 1                |   ELO Rating 1 | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
+|-------:|:-------------------------|---------------:|:------------------|---------------:|----------------------:|
+|      1 | Antônio Rodrigo Nogueira |        1852.85 | Fedor Emelianenko |        1801.35 |               3654.2  |
+|      2 | Daniel Cormier           |        1839.88 | Stipe Miocic      |        1807.52 |               3647.41 |
+|      3 | Mirko Filipović          |        1767.61 | Fedor Emelianenko |        1879.48 |               3647.09 |
+|      4 | Daniel Cormier           |        1790.66 | Jon Jones         |        1855.94 |               3646.6  |
+|      5 | Georges St-Pierre        |        1854.59 | Jake Shields      |        1784.2  |               3638.79 |
+|      6 | Alexander Volkanovski    |        1821.39 | Islam Makhachev   |        1814.64 |               3636.03 |
+|      7 | Fedor Emelianenko        |        1896.6  | Andrei Arlovski   |        1738.96 |               3635.56 |
+|      8 | Chael Sonnen             |        1745.37 | Anderson Silva    |        1887.82 |               3633.19 |
+|      9 | Daniel Cormier           |        1873.37 | Stipe Miocic      |        1759.51 |               3632.88 |
+|     10 | Alexander Volkanovski    |        1842.15 | Islam Makhachev   |        1789.49 |               3631.64 |
+
 </div>

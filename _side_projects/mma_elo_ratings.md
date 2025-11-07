@@ -82,8 +82,8 @@ $$
 | Jon Jones                |           1886.37 |
 | Islam Makhachev          |           1875.23 |
 | Kamaru Usman             |           1867.22 |
-| JosÃ© Aldo                |           1866.77 |
-| AntÃ´nio Rodrigo Nogueira |           1862.21 |
+| Jose Aldo                |           1866.77 |
+| Antônio Rodrigo Nogueira |           1862.21 |
 | Alexander Volkanovski    |           1857.09 |
 | Wanderlei Silva          |           1848.46 |
 | Demetrious Johnson       |           1838.79 |
@@ -98,8 +98,8 @@ $$
 | Khabib Nurmagomedov      |           1823.15 |
 | Gegard Mousasi           |           1822.49 |
 | Cain Velasquez           |           1820.86 |
-| Mirko Cro Cop            |           1820.6  |
-| Max Holloway          |           1816.76 |
+| Mirko Filipović          |           1820.6  |
+| Max Holloway             |           1816.76 |
 
 
 | Fighter               |   final_elo |

@@ -73,6 +73,64 @@ $$
 \]
 $$
 
+| Fighter                  |   Peak ELO Rating |
+|:-------------------------|------------------:|
+| Fedor Emelianenko        |           1921.85 |
+| Anderson Silva           |           1916.06 |
+| Georges St-Pierre        |           1897.82 |
+| Daniel Cormier           |           1894.29 |
+| Jon Jones                |           1886.37 |
+| Islam Makhachev          |           1875.23 |
+| Kamaru Usman             |           1867.22 |
+| JosÃ© Aldo                |           1866.77 |
+| AntÃ´nio Rodrigo Nogueira |           1862.21 |
+| Alexander Volkanovski    |           1857.09 |
+| Wanderlei Silva          |           1848.46 |
+| Demetrious Johnson       |           1838.79 |
+| Charles Oliveira         |           1837.04 |
+| Benson Henderson         |           1835.63 |
+| Bas Rutten               |           1831.75 |
+| Ryan Bader               |           1829.18 |
+| Chuck Liddell            |           1828.39 |
+| Israel Adesanya          |           1827.1  |
+| Donald Cerrone           |           1826.88 |
+| Stipe Miocic             |           1824.66 |
+| Khabib Nurmagomedov      |           1823.15 |
+| Gegard Mousasi           |           1822.49 |
+| Cain Velasquez           |           1820.86 |
+| Mirko Cro Cop            |           1820.6  |
+| Mirko FilipoviÄ          |           1817.37 |
+
+
+| Fighter               |   final_elo |
+|:----------------------|------------:|
+| Islam Makhachev       |     1875.23 |
+| Jon Jones             |     1828.93 |
+| Merab Dvalishvili     |     1811.1  |
+| Ilia Topuria          |     1784.32 |
+| Alex Pereira          |     1778.97 |
+| Zhang Weili           |     1776.12 |
+| Valentina Shevchenko  |     1773.53 |
+| Max Holloway          |     1765.56 |
+| Francis Ngannou       |     1759.62 |
+| Alexandre Pantoja     |     1757.39 |
+| Khamzat Chimaev       |     1757.09 |
+| Alexander Volkanovski |     1756.42 |
+| Arman Tsarukyan       |     1755.86 |
+| Dricus du Plessis     |     1754.7  |
+| Shavkat Rakhmonov     |     1746.39 |
+| Charles Oliveira      |     1745.71 |
+| Jiří Procházka        |     1743.75 |
+| Cris Cyborg           |     1743.31 |
+| Magomed Ankalaev      |     1740.63 |
+| Belal Muhammad        |     1738.91 |
+| Movsar Evloev         |     1736.5  |
+| Justin Gaethje        |     1733.76 |
+| Ciryl Gane            |     1731.67 |
+| Aljamain Sterling     |     1731.29 |
+| Alexander Volkov      |     1724.6  |
+
+
 |   Rank | Fighter 1                |   ELO Rating 1 | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
 |-------:|:-------------------------|---------------:|:------------------|---------------:|----------------------:|
 |      1 | Antônio Rodrigo Nogueira |        1852.85 | Fedor Emelianenko |        1801.35 |               3654.2  |

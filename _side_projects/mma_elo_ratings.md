@@ -102,7 +102,7 @@ $$
 | Max Holloway             |           1816.76 |
 
 
-| Fighter               |   final_elo |
+| Fighter               |  ELO Rating |
 |:----------------------|------------:|
 | Islam Makhachev       |     1875.23 |
 | Jon Jones             |     1828.93 |

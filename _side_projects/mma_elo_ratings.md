@@ -99,7 +99,7 @@ $$
 | Gegard Mousasi           |           1822.49 |
 | Cain Velasquez           |           1820.86 |
 | Mirko Cro Cop            |           1820.6  |
-| Mirko FilipoviÄ          |           1817.37 |
+| Max Holloway          |           1816.76 |
 
 
 | Fighter               |   final_elo |

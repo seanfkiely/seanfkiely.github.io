@@ -154,7 +154,7 @@ $$
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-    <strong>ELO Trajectories of MMA Greats %</strong>
+    <strong>ELO Trajectories of MMA Greats</strong>
   </figcaption>
 </figure>
 

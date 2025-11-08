@@ -143,7 +143,7 @@ $$
 |      8 | Chael Sonnen             |        1745.37 | Anderson Silva    |        1887.82 |               3633.19 |
 |      9 | Daniel Cormier           |        1873.37 | Stipe Miocic      |        1759.51 |               3632.88 |
 |     10 | Alexander Volkanovski    |        1842.15 | Islam Makhachev   |        1789.49 |               3631.64 |
-
+ 
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">

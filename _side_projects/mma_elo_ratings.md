@@ -158,4 +158,8 @@ $$
   </figcaption>
 </figure>
 
+<p align="center">
+  <img src="images/elo_animation.gif" width="850">
+</p>
+
 </div>

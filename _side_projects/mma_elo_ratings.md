@@ -169,10 +169,4 @@ $$
   </figcaption>
 </figure>
 
-![Elo animation]({{ '/images/elo_animation.gif' | relative_url }})
 
-<p align="center">
-  <img src="{{ '/images/elo_animation.gif' | relative_url }}" width="850" alt="Elo rating animation">
-</p>
-
-</div>

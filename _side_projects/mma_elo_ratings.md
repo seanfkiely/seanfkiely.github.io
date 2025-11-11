@@ -51,7 +51,7 @@ Therefore, to create this ranking system, I first start by scraping organization
 7. Invicta
 8. Rizin
 
-I then scrape the  pages of MMA fighters gathering information on their weight class and gender and then scraping the results of their MMA fight records including outcome, opponent, date, and method of victory. For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I had this on the link to my Github page below.  Overall, I scrape about XXX total webpages and establish a dataset of over 44,0000 fights across XXX individual fighters. 
+I then scrape the  pages of MMA fighters gathering information on their weight class and gender and then scraping the results of their MMA fight records including outcome, opponent, date, and method of victory. For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I handle this on the link to Github folder below.  Overall, I scrape about XXX total webpages and establish a dataset of over 44,0000 fights across XXX individual fighters. 
 
 Note 10/29/25: Stopping for now. Next steps include talking about the total list of fighters, why soem fighters are not included (too obscure for a wikipedia page), defining the rating system including the traditional elo model, the decay function, and bonuses for fight finishes and championship fights/wins (refer to the elo notebook for reference). Then need to decide on final tables and visuals. Also mention that eventually I plan to create more results such as current and all-time elo ratings my division and gender.
 
@@ -60,16 +60,18 @@ Maybe here do a small background on standard elo ratings
 
 I create the Elo ratings as follows:
 
-First, each fighter receives a baseline Elo rating of 1500 and I use a K factor of 44. When there is a bout, I obtain the expected score, or expected probability of Fighter A winning, $E_A$ based on the rating of Fighter A and Fighter B as:
+First, each fighter receives a baseline Elo rating. The model uses informative priors to assign the baseline rating. If a fighter has a wikipedia page (notable fighter) or more than five professional fights, they recieve the high baseline rating of 1500, otherwise they receive the low baseline rating of 1000. This prevents fighters from receiving unrealistic initial ratings, and more importantly, prevents fighters from "stat-padding" wins against lower ability fighters (see e.g., [Jeremy Horn](https://en.wikipedia.org/wiki/Jeremy_Horn)). The K-factor governs the sensitivity of the Elo updates, the higher the K-factor the more sensitive the ratings are to change. Games that can be played frequently may set lower K-factors such as 20 as even multiple matches can be played in one day. However, it is common in MMA to average about 2-3 fights per year. Therefore, I use a K-factor of 60. I also employ a dynamic K-factor that scales with opponents' experience. If a fighter faces an opponent with fewer than five fights the update is dampened, otherwise the update uses the full K value. This prevents large ratings jumps from wins over unproven fighters.
+
+For each bout, I then obtain the expected score, or expected probability of Fighter A winning, $E_A$ based on the rating of Fighter A and Fighter B as:
 $$
 E_A = \frac{1}{1 + 10^{(R_B - R_A)/400}}
 $$
 
-I then define $S_A \in {0, 0.5, 1}$ if the result of the fight is a loss, draw, or win for Fighter A, respectively. Unlike most traditional Elo ratings, I also apply a decay function that accounts for fighter inactive. Decay functions in Elo ratings are commonly used to prevent individuals from protecting a high rankings by remaining inactive. For MMA, the use of a decay function benefits more active fighters and also penalizes fighters who are ducking fights (see e.g., Jon Jones vs. Tom Aspinall). However, some delays between fights can be due to injuries, scheduling issues, and fight cancellations. Therefore, I implement a conservative decay function. Fighter A's inactivity decay is defined as:
+where $R_A$ and $R_B$ are the current or baseline ratings of each fighter. I then define $S_A \in {0, 0.5, 1}$ if the result of the fight is a loss, draw, or win for Fighter A, respectively. Unlike most traditional Elo ratings, I also apply a decay function that accounts for fighter inactive. Decay functions in Elo ratings are commonly used to prevent individuals from protecting a high ranking by remaining inactive. For MMA, the use of a decay function benefits more active fighters and also penalizes fighters who are ducking fights (see e.g., Jon Jones vs. Tom Aspinall). However, some delays between fights can be due to injuries, scheduling issues, and fight cancellations. Therefore, I implement a conservative decay function. Fighter A's inactivity decay is defined as:
 
 $$
 \[
-
+R_{\text{new}} = R_{\min} + (R_{\text{old}} - R_{\min}) \cdot e^{-\ln(2)\cdot \frac{t}{t_{1/2}}}
 \]
 $$
 

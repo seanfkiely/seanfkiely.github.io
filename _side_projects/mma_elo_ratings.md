@@ -67,11 +67,16 @@ $$
 E_A = \frac{1}{1 + 10^{(R_B - R_A)/400}}
 $$
 
-where $R_A$ and $R_B$ are the current or baseline ratings of each fighter. I then define $S_A \in {0, 0.5, 1}$ if the result of the fight is a loss, draw, or win for Fighter A, respectively. Unlike most traditional Elo ratings, I also apply a decay function that accounts for fighter inactive. Decay functions in Elo ratings are commonly used to prevent individuals from protecting a high ranking by remaining inactive. For MMA, the use of a decay function benefits more active fighters and also penalizes fighters who are ducking fights (see e.g., Jon Jones vs. Tom Aspinall). However, some delays between fights can be due to injuries, scheduling issues, and fight cancellations. Therefore, I implement a conservative decay function. Fighter A's inactivity decay is defined as:
+where $R_A$ and $R_B$ are the current or baseline ratings of each fighter. I then define $S_A \in {0, 0.5, 1}$ if the result of the fight is a loss, draw, or win for Fighter A, respectively. Unlike most traditional Elo ratings, I also apply a decay function that accounts for fighter inactive. Decay functions in Elo ratings are commonly used to prevent individuals from protecting a high ranking by remaining inactive. For MMA, the use of a decay function benefits more active fighters and also penalizes fighters who are ducking fights (see e.g., Jon Jones vs. Tom Aspinall). However, some delays between fights can be due to injuries, scheduling issues, and fight cancellations. Therefore, I implement a conservative exponential decay function toward a lower bound to account for inactivity. Fighter A's inactivity decay is defined as:
 
 $$
-\[ R_{\text{new}} = R_{\min} + (R_{\text{old}} - R_{\min}) \cdot e^{-\ln(2)\cdot \frac{t}{t_{1/2}}} \]
+R_{\text{new}} = R_{\min} + (R_{\text{old}} - R_{\min}) \cdot e^{-\ln(2)\cdot \frac{t}{t_{1/2}}}
 $$
+
+where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2} is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity but those below 1500 are not and  $t_{1/2}$ to 3650. Again this is a very conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the fighters control. Finally, 
+
+
+## Results
 
 |   Rank | Fighter                  |   Peak ELO Rating |
 |-------:|:-------------------------|------------------:|

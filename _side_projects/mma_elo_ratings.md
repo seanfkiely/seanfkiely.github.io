@@ -75,6 +75,7 @@ $$
 where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity but those below 1500 are not and  $t_{1/2}$ to 3650. The figure below shows the decay in Elo rating due to inactivity with a half life od 3650 days. This means that after 10 years of inacitivity the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again this is a very conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the fighters control. Therefore, a fighter loses only about 50 points for inactivity over roughly a 3 year period. It is not a substantial drop in their rating but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the the fighter's ability over time. Finally, I also provide two types of bonuses for wins 1) finishes and 2) championships. Each fighter receives K-factor + 2 for each victory that ends in a finish. This provides a small bump in Elo ratings to fighters who score a dominant win, but not overemphasizing finishes as they are also positively correlated with weight class. Fighters also receive a bonus for winning a championship fight as it signals they are facing a higher quality opponent, score a victory in a higher stakes match, and may also have to compete in additional "championship" rounds. I give greater weight to fighters who win a championship in a high tier promotion (UFC, PRIDE, WEC, Strikeforce, or Bellator) and award a lower bonus to championships in other lower tier promotions. This tiering system prevents those who dominate lower tier organizations but infrequently face higher quality competition to pad their rating (see e.g., [Hector Lombard's](https://en.wikipedia.org/wiki/H%C3%A9ctor_Lombard) multiple Cage FC title defenses and subsequent UFC run). 
 
 ## Results
+After creating this unique dataset, there are so many interesting findings to explore. I supply a few interesting ones here, but feel free to ask for specific requests or try things out yourself! I start out by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating could be used as one proxy for the determination of "GOAT status", but capturing sustained success is an important metric too.
 
 <div align = "center">
 
@@ -109,6 +110,8 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 |      25| Max Holloway             |           1816.76 |
 </div>
 
+Table 2 lists the current best fighters by ELO rating. Note that I only include fighters who have been active in the last two years. Here we see Islam Makhachev at the top of the heap. Makhachev has been on a tremendous string of wins and increased is ELO rating by X points after beating perennial favorites in Charles Oliveira (13th peak all-time ELO at the time of fight), Alexander Volkanovski (10th peak all-time ELO), and Dustin Poirier.
+
 <div align = "center">
 
 **TABLE 2. Best Current Fighters by ELO Rating**
@@ -141,6 +144,8 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 |      24 | Aljamain Sterling     |     1731.29 |
 |      25 | Alexander Volkov      |     1724.6  |
 </div>
+
+I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. 
 
 <div = "center">
 

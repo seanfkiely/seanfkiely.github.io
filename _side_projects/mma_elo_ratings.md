@@ -111,6 +111,9 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 |      25| Max Holloway             |           1816.76 |
 </div>
 
+<div align = "center">
+
+**TABLE 2. Best Current Fighters by ELO Rating**
 
 |   Rank | Fighter               |  ELO Rating |
 |-------:|:----------------------|------------:|
@@ -139,8 +142,12 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 |      23 | Ciryl Gane            |     1731.67 |
 |      24 | Aljamain Sterling     |     1731.29 |
 |      25 | Alexander Volkov      |     1724.6  |
+<\div>
 
+<div = "center">
 
+**TABLE 3. Greatest Fights by ELO Rating**
+  
 |   Rank | Fighter 1                |   ELO Rating 1 | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
 |-------:|:-------------------------|---------------:|:------------------|---------------:|----------------------:|
 |      1 | Antônio Rodrigo Nogueira |        1852.85 | Fedor Emelianenko |        1801.35 |               3654.2  |
@@ -153,7 +160,8 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 |      8 | Chael Sonnen             |        1745.37 | Anderson Silva    |        1887.82 |               3633.19 |
 |      9 | Daniel Cormier           |        1873.37 | Stipe Miocic      |        1759.51 |               3632.88 |
 |     10 | Alexander Volkanovski    |        1842.15 | Islam Makhachev   |        1789.49 |               3631.64 |
- 
+<\div>
+
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">

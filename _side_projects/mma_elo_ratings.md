@@ -32,7 +32,7 @@ I used to follow mixed martial arts fights in organizations like the UFC, WEC, S
 
 ### Elo ratings
 
-[The Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system) first began as a way to calculate the relative skill of chess players and can be applied to any players/teams that play zero-sum games, including [football](https://neilpaine.substack.com/p/2025-nfl-power-ratings-and-projections), [baseball](https://neilpaine.substack.com/p/2025-mlb-elo-power-ratings-playoff?open=false#%C2%A7mlb-elo-ratings-and-win-projections), and even [Pokémon battles](https://pokemonshowdown.com/pages/ladderhelp). 
+[The Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system) first began as a way to calculate the relative skill of chess players and can be applied to any players/teams that play zero-sum games, including [football](https://neilpaine.substack.com/p/2025-nfl-power-ratings-and-projections), board games such as [Scrabble](https://wespa.org/aardvark/html/rankings/full_rankings.html), and even [Pokémon battles](https://pokemonshowdown.com/pages/ladderhelp). 
 
 Note: Here I should probably add more stuff on the background of Elo ratings, but then save the calculations of the system for later.
 
@@ -51,7 +51,7 @@ Therefore, to create this ranking system, I first start by scraping organization
 7. Invicta
 8. Rizin
 
-I then scrape the  pages of MMA fighters gathering information on their weight class and gender and then scraping the results of their MMA fight records including outcome, opponent, date, and method of victory. For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I handle this on the link to Github folder below.  Overall, I scrape about XXX total webpages and establish a dataset of over 44,0000 fights across XXX individual fighters. 
+I then scrape the  pages of MMA fighters gathering information on their weight class and gender and then scraping the results of their MMA fight records including outcome, opponent, date, and method of victory. For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I handle this on the link to Github folder below.  Overall, I establish a dataset of nearly 45,0000 fights across about 3,800 individual fighters. 
 
 Note 10/29/25: Stopping for now. Next steps include talking about the total list of fighters, why soem fighters are not included (too obscure for a wikipedia page), defining the rating system including the traditional elo model, the decay function, and bonuses for fight finishes and championship fights/wins (refer to the elo notebook for reference). Then need to decide on final tables and visuals. Also mention that eventually I plan to create more results such as current and all-time elo ratings my division and gender.
 
@@ -74,10 +74,13 @@ $$
 R_{\text{new}} = R_{\min} + (R_{\text{old}} - R_{\min}) \cdot e^{-\ln(2)\cdot \frac{t}{t_{1/2}}}
 $$
 
-where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity but those below 1500 are not and  $t_{1/2}$ to 3650. The figure below shows the decay in Elo rating due to inactivity with a half life od 3650 days. This means that after 10 years of inacitivity the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again this is a very conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the fighters control. Therefore, a fighter loses only about 50 points for inactivity over roughly a 3 year period. It is not a substantial drop in their rating but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the the fighter's ability over time. Finally, *add mention of bonuses* 
-
+where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity but those below 1500 are not and  $t_{1/2}$ to 3650. The figure below shows the decay in Elo rating due to inactivity with a half life od 3650 days. This means that after 10 years of inacitivity the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again this is a very conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the fighters control. Therefore, a fighter loses only about 50 points for inactivity over roughly a 3 year period. It is not a substantial drop in their rating but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the the fighter's ability over time. Finally, I also provide two types of bonuses for wins 1) finishes and 2) championships. Each fighter receives K-factor + 2 for each victory that ends in a finish. This provides a small bump in Elo ratings to fighters who score a dominant win, but not overemphasizing finishes as they are also positively correlated with weight class. Fighters also receive a bonus for winning a championship fight as it signals they are facing a higher quality opponent, score a victory in a higher stakes match, and may also have to compete in additional "championship" rounds. I give greater weight to fighters who win a championship in a high tier promotion (UFC, PRIDE, WEC, Strikeforce, or Bellator) and award a lower bonus to championships in other lower tier promotions. This tiering system prevents those who dominate lower tier organizations but infrequently face higher quality competition to pad their rating (see e.g., [Hector Lombard's](https://en.wikipedia.org/wiki/H%C3%A9ctor_Lombard) multiple Cage FC title defenses and subsequent UFC run). 
 
 ## Results
+
+<div align = "center">
+
+**TABLE 1. Peak ELO Ratings**
 
 |   Rank | Fighter                  |   Peak ELO Rating |
 |-------:|:-------------------------|------------------:|
@@ -106,6 +109,7 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 |      23| Cain Velasquez           |           1820.86 |
 |      24| Mirko Filipović          |           1820.6  |
 |      25| Max Holloway             |           1816.76 |
+</div>
 
 
 |   Rank | Fighter               |  ELO Rating |

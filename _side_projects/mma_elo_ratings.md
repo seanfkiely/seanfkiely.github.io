@@ -87,7 +87,7 @@ Finally, I also provide two types of bonuses for wins: 1) finishes and 2) champi
 The updated rating for Fighter A is then:
 
 $$
-R_{\text{new}} = R_a + K_a \cdot (S_a - E_a) + Bonus_Finish + Bonus_Championship
+R_{\text{new}} = R_a + K_a \cdot (S_a - E_a) + Bonus_{Finish} + Bonus_{Championship}
 $$
 
 ## Results

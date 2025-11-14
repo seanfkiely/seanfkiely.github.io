@@ -24,11 +24,11 @@ header:
 
 #  An MMA Elo Rating System
 
-This project uses fight outcomes and opponent skill level to derive an Elo rating system for mixed martial artists. From these ratings, I create tables and figures for best current fighter, best fighters of all time (MMA GOATs), best fights of all time based on these ratings, and more.
+This project uses fight outcomes and opponent skill level to derive an Elo rating system for mixed martial artists. From these ratings, I create tables and figures for best current fighter, best fighters of all time (MMA GOATs), best fights of all time, and more.
 
 ## Background
 
-I used to follow mixed martial arts fights in organizations like the UFC, WEC, Strikeforce, etc. very closely. However, starting around 2020, my interest in the sport began to wane, partly because the UFC (a near monopoly now) has continued to put out a stale product. However, my interest in #dataanalysis has only strengthened. I have long thought about applying a more rigorous rating system for fighters as ratings and recent performance often determine who receives opportunities to fight for titles. The current ranking system in the UFC for instance is based on UFC-selected media member rankings. Not exactly an unbiased sample of voters. This is when I had the idea to apply an Elo-based rating system to fighters to create a more unbiased list of the best mixed martial artists.
+I used to closely follow mixed martial arts fights in organizations like the UFC, WEC, Strikeforce, etc. However, starting around 2020, my interest in the sport began to wane due to reasons including unequitable fighter pay and a stale product. However, my interest in #dataanalysis has only grown. I have long thought about applying a more rigorous rating system for fighters, as ratings and recent performance often determine who receives opportunities to fight for titles. The current ranking system in the UFC, for instance, is based on [UFC-selected media member rankings](/images/ufc_rankings_voters.png). Not exactly an unbiased sample of voters. This is when I had the idea to apply an Elo-based rating system to fighters to create a more unbiased list of the best mixed martial artists.
 
 ### Elo ratings
 

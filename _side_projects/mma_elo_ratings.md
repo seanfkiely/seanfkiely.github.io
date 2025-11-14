@@ -71,16 +71,24 @@ $$
 R_{\text{new}} = R_{\min} + (R_{\text{old}} - R_{\min}) \cdot e^{-\ln(2)\cdot \frac{t}{t_{1/2}}}
 $$
 
-where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity but those below 1500 are not and  $t_{1/2}$ to 1825. The figure below shows the decay in Elo rating due to inactivity with a half-life of 1825 days. This means that after 5 years of inactivity the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again this is a conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the fighters control. Therefore, a fighter loses only about 50 points for inactivity over roughly a 3 year period. It is not a substantial drop in their rating but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the the fighter's ability over time. Finally, I also provide two types of bonuses for wins 1) finishes and 2) championships. Each fighter receives K-factor + 2 for each victory that ends in a finish. This provides a small bump in Elo ratings to fighters who score a dominant win, but not overemphasizing finishes as they are also positively correlated with weight class. Fighters also receive a bonus for winning a championship fight as it signals they are facing a higher quality opponent, score a victory in a higher stakes match, and may also have to compete in additional "championship" rounds. I give greater weight to fighters who win a championship in a high tier promotion (UFC, PRIDE, WEC, Strikeforce, or Bellator) and award a lower bonus to championships in other lower tier promotions. This tiering system prevents those who dominate lower tier organizations but infrequently face higher quality competition to pad their rating (see e.g., [Hector Lombard's](https://en.wikipedia.org/wiki/H%C3%A9ctor_Lombard) multiple Cage FC title defenses and subsequent UFC run). 
+where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity, but those below 1500 are not, and  $t_{1/2}$ to 1825. The figure below shows the decay in Elo rating due to inactivity with a half-life of 1825 days. This means that after 5 years of inactivity, the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again, this is a conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the fighters' control. Therefore, a fighter loses about 100 points for 3 years of inactivity. It is not a substantial drop in their rating, but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the fighter's ability over time. 
 
 <p = align="center">
 <figure style="text-align:center; margin: 2em 0;">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-  <strong>FIGURE 1: Decay Function%</strong>
+  <strong>FIGURE 1: Decay Function</strong>
   </figcaption>
   <img src="/images/decay-function.png" alt="Decay Function" style="width:70%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
 </figure>
 </p>
+
+Finally, I also provide two types of bonuses for wins: 1) finishes and 2) championships. Each fighter receives additional points for each victory that ends in a finish. This provides a small bump in Elo ratings to fighters who score a dominant win, but not overemphasizing finishes, as they are also positively correlated with weight class. Fighters also receive a bonus for winning a championship fight as it signals they are facing a higher quality opponent, score a victory in a higher stakes match, and may also have to compete in additional "championship" rounds. I give greater weight to fighters who win a championship in a high tier promotion (UFC, PRIDE, WEC, Strikeforce, or Bellator) and award a lower bonus to championships in other lower-tier promotions. This tiering system prevents those who dominate lower-tier organizations but infrequently face higher-quality competition from padding their rating (see e.g., [Hector Lombard's](https://en.wikipedia.org/wiki/H%C3%A9ctor_Lombard) multiple Cage FC title defenses and subsequent UFC run). 
+
+The updated rating for Fighter A is then:
+
+$$
+R_{\text{new}} = R_a + K_a \cdot (S_a - E_a) + Bonus_Finish + Bonus_Championship
+$$
 
 ## Results
 After creating this unique dataset, there are so many interesting findings to explore. I supply a few interesting ones here, but feel free to ask for specific requests or try things out yourself! I start out by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating could be used as one proxy for the determination of "GOAT status", but capturing sustained success is an important metric too.

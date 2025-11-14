@@ -90,8 +90,10 @@ $$
 R_{\text{new}} = R_a + K_a \cdot (S_a - E_a) + Bonus_{Finish} + Bonus_{Championship}
 $$
 
+where $R_{\text{new}}$ is Fighter A's new rating, $R_a$ is Fighter A's pre-fight rating, $K_a$ is the K-factor, $S_a$ is the score, $E_a$ is the win probability, and $Bonus_{Finish}$ and $Bonus_{Championship}$ are the additional bonuses. As an example, when Georges St. Pierre fought Jake Shields at UFC 129, St. Pierre's ELO rating was 1855 while Shields's was 1784. Therefore, GSP's expected score was 0.6, and as it was a championship fight in a high-tier promotion resulting in a unanimous decision win for GSP, he received the championship bonus but not the finish bonus. Using a championship bonus of 6, his new rating would be 1885.
+
 ## Results
-After creating this unique dataset, there are so many interesting findings to explore. I supply a few interesting ones here, but feel free to ask for specific requests or try things out yourself! I start out by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating could be used as one proxy for the determination of "GOAT status", but capturing sustained success is an important metric too.
+After creating this dataset, there are so many interesting findings to explore. I supply a few interesting ones here, but feel free to ask for specific requests or try things out yourself! I start out by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating could be used as one proxy for the determination of "GOAT status", but capturing sustained success is an important metric too.
 
 <div align = "center">
 

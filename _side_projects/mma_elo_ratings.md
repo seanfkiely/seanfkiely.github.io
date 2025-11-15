@@ -99,33 +99,23 @@ After creating this dataset, there are so many interesting findings to explore. 
 
 **TABLE 1. Peak ELO Ratings**
 
-|   Rank | Fighter                  |   Peak ELO Rating |
-|-------:|:-------------------------|------------------:|
-|      1| Fedor Emelianenko        |           1921.85 |
-|      2| Anderson Silva           |           1916.06 |
-|      3| Georges St-Pierre        |           1897.82 |
-|      4| Daniel Cormier           |           1894.29 |
-|      5| Jon Jones                |           1886.37 |
-|      6| Islam Makhachev          |           1875.23 |
-|      7| Kamaru Usman             |           1867.22 |
-|      8| Jose Aldo                |           1866.77 |
-|      9| Antônio Rodrigo Nogueira |           1862.21 |
-|      10| Alexander Volkanovski    |           1857.09 |
-|      11| Wanderlei Silva          |           1848.46 |
-|      12| Demetrious Johnson       |           1838.79 |
-|      13| Charles Oliveira         |           1837.04 |
-|      14| Benson Henderson         |           1835.63 |
-|      15| Bas Rutten               |           1831.75 |
-|      16| Ryan Bader               |           1829.18 |
-|      17| Chuck Liddell            |           1828.39 |
-|      18| Israel Adesanya          |           1827.1  |
-|      19| Donald Cerrone           |           1826.88 |
-|      20| Stipe Miocic             |           1824.66 |
-|      21| Khabib Nurmagomedov      |           1823.15 |
-|      22| Gegard Mousasi           |           1822.49 |
-|      23| Cain Velasquez           |           1820.86 |
-|      24| Mirko Filipović          |           1820.6  |
-|      25| Max Holloway             |           1816.76 |
+|   Rank | Fighter                  |   Peak ELO Rating |   Rank | Fighter             |   Peak ELO Rating |
+|-------:|:-------------------------|------------------:|-------:|:--------------------|------------------:|
+|      1 | Fedor Emelianenko        |           2076.9  |     16 | Dan Henderson       |           1942.97 |
+|      2 | Anderson Silva           |           2073.88 |     17 | Donald Cerrone      |           1942.05 |
+|      3 | Daniel Cormier           |           2056.86 |     18 | Israel Adesanya     |           1940.38 |
+|      4 | Georges St-Pierre        |           2040.03 |     19 | Max Holloway        |           1937.76 |
+|      5 | Islam Makhachev          |           2023.82 |     20 | Dustin Poirier      |           1937.16 |
+|      6 | Jon Jones                |           2022.02 |     21 | Wanderlei Silva     |           1935.03 |
+|      7 | Kamaru Usman             |           1993.65 |     22 | Robbie Lawler       |           1932.88 |
+|      8 | José Aldo                |           1988.35 |     23 | Matt Hughes         |           1931.45 |
+|      9 | Charles Oliveira         |           1984.8  |     24 | Chuck Liddell       |           1928.78 |
+|     10 | Gegard Mousasi           |           1982.77 |     25 | Fabrício Werdum     |           1927.64 |
+|     11 | Ryan Bader               |           1971.64 |     26 | Benson Henderson    |           1924.98 |
+|     12 | Stipe Miocic             |           1967.85 |     27 | Cain Velasquez      |           1922.82 |
+|     13 | Antônio Rodrigo Nogueira |           1963.34 |     28 | Khabib Nurmagomedov |           1915.52 |
+|     14 | Alexander Volkanovski    |           1962.68 |     29 | Justin Gaethje      |           1915.07 |
+|     15 | Demetrious Johnson       |           1946.44 |     30 | Merab Dvalishvili   |           1914.82 |
 </div>
 
 Table 2 lists the current best fighters by ELO rating. Note that I only include fighters who have been active in the last two years. Here we see Islam Makhachev at the top of the heap. Makhachev has been on a tremendous string of wins and increased is ELO rating by X points after beating perennial favorites in Charles Oliveira (13th peak all-time ELO at the time of fight), Alexander Volkanovski (10th peak all-time ELO), and Dustin Poirier.
@@ -134,33 +124,23 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 
 **TABLE 2. Best Current Fighters by ELO Rating**
 
-|   Rank | Fighter               |  ELO Rating |
-|-------:|:----------------------|------------:|
-|      1 | Islam Makhachev       |     1875.23 |
-|      2 | Jon Jones             |     1828.93 |
-|      3 | Merab Dvalishvili     |     1811.1  |
-|      4 | Ilia Topuria          |     1784.32 |
-|      5 | Alex Pereira          |     1778.97 |
-|      6 | Zhang Weili           |     1776.12 |
-|      7 | Valentina Shevchenko  |     1773.53 |
-|      8 | Max Holloway          |     1765.56 |
-|      9 | Francis Ngannou       |     1759.62 |
-|      10 | Alexandre Pantoja     |     1757.39 |
-|      11 | Khamzat Chimaev       |     1757.09 |
-|      12 | Alexander Volkanovski |     1756.42 |
-|      13 | Arman Tsarukyan       |     1755.86 |
-|      14 | Dricus du Plessis     |     1754.7  |
-|      15 | Shavkat Rakhmonov     |     1746.39 |
-|      16 | Charles Oliveira      |     1745.71 |
-|      17 | Jiří Procházka        |     1743.75 |
-|      18 | Cris Cyborg           |     1743.31 |
-|      19 | Magomed Ankalaev      |     1740.63 |
-|      20 | Belal Muhammad        |     1738.91 |
-|      21 | Movsar Evloev         |     1736.5  |
-|      22 | Justin Gaethje        |     1733.76 |
-|      23 | Ciryl Gane            |     1731.67 |
-|      24 | Aljamain Sterling     |     1731.29 |
-|      25 | Alexander Volkov      |     1724.6  |
+|   Rank | Fighter               |   ELO Rating |   Rank | Fighter           |   ELO Rating |
+|-------:|:----------------------|-------------:|-------:|:------------------|-------------:|
+|      1 | Islam Makhachev       |      2023.82 |     16 | Aljamain Sterling |      1852.78 |
+|      2 | Max Holloway          |      1928.05 |     17 | Belal Muhammad    |      1851.63 |
+|      3 | Charles Oliveira      |      1919.26 |     18 | Shavkat Rakhmonov |      1851.48 |
+|      4 | Merab Dvalishvili     |      1914.82 |     19 | Cris Cyborg       |      1851.16 |
+|      5 | Justin Gaethje        |      1890.45 |     20 | Jiří Procházka    |      1848.68 |
+|      6 | Ilia Topuria          |      1882.76 |     21 | Alexander Volkov  |      1847.59 |
+|      7 | Valentina Shevchenko  |      1881.7  |     22 | Vadim Nemkov      |      1845.94 |
+|      8 | Alexander Volkanovski |      1878.2  |     23 | Alexandre Pantoja |      1840.8  |
+|      9 | Alex Pereira          |      1871.54 |     24 | Kamaru Usman      |      1840.63 |
+|     10 | Zhang Weili           |      1869.06 |     25 | Khamzat Chimaev   |      1835.15 |
+|     11 | Jon Jones             |      1864.65 |     26 | Corey Anderson    |      1829.45 |
+|     12 | Ryan Bader            |      1857.92 |     27 | Dustin Poirier    |      1829.26 |
+|     13 | Dricus du Plessis     |      1854.73 |     28 | Leon Edwards      |      1818.89 |
+|     14 | Magomed Ankalaev      |      1854    |     29 | Movsar Evloev     |      1814.28 |
+|     15 | Arman Tsarukyan       |      1853.11 |     30 | Francis Ngannou   |      1809.14 |
 </div>
 
 I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. 
@@ -198,7 +178,7 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 </figure>
 
 <p align="center">
-  <img src="/images/elo_animation.gif" width="850">
+  <img src="/images/elo_race.gif" width="850">
 </p>
 
 [^1]: For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I handle this on the link to the Github folder.

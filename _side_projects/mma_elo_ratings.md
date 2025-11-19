@@ -59,13 +59,12 @@ I calculate the Elo ratings as follows:
 
 Each fighter begins with a baseline Elo rating. The model uses informative priors to assign the baseline rating. Let:
 
-$$
 - f = # profession fights
 - W = indicator for having a Wikipedia page
   - W = 1 if the fighter has a Wikipedia page
   - W = 0 otherwise
 
-
+$$
 R_0 =
 \begin{cases}
 1500, & \text{if } f \ge 10 \\[6pt]

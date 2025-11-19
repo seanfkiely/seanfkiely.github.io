@@ -24,21 +24,21 @@ header:
 
 #  An MMA Elo Rating System
 
-This project uses fight outcomes and opponent skill level to derive an Elo rating system for mixed martial artists. From these ratings, I create tables and figures for best current fighter, best fighters of all time (MMA GOATs), best fights of all time, and more.
+This project uses fight outcomes and opponent quality to construct an Elo-based rating system for mixed martial artists. Using these ratings, I generate tables and visualizations identifying the best current fighters, the greatest fighters of all time, the most competitive matchups, and other insights into MMA performance.
 
 ## Background
 
-I used to closely follow mixed martial arts fights in organizations like the UFC, WEC, Strikeforce, etc. However, starting around 2020, my interest in the sport began to wane due to reasons including unequitable fighter pay and a stale product. However, my interest in #dataanalysis has only grown. I have long thought about applying a more rigorous rating system for fighters, as ratings and recent performance often determine who receives opportunities to fight for titles. The current ranking system in the UFC, for instance, is based on [UFC-selected media member rankings](/images/ufc_rankings_voters.png). Not exactly an unbiased sample of voters. This is when I had the idea to apply an Elo-based rating system to fighters to create a more unbiased list of the best mixed martial artists.
+I used to closely follow mixed martial arts fights in organizations like the UFC, WEC, and Strikeforce. But starting around 2020, my interest in the sport began to fade, primarily due to inequitable fighter pay and a product that felt increasingly stale. However, my interest in #dataanalysis has only grown. I have long thought about applying a more rigorous, transparent rating system to MMA, especially since rankings and recent performance often determine who receives opportunities to fight for titles. The current ranking system in the UFC, for instance, is based on [UFC-selected media member rankings](/images/ufc_rankings_voters.png). Not exactly an unbiased sample of voters. This is when I had the idea to apply an Elo-based rating system to provide a more data-driven and unbiased view of the best mixed martial artists.
 
 ### Elo ratings
 
-[The Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system) first began as a way to calculate the relative skill of chess players and can be applied to any players/teams that play zero-sum games, including [football](https://neilpaine.substack.com/p/2025-nfl-power-ratings-and-projections), board games like [Scrabble](https://wespa.org/aardvark/html/rankings/full_rankings.html), and even [Pokémon battles](https://pokemonshowdown.com/pages/ladderhelp). The main idea is that player quality is inferred from their performance against other players taking opponent quality into account. Each player in a match has an expected score, or probability of winning, and their ELO rating is based on the match outcome (win, loss, or draw), the expected score, and the maximum possible score per game (K-factor). The K-factor can be adjusted based on player quality or match frequency, but a fairly standard-sized K-factor for games played at high frequency is around 30. 
+[The Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system) was originally developed as a way to measure the relative skill of chess players and can be applied to any zero-sum game, including [football](https://neilpaine.substack.com/p/2025-nfl-power-ratings-and-projections), board games like [Scrabble](https://wespa.org/aardvark/html/rankings/full_rankings.html), and even [Pokémon battles](https://pokemonshowdown.com/pages/ladderhelp). The main idea is that player quality is inferred from their performance against other players, taking opponent quality into account. In each match, a player has an expected score, or probability of winning, and their ELO rating updates based on the match outcome (win, loss, or draw), the expected score, and the maximum possible adjustment per game (K-factor). The K-factor can be adjusted based on player quality or match frequency, but a fairly standard-sized K-factor for games played at high frequency is around 30. 
 
 ## Data Collection/Webscraping
 
-To establish Elo ratings for mixed martial artists we need to obtain results of each fight (win, lose, draw, no contest, etc.), the opponent, the rankings of each fighter at the time of their bout, and optionally, as we will see, whether the fight was a finish (KO/TKO or submission) or a championship fight. Gathering this data is not a small feat, as, to my knowledge, no database currently exists that houses all this information. 
+To establish Elo ratings for mixed martial artists, we need to obtain results for each fight (win, lose, draw, no contest, etc.), the opponent, the rankings of each fighter at the time of their bout, and optionally, as we will see, whether the fight was a finish (KO/TKO or submission) or a championship fight. Gathering this data is not a small feat, as, to my knowledge, no database currently exists that houses all this information. 
 
-Therefore, to create this ranking system, I first start by scraping organizations' event pages, notable alumni, or current active rosters on Wikipedia to build a dataset of fighters. The list of MMA organizations (including those now defunct) includes:
+Therefore, to construct this ranking system, I began by scraping event pages, notable alumni lists, or current active rosters from Wikipedia to build a dataset of fighters. The list of MMA organizations (including those now defunct) includes:
 
 1. UFC
 2. Pride
@@ -49,15 +49,32 @@ Therefore, to create this ranking system, I first start by scraping organization
 7. Invicta
 8. Rizin
 
-I then scrape the  pages of MMA fighters, gathering data on: weight class, gender, and individual bout info such as outcome, opponent, date, and method of victory.[^1] Overall, I establish a dataset of nearly 45,000 fights across about 3,800 individual fighters. 
+I then build a dataset of fighters and scrape their Wikipedia pages, gathering data on: weight class, gender, and individual bout info such as outcome, opponent, date, and method of victory.[^1] Overall, I establish a dataset of nearly 45,000 fights across about 3,800 individual fighters. 
 
 ## Elo Ratings
 
-In this section, I'll go into some detail defining how the ELO ratings are calculated. If you'd rather skip the math you can continue on to the result section and check out the tables and figures.
+In this section, I outline how the ELO ratings are constructed. If you'd rather skip the math, feel free to move on to the result section and check out the tables and figures.
 
-I create the Elo ratings as follows:
+I calculate the Elo ratings as follows:
 
-First, each fighter receives a baseline Elo rating. The model uses informative priors to assign the baseline rating. If a fighter has more than 10 professional fights, they receive a baseline rating of 1500. If the fighter has fewer than 10 fights but has a Wikipedia page, I take this to mean that the fighter is more notable and may be of higher quality. Their baseline thereofre ranges between 1300 and 1500 scaling linearly depending on the number of fights they've competed in. For fighters without a Wikipedia page and less than 10 points I use a baseline from 1100 and 1500 again sclaing linearly based on the number of fights completed. This allows ratings to adjust more realistically based on fighters' skill levels while also preventing fighters from "stat-padding" wins against lower ability fighters (see e.g., [Jeremy Horn](https://en.wikipedia.org/wiki/Jeremy_Horn)). The K-factor governs the sensitivity of the Elo updates, the higher the K-factor the more sensitive the ratings are to change. Games that can be played frequently may set lower K-factors such as 20 where multiple matches can be played in a single day. However, it is common in MMA to average about 2-4 fights per year. Therefore, I use a K-factor of 60. I also employ a dynamic K-factor that scales with opponents' experience. If a fighter faces an opponent with fewer than five fights the update is dampened, otherwise the update uses the full K value. This prevents large ratings jumps from wins over unproven fighters.
+Each fighter begins with a baseline Elo rating. The model uses informative priors to assign the baseline rating. Let:
+
+$$
+- f = # profession fights
+- W = indicator for having a Wikipedia page
+  - W = 1 if the fighter has a Wikipedia page
+  - W = 0 otherwise
+
+
+R_0 =
+\begin{cases}
+1500, & \text{if } f \ge 10 \\[6pt]
+1300 + 200\left(\frac{f}{10}\right), & \text{if } f < 10 \text{ and } W = 1 \\[6pt]
+1100 + 400\left(\frac{f}{10}\right), & \text{if } f < 10 \text{ and } W = 0
+\end{cases}
+$$
+
+If a fighter has more than 10 professional fights, they receive a baseline rating of 1500. If the fighter has fewer than 10 fights but has a Wikipedia page, I take this to mean that the fighter is more notable and may be of higher quality. Their baseline therefore ranges between 1300 and 1500, scaling linearly depending on the number of fights they've competed in. For fighters without a Wikipedia page and less than 10 points I use a baseline from 1100 and 1500 again scaling linearly based on the number of fights completed. This allows ratings to adjust more realistically based on fighters' skill levels while also preventing fighters from "stat-padding" wins against lower ability fighters (see e.g., [Jeremy Horn](https://en.wikipedia.org/wiki/Jeremy_Horn)). The K-factor governs the sensitivity of the Elo updates, the higher the K-factor the more sensitive the ratings are to change. Games that can be played frequently may set lower K-factors such as 20 where multiple matches can be played in a single day. However, it is common in MMA to average about 2-4 fights per year. Therefore, I use a K-factor of 60. I also employ a dynamic K-factor that scales with opponents' experience. If a fighter faces an opponent with fewer than five fights the update is dampened, otherwise the update uses the full K value. This prevents large ratings jumps from wins over unproven fighters.
 
 For each bout, I then obtain the expected score, or expected probability of Fighter A winning, $E_A$ based on the rating of Fighter A and Fighter B as:
 

@@ -128,7 +128,7 @@ This metric also correlates reasonably well with consensus picks for greatest fi
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-    <strong>ELO Trajectories of MMA Greats</strong>
+    <strong>FIGURE 1: ELO Trajectories of MMA Greats</strong>
   </figcaption>
 </figure>
 
@@ -182,7 +182,7 @@ In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. 
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-    <strong>ELO Rating vs Win Rate %</strong>
+    <strong>FIGURE 2: ELO Rating vs Win Rate %</strong>
   </figcaption>
 </figure>
 
@@ -190,6 +190,9 @@ Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While th
 
 <p align="center">
   <img src="/images/elo_race_small.gif" width="850">
+  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
+    <strong>FIGURE 3: ELO Ratings Since 1993</strong>
+  </figcaption>
 </p>
 
 ## Code

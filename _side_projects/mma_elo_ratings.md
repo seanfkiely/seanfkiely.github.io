@@ -93,7 +93,12 @@ $$
 where $R_{\text{new}}$ is Fighter A's new rating, $R_a$ is Fighter A's pre-fight rating, $K_a$ is the K-factor, $S_a$ is the score, $E_a$ is the win probability, and $Bonus_{Finish}$ and $Bonus_{Championship}$ are the additional bonuses. As an example, when Georges St. Pierre fought Jake Shields at UFC 129, St. Pierre's ELO rating was 1855 while Shields's was 1784. Therefore, GSP's expected score was 0.6, and as it was a championship fight in a high-tier promotion resulting in a unanimous decision win for GSP, he received the championship bonus but not the finish bonus. Using a championship bonus of 6, his new rating would be 1885.
 
 ## Results
-After creating this dataset, there are so many interesting findings to explore. I supply a few interesting ones here, but feel free to ask for specific requests or try things out yourself! I start out by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating could be used as one proxy for the determination of "GOAT status", but capturing sustained success is an important metric too.
+After creating this dataset, there are so many interesting findings to explore. I supply some here, but feel free to ask for specific requests or try things out yourself! 
+
+### Peak ELO Ratings
+I start by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating could be used as one proxy for determining the greatest fighters of all time (GOATs), but capturing sustained success is also an important metric. Fedor Emelianenko narrowly edges out Anderson Silva for peak ELO rating by less than four points. Both went on historic runs but Fedor holds on to the top spot after notable victories over legends of the sport like Antônio Rodrigo Nogueira (#12) and Mirko Cro Cop (#35). Islam Makhachev also cracks the top five peak ratings after his dominant performance over Jack Della Maddalena at UFC 322. 
+
+I speculate that the rise of champion vs champion fights across weight classes, starting in 2016 when Conor McGregor moved up to fight for the lightweight belt against Eddie Alvarez, has contributed to some rating inflation. Eleven of the top twenty-one fighters and three of the top five fighters by peak ELO rating have been involved in one of these bouts. Henderson is the only fighter to have earned the "double champ" status from this list prior to 2016 (2007 in Pride). 
 
 <div align = "center">
 
@@ -118,7 +123,16 @@ After creating this dataset, there are so many interesting findings to explore. 
 |     15 | Demetrious Johnson       |           1946.36 |     30 | Merab Dvalishvili    |           1914.8  
 </div>
 
-Table 2 lists the current best fighters by ELO rating. Note that I only include fighters who have been active in the last two years. Here we see Islam Makhachev at the top of the heap. Makhachev has been on a tremendous string of wins and increased is ELO rating by X points after beating perennial favorites in Charles Oliveira (13th peak all-time ELO at the time of fight), Alexander Volkanovski (10th peak all-time ELO), and Dustin Poirier.
+This metric also correlates reasonably well with consensus picks for greatest fighters which usually include Fedor, Silva, St. Pierre, etc. One notable fighter who ranks lower in my ELO rating system than in most rankings is Khabib Nurmagomedov. While Khabib tore through the UFC lightweight division, eventually capturing the belt and retiring undefeated, he barely cracks the top 30 list here. In Figure 1, I plot the ELO Ratings over time of Khabib and some of the other consensus greatest fighters. While Khabib's rating dropped somewhat between 2014 and 2016 due to a layoff from injuries and one bout cancellation (the first of five attempts to schedule the infamous never-to-be fight between Nurmagomedov and Tony Ferguson), Khabib's rating is mostly stunted due to a string of fights against lesser competition early in his career. In his first sixteen professional fights, he only faced two fighters notable enough to have their own Wikipedia page and twelve of which never competed in more than five professional fights. These opponents had a combined record of 47-51-1 and excluding the two "notable" fighters, they had a combined record of 7-38. Given that these lower-quality matches make up over half of Khabib's career fights, his peak rating seems much more reasonable.
+
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
+    <strong>ELO Trajectories of MMA Greats</strong>
+  </figcaption>
+</figure>
+
+Table 2 lists the current best fighters by ELO rating. Note that I only include fighters who have been active in the last two years. Here we see Islam Makhachev at the top of the heap. Makhachev has been on a tremendous string of wins and increased his ELO rating by 161 points after beating perennial favorites in Charles Oliveira (9th peak all-time ELO at the time of fight), Alexander Volkanovski (13th peak all-time ELO), and Dustin Poirier (21st). We will see if he can extend his lead in the rankings by facing current lightweight champion Ilia Topuria (#7) who has been calling for a match with Makhachev. Valentina Shevchenko, Zhang Weili, and Cris Cyborg are also the top three women who enter the list. In the near future, I plan to extend this analysis to WMMA and create current rankings by weight class for both women and men.
 
 <div align = "center">
 
@@ -143,7 +157,7 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 |     15 | Belal Muhammad        |      1851.51 |     30 | Ciryl Gane        |      1808.23 |
 </div>
 
-I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. 
+I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. By Elo rating, the trilogy fight between Daniel Cormier and Stipe Miocic tops the list. Cormier is involved in five of the top ten fights on the list with his first fight against Jon Jones coming in at #7 and his 2nd fight against Anothy Johnson at #9. Cormier vs Jones 2 does not crack the top 10 as it was ruled a no contest (ommitted from the dataset) after Jones failed a drug test.
 
 <div = "center">
 
@@ -163,6 +177,8 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 |     10 | Andrei Arlovski       |        1813.39 | Fedor Emelianenko |        2051.75 |               3865.14
 </div>
 
+In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. Overall, we see a positive correlation between win rate and ELO rating. On the bottom left corner of the figure, we see lower-level fighters such as WWE star turned MMA wannabe CM Punk, moving up and to the right we star to see fighters like Clay Guida who are "gatekeepers" of their weight classes, high level fighters that never quite made it to the upper echelon. Beyond that, we see elite-level fighters like Demetrious Johnson and Ilia Topuria (and a bit lower we have Dada 5000 with his uhh *interesting* fight with Kimbo Slice).  
+
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
@@ -170,15 +186,13 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
   </figcaption>
 </figure>
 
-<figure style="text-align:center; margin: 2em 0;">
-  <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
-  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-    <strong>ELO Trajectories of MMA Greats</strong>
-  </figcaption>
-</figure>
+Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While the first recorded MMA match was in 1980 (Rei Zulu vs. Rickson Gracie), fights were relatively uncommon (five fights in the 1980s) until 1993, when both Pancrase and the UFC held their first events. Therefore, this bar chart begins in 1993, updating the top 10 ELO ratings every month thereafter. 
 
 <p align="center">
   <img src="/images/elo_race_small.gif" width="850">
 </p>
+
+## Code
+If you'd like to explore this dataset more, you can find the data and code here.
 
 [^1]: For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I handle this on the link to the Github folder.

@@ -67,11 +67,12 @@ Each fighter begins with a baseline Elo rating. The model uses informative prior
 $$
 R_0 =
 \begin{cases}
-1500, & \text{if } n \ge 10 \\[6pt]
-1300 + 200\left(\frac{n}{10}\right), & \text{if } n < 10 \text{ and } W = 1 \\[6pt]
-1100 + 400\left(\frac{n}{10}\right), & \text{if } n < 10 \text{ and } W = 0
+1500, & \text{if } f \ge 10 \\
+1300 + 200\left(\frac{f}{10}\right), & \text{if } f < 10 \text{ and } W = 1 \\
+1100 + 400\left(\frac{f}{10}\right), & \text{if } f < 10 \text{ and } W = 0
 \end{cases}
 $$
+
 
 If a fighter has more than 10 professional fights, they receive a baseline rating of 1500. If the fighter has fewer than 10 fights but has a Wikipedia page, I take this to mean that the fighter is more notable and may be of higher quality. Their baseline therefore ranges between 1300 and 1500, scaling linearly depending on the number of fights they've competed in. For fighters without a Wikipedia page and less than 10 points I use a baseline from 1100 and 1500 again scaling linearly based on the number of fights completed. This allows ratings to adjust more realistically based on fighters' skill levels while also preventing fighters from "stat-padding" wins against lower ability fighters (see e.g., [Jeremy Horn](https://en.wikipedia.org/wiki/Jeremy_Horn)). The K-factor governs the sensitivity of the Elo updates, the higher the K-factor the more sensitive the ratings are to change. Games that can be played frequently may set lower K-factors such as 20 where multiple matches can be played in a single day. However, it is common in MMA to average about 2-4 fights per year. Therefore, I use a K-factor of 60. I also employ a dynamic K-factor that scales with opponents' experience. If a fighter faces an opponent with fewer than five fights the update is dampened, otherwise the update uses the full K value. This prevents large ratings jumps from wins over unproven fighters.
 

@@ -275,7 +275,7 @@ $$
 QAW = \sum_{i=1}^{N} \max(E_{i}^{\text{opp}} - E_{\text{baseline}}, 0)\,\mathbb{1}\{\text{win}_{i}\}
 $$
 
-where $E_{i}^{opp}$ is again the opponent's pre-fight ELO rating, $E_{baseline}$ is the average-level fighter who had a sustained career in MMA (1500), and $1\{win_{i}\}$ is an indicator equal to 1 if the fighter wone fight $i$ and 0 otherwise. This measure rewards those who have won against high-level competition.
+where $E_{i}^{opp}$ is again the opponent's pre-fight ELO rating, $E_{baseline}$ is the average-level fighter who had a sustained career in MMA (1500), and $\mathbb{1}\{\text{win}_{i}\}$ is an indicator equal to 1 if the fighter wone fight $i$ and 0 otherwise. This measure rewards those who have won against high-level competition.
 
 The sample of fighters used in this analysis is as follows. First, I only use fights from 1993 or later. This prevents those who fought infrequently in the 1980s from distorting the AUEC metric. Second, I restrict the sample to fighters with at least ten professional bouts and a minimum career length of five years. Any legitimate all-time great comfortably exceeds these thresholds, and the filters help remove short-career or low-activity fighters who would contribute noise rather than information. Importantly, these filters also ensure that z-scores for each metric are calculated relative to a population of reasonably accomplished fighters, which is more appropriate for assessing the greatest mixed martial artists of all time. By focusing on athletes with meaningful careers, the resulting comparisons are more relevant for evaluating long-term excellence.
 

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Math test"
 mathjax: true
 math: true

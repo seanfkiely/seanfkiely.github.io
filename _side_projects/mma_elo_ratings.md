@@ -104,23 +104,23 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 
 **TABLE 1. Peak ELO Ratings**
 
-|   Rank | Fighter                  |   Peak ELO Rating |   | Rank   | Fighter              |   Peak ELO Rating |
-|:-------|:-------------------------|------------------:|---|:-------|:---------------------|------------------:|
-|      1 | Fedor Emelianenko        |           2077.17 |   |     16 | Dan Henderson        |           1942.77 |
-|      2 | Anderson Silva           |           2073.81 |   |     17 | Donald Cerrone       |           1941.34 |
-|      3 | Daniel Cormier           |           2056.81 |   |     18 | Israel Adesanya      |           1940.36 |
-|      4 | Georges St-Pierre        |           2040.13 |   |     19 | Max Holloway         |           1937.65 |
-|      5 | Islam Makhachev          |           2035.44 |   |     20 | Wanderlei Silva      |           1936.89 |
-|      6 | Jon Jones                |           2021.89 |   |     21 | Dustin Poirier       |           1936.61 |
-|      7 | Kamaru Usman             |           1993.51 |   |     22 | Robbie Lawler        |           1932.88 |
-|      8 | José Aldo                |           1988.46 |   |     23 | Matt Hughes          |           1931.98 |
-|      9 | Charles Oliveira         |           1982.92 |   |     24 | Chuck Liddell        |           1929.73 |
-|     10 | Gegard Mousasi           |           1968.75 |   |     25 | Fabrício Werdum      |           1927.55 |
-|     11 | Stipe Miocic             |           1967.85 |   |     26 | Benson Henderson     |           1924.99 |
-|     12 | Antônio Rodrigo Nogueira |           1962.84 |   |     27 | Cain Velasquez       |           1922.82 |
-|     13 | Alexander Volkanovski    |           1962.73 |   |     28 | Valentina Shevchenko |           1916.61 |
-|     14 | Ryan Bader               |           1960.35 |   |     29 | Khabib Nurmagomedov  |           1915.37 |
-|     15 | Demetrious Johnson       |           1946.36 |   |     30 | Merab Dvalishvili    |           1914.8  
+|   Rank | Fighter                  |   Peak ELO Rating | Rank   | Fighter              |   Peak ELO Rating |
+|:-------|:-------------------------|------------------:|:-------|:---------------------|------------------:|
+|      1 | Fedor Emelianenko        |           2077.17 |     16 | Dan Henderson        |           1942.77 |
+|      2 | Anderson Silva           |           2073.81 |     17 | Donald Cerrone       |           1941.34 |
+|      3 | Daniel Cormier           |           2056.81 |     18 | Israel Adesanya      |           1940.36 |
+|      4 | Georges St-Pierre        |           2040.13 |     19 | Max Holloway         |           1937.65 |
+|      5 | Islam Makhachev          |           2035.44 |     20 | Wanderlei Silva      |           1936.89 |
+|      6 | Jon Jones                |           2021.89 |     21 | Dustin Poirier       |           1936.61 |
+|      7 | Kamaru Usman             |           1993.51 |     22 | Robbie Lawler        |           1932.88 |
+|      8 | José Aldo                |           1988.46 |     23 | Matt Hughes          |           1931.98 |
+|      9 | Charles Oliveira         |           1982.92 |     24 | Chuck Liddell        |           1929.73 |
+|     10 | Gegard Mousasi           |           1968.75 |     25 | Fabrício Werdum      |           1927.55 |
+|     11 | Stipe Miocic             |           1967.85 |     26 | Benson Henderson     |           1924.99 |
+|     12 | Antônio Rodrigo Nogueira |           1962.84 |     27 | Cain Velasquez       |           1922.82 |
+|     13 | Alexander Volkanovski    |           1962.73 |     28 | Valentina Shevchenko |           1916.61 |
+|     14 | Ryan Bader               |           1960.35 |     29 | Khabib Nurmagomedov  |           1915.37 |
+|     15 | Demetrious Johnson       |           1946.36 |     30 | Merab Dvalishvili    |           1914.8  
 
 
 This metric also correlates reasonably well with consensus picks for the greatest fighters, which usually include Fedor, Silva, St. Pierre, etc (see, e.g., community rankings on [Tapology](https://www.tapology.com/rankings/top-ten-all-time-greatest-mma-and-ufc-fighters)). One notable fighter who ranks lower in my ELO rating system than in most rankings is Khabib Nurmagomedov. While Khabib tore through the UFC lightweight division, eventually capturing the belt and retiring undefeated, he barely cracks the top 30 list here. In Figure 1, I plot the ELO Ratings over time of Khabib and some of the other consensus greatest fighters. While Khabib's rating dropped somewhat between 2014 and 2016 due to a layoff from injuries and one bout cancellation (the first of five attempts to schedule the infamous never-to-be fight between Nurmagomedov and Tony Ferguson), Khabib's rating is mostly stunted due to a string of fights against lesser competition early in his career. In his first sixteen professional fights, he only faced two fighters notable enough to have their own Wikipedia page, twelve of whom never competed in more than five professional fights. These opponents had a combined record of 47-51-1 and excluding the two "notable" fighters, they had a combined record of 7-38. Given that these lower-quality matches make up over half of Khabib's career fights, his peak rating seems much more reasonable.
@@ -137,23 +137,23 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 
 **TABLE 2. Best Current Fighters by ELO Rating**
 
-|   Rank | Fighter               |   ELO Rating |   |   Rank | Fighter           |   ELO Rating |
-|:-------|:----------------------|-------------:|---|:-------|:------------------|-------------:|
-|      1 | Islam Makhachev       |      2035.44 |   |     16 | Shavkat Rakhmonov |      1851.42 |
-|      2 | Max Holloway          |      1927.85 |   |     17 | Jiří Procházka    |      1848.28 |
-|      3 | Charles Oliveira      |      1917.56 |   |     18 | Alexander Volkov  |      1847.14 |
-|      4 | Valentina Shevchenko  |      1916.61 |   |     19 | Ryan Bader        |      1841.42 |
-|      5 | Merab Dvalishvili     |      1914.8  |   |     20 | Alexandre Pantoja |      1840.76 |
-|      6 | Justin Gaethje        |      1889.06 |   |     21 | Kamaru Usman      |      1840.54 |
-|      7 | Ilia Topuria          |      1882.59 |   |     22 | Zhang Weili       |      1838.97 |
-|      8 | Alexander Volkanovski |      1878.22 |   |     23 | Khamzat Chimaev   |      1835.12 |
-|      9 | Alex Pereira          |      1871.46 |   |     24 | Cris Cyborg       |      1833.32 |
-|     10 | Jon Jones             |      1864.55 |   |     25 | Vadim Nemkov      |      1828.87 |
-|     11 | Dricus du Plessis     |      1854.68 |   |     26 | Dustin Poirier    |      1828.13 |
-|     12 | Magomed Ankalaev      |      1853.91 |   |     27 | Corey Anderson    |      1824.57 |
-|     13 | Arman Tsarukyan       |      1853.06 |   |     28 | Movsar Evloev     |      1814.27 |
-|     14 | Aljamain Sterling     |      1852.78 |   |     29 | Francis Ngannou   |      1808.74 |
-|     15 | Belal Muhammad        |      1851.51 |   |     30 | Ciryl Gane        |      1808.23 |
+|   Rank | Fighter               |   ELO Rating |   Rank | Fighter           |   ELO Rating |
+|:-------|:----------------------|-------------:|:-------|:------------------|-------------:|
+|      1 | Islam Makhachev       |      2035.44 |     16 | Shavkat Rakhmonov |      1851.42 |
+|      2 | Max Holloway          |      1927.85 |     17 | Jiří Procházka    |      1848.28 |
+|      3 | Charles Oliveira      |      1917.56 |     18 | Alexander Volkov  |      1847.14 |
+|      4 | Valentina Shevchenko  |      1916.61 |     19 | Ryan Bader        |      1841.42 |
+|      5 | Merab Dvalishvili     |      1914.8  |     20 | Alexandre Pantoja |      1840.76 |
+|      6 | Justin Gaethje        |      1889.06 |     21 | Kamaru Usman      |      1840.54 |
+|      7 | Ilia Topuria          |      1882.59 |     22 | Zhang Weili       |      1838.97 |
+|      8 | Alexander Volkanovski |      1878.22 |     23 | Khamzat Chimaev   |      1835.12 |
+|      9 | Alex Pereira          |      1871.46 |     24 | Cris Cyborg       |      1833.32 |
+|     10 | Jon Jones             |      1864.55 |     25 | Vadim Nemkov      |      1828.87 |
+|     11 | Dricus du Plessis     |      1854.68 |     26 | Dustin Poirier    |      1828.13 |
+|     12 | Magomed Ankalaev      |      1853.91 |     27 | Corey Anderson    |      1824.57 |
+|     13 | Arman Tsarukyan       |      1853.06 |     28 | Movsar Evloev     |      1814.27 |
+|     14 | Aljamain Sterling     |      1852.78 |     29 | Francis Ngannou   |      1808.74 |
+|     15 | Belal Muhammad        |      1851.51 |     30 | Ciryl Gane        |      1808.23 |
 
 
 ### Greatest Fights
@@ -162,18 +162,18 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 **TABLE 3. Greatest Fights by ELO Rating**
 
 
-|   Rank | Fighter 1             |   ELO Rating 1 |   | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
-|:-------|:----------------------|---------------:|---|:------------------|---------------:|----------------------:|
-|      1 | Daniel Cormier        |        2053.23 |   | Stipe Miocic      |        1890.61 |               3943.84 |
-|      2 | Stipe Miocic          |        1935.6  |   | Daniel Cormier    |        2002.63 |               3938.24 |
-|      3 | Stipe Miocic          |        1926.22 |   | Daniel Cormier    |        1992.24 |               3918.46 |
-|      4 | Jake Shields          |        1894.11 |   | Georges St-Pierre |        1997.36 |               3891.48 |
-|      5 | Chael Sonnen          |        1845.49 |   | Anderson Silva    |        2045.23 |               3890.71 |
-|      6 | Alexander Volkanovski |        1950.65 |   | Islam Makhachev   |        1933.72 |               3884.38 |
-|      7 | Jon Jones             |        1994.77 |   | Daniel Cormier    |        1888.75 |               3883.52 |
-|      8 | Dustin Poirier        |        1898.04 |   | Islam Makhachev   |        1973.18 |               3871.22 |
-|      9 | Daniel Cormier        |        1956.09 |   | Anthony Johnson   |        1912.28 |               3868.37 |
-|     10 | Andrei Arlovski       |        1813.39 |   | Fedor Emelianenko |        2051.75 |               3865.14
+|   Rank | Fighter 1             |   ELO Rating 1 | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
+|:-------|:----------------------|---------------:|:------------------|---------------:|----------------------:|
+|      1 | Daniel Cormier        |        2053.23 | Stipe Miocic      |        1890.61 |               3943.84 |
+|      2 | Stipe Miocic          |        1935.6  | Daniel Cormier    |        2002.63 |               3938.24 |
+|      3 | Stipe Miocic          |        1926.22 | Daniel Cormier    |        1992.24 |               3918.46 |
+|      4 | Jake Shields          |        1894.11 | Georges St-Pierre |        1997.36 |               3891.48 |
+|      5 | Chael Sonnen          |        1845.49 | Anderson Silva    |        2045.23 |               3890.71 |
+|      6 | Alexander Volkanovski |        1950.65 | Islam Makhachev   |        1933.72 |               3884.38 |
+|      7 | Jon Jones             |        1994.77 | Daniel Cormier    |        1888.75 |               3883.52 |
+|      8 | Dustin Poirier        |        1898.04 | Islam Makhachev   |        1973.18 |               3871.22 |
+|      9 | Daniel Cormier        |        1956.09 | Anthony Johnson   |        1912.28 |               3868.37 |
+|     10 | Andrei Arlovski       |        1813.39 | Fedor Emelianenko |        2051.75 |               3865.14
 
 ### ELO vs Win Rate
 In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. Overall, we see a positive correlation between win rate and ELO rating. On the bottom left corner of the figure, we see lower-level fighters such as WWE star turned MMA wannabe CM Punk, moving up and to the right, we start to see fighters like Clay Guida, who are "gatekeepers" of their weight classes, high-level fighters that never quite made it to the upper echelon. Beyond that, we see elite-level fighters like Demetrious Johnson and Ilia Topuria (and a bit lower, we have Dada 5000 with his uhh *interesting* fight with Kimbo Slice).  

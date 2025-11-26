@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "MMA Elo Ratings"
 mathjax: true
 math: true

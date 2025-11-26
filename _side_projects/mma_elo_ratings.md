@@ -19,7 +19,6 @@ header:
   caption: "Apply Elo-style ratings to MMA"
 ---
 <div class="page__content" markdown="1">
-<!--  <body style="background-color:#f8f9fa;" markdown="1"> -->
 <div style="background:#fafafa; border:1px solid #eee; border-radius:10px; padding:2em; box-shadow:0 2px 4px rgba(0,0,0,0.05);" markdown="1">
 <div style="font-family: 'Georgia', serif;" markdown="1">
 
@@ -106,10 +105,10 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 
 <p align="center">
 <figure style="text-align:center; margin: 2em 0;">
+  <img src="/images/decay-function.png" alt="Decay Function" style="width:70%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
   <strong>FIGURE 1: Decay Function</strong>
   </figcaption>
-  <img src="/images/decay-function.png" alt="Decay Function" style="width:70%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
 </figure>
 </p>
 

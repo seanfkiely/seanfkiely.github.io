@@ -115,7 +115,7 @@ where $R_{\text{new}}$ is Fighter A's new rating, $R_a$ is Fighter A's pre-fight
 After creating this dataset, there are so many interesting findings to explore. I supply some here, but feel free to ask for specific requests or try things out yourself! 
 
 ### Peak ELO Ratings
-I start by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating could be used as one proxy for determining the greatest fighters of all time (GOATs), but capturing sustained success is also an important metric. Fedor Emelianenko narrowly edges out Anderson Silva for peak ELO rating by less than four points. Both went on historic runs, but Fedor holds on to the top spot after notable victories over legends of the sport like Antônio Rodrigo Nogueira (#12) and Mirko Cro Cop (#35). Islam Makhachev also cracks the top five peak ratings after his dominant performance over Jack Della Maddalena at UFC 322. 
+I start by creating a list of the peak ELO ratings achieved by any fighter in Table 1; this rating can be used as one proxy for determining the greatest fighters of all time (GOATs), but capturing sustained success is also an important metric (see below for my GOAT analysis). Fedor Emelianenko narrowly edges out Anderson Silva for peak ELO rating by less than four points. Both went on historic runs, but Fedor holds on to the top spot after notable victories over legends of the sport like Antônio Rodrigo Nogueira (#12) and Mirko Cro Cop (#35). Islam Makhachev also cracks the top five peak ratings after his dominant performance over Jack Della Maddalena at UFC 322. 
 
 I speculate that the rise of champion vs champion fights across weight classes, starting in 2016 when Conor McGregor moved up to fight Eddie Alvarez for the lightweight title, has contributed to some rating inflation. Eleven of the top twenty-one fighters and three of the top five fighters by peak ELO rating have been involved in one of these bouts. Henderson is the only fighter to have earned the "double champ" status from this list prior to 2016 (doing so in Pride in 2007). 
 
@@ -151,6 +151,7 @@ This metric also correlates reasonably well with consensus picks for the greates
   </figcaption>
 </figure>
 
+### Best Current Mixed Martial Artists
 Table 2 lists the current best fighters by ELO rating. Note that I only include fighters who have been active in the last two years. Here we see Islam Makhachev at the top of the heap. Makhachev has been on a tremendous string of wins and increased his ELO rating by 161 points after beating perennial favorites Charles Oliveira (9th peak all-time ELO at the time of the fight), Alexander Volkanovski (13th peak all-time ELO), and Dustin Poirier (21st). We will see if he can extend his lead in the rankings by facing current UFC lightweight champion Ilia Topuria (#7), who has been calling for a match with Makhachev. Valentina Shevchenko, Zhang Weili, and Cris Cyborg are also the top three women who enter the list. In the near future, I plan to extend this analysis to WMMA and create current rankings by weight class for both women and men.
 
 <div align = "center">
@@ -176,6 +177,7 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 |     15 | Belal Muhammad        |      1851.51 |     30 | Ciryl Gane        |      1808.23 |
 </div>
 
+### Greatest Fights
 I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. By Elo rating, the trilogy fight between Daniel Cormier and Stipe Miocic tops the list. Cormier is involved in five of the top ten fights on the list, with his 1st fight against Jon Jones coming in at #7 and his 2nd fight against Anothy Johnson at #9. Cormier vs Jones 2 does not crack the top 10 as it was ruled a no-contest (omitted from the dataset) after Jones failed a drug test.
 
 <div = "center">
@@ -196,6 +198,7 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 |     10 | Andrei Arlovski       |        1813.39 | Fedor Emelianenko |        2051.75 |               3865.14
 </div>
 
+### ELO vs Win Rate
 In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. Overall, we see a positive correlation between win rate and ELO rating. On the bottom left corner of the figure, we see lower-level fighters such as WWE star turned MMA wannabe CM Punk, moving up and to the right, we start to see fighters like Clay Guida, who are "gatekeepers" of their weight classes, high-level fighters that never quite made it to the upper echelon. Beyond that, we see elite-level fighters like Demetrious Johnson and Ilia Topuria (and a bit lower, we have Dada 5000 with his uhh *interesting* fight with Kimbo Slice).  
 
 <figure style="text-align:center; margin: 2em 0;">
@@ -205,6 +208,7 @@ In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. 
   </figcaption>
 </figure>
 
+### ELO over Time
 Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While the first recorded MMA match was in 1980 (Rei Zulu vs. Rickson Gracie), fights were relatively uncommon (five fights in the 1980s) until 1993, when both Pancrase and the UFC held their first events. Therefore, this bar chart begins in 1993, updating the top 10 ELO ratings every month thereafter. 
 
 <p align="center">
@@ -213,6 +217,61 @@ Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While th
     <strong>FIGURE 4: ELO Ratings Since 1993</strong>
   </figcaption>
 </p>
+
+### MMA GOAT
+The final analysis I will share in this post is a multi-metric assessment attempting to quantify the greatest mixed martial artists of all time. I use four distinct metrics: 1) peak ELO rating, 2) area under the ELO curve (AUEC), 3) strength of schedule (SoS), and 4) quality-adjusted wins (QAW). I then standardize each metric to have a mean of 0 and a standard deviation of 1 and sum them together to create a Legacy Score. The peak ELO rating, as presented in Table 1, is again the highest ELO rating a fighter achieves at the pinnacle of their career. The AUEC captures sustained success by measuring how long and how far above an elite level a fighter stayed over their career. The AUEC is defined as: 
+
+$$
+AUEC = \sum_{i = 1}^{N} max(ELO_{i} - ELO_{threshold}, 0) \times \Delta t
+$$
+where $N$ is the number of fights in a fighter's career, $E_{i}$ is the fighter's ELO rating before fight $i$, $ELO_{threshold}$ is the cutoff for an elite fighter, which I define as 1600, and $\Delta t_{i}$ is the number of days between fights. Therefore, every day a fighter stays above the elite-level threshold contributes to their score. This measure weighs both peak achievements and sustained success, so a fighter who is moderately successful is comparable to a fighter who reached a higher peak but had a shorter career (e.g., Jim Miller vs. Anthony Pettis).
+
+SoS is simply the mean ELO rating of opponents a fighter faces, i.e.:
+
+$$
+SoS = \frac{1}/{N} \sum_{i=1}^{N} E_{i}^{opp}
+$$
+<div = "center">
+where $N$ is the number of fights in a fighter's career and $E_{i}^{opp}$ is the pre-fight ELO rating of the opponent for each fight $i$. Using this measure in the legacy score rewards fighters who consistently fight high-level opponents compared to those you pad their records against low-level competition.
+
+The last measure, QAW is defined as:
+
+$$
+QAW = \sum_{i}^{N} max(E_{i}^{opp} - E_{baseline}, 0) \cdot 1\{win_{i}\}
+$$
+where $E_{i}^{opp}$ is again the opponent's pre-fight ELO rating, $E_{baseline}$ is the average-level fighter who had a sustained career in MMA (1500), and $1\{win_{i}\}$ is an indicator equal to 1 if the fighter wone fight $i$ and 0 otherwise. This measure rewards those who have won against high-level competition.
+
+The sample of fighters used in this analysis is as follows. First, I only use fights from 1993 or later. This prevents those who fought infrequently in the 1980s from distorting the AUEC metric. Second, I restrict the sample to fighters with at least ten professional bouts and a minimum career length of five years. Any legitimate all-time great comfortably exceeds these thresholds, and the filters help remove short-career or low-activity fighters who would contribute noise rather than information. Importantly, these filters also ensure that z-scores for each metric are calculated relative to a population of reasonably accomplished fighters, which is more appropriate for assessing the greatest mixed martial artists of all time. By focusing on athletes with meaningful careers, the resulting comparisons are more relevant for evaluating long-term excellence.
+
+After standardizing these measures, the Legacy Score is then:
+
+$$
+Legacy Score = z_{peak_ELO} + z_{AUEC} + z_{SoS} + z_{QAW}
+$$
+
+Table 4 lists the top ten fighters by Legacy Score alongside their standardized metrics. Fedor, GSP, Silva, and Jones take the top spots, which is highly consistent with most subjective lists where they are consistently ranked in the all-time top five. Perhaps most surprising in this list is Lyoto Machida. While he certainly had a great career, challenging for UFC titles in two weight classes and capturing the belt at light heavyweight, he also has the lowest peak ELO rating among this group. Machida's Legacy Score is mainly bolstered by his tough strength of schedule and strong quality-adjusted wins; throughout his career he faced unusually elite opposition, including 20 bouts against current or former UFC, PRIDE, Bellator, or Strikeforce champions.
+
+Two main patterns emerge from this analysis. First, heavyweight fighters tend to dominate the rankings. This appears to stem from structural features of the division. There are simply fewer athletes large enough to compete at heavyweight, which means the number of elite heavyweights at any time is small. Because organizations heavily promote the division, established heavyweights often receive more opportunities, remain in the spotlight longer, and accumulate long careers. These factors likely inflate AUEC scores.
+
+Second, on the other end of the size distribution, fighters in lower weight classes tend to underperform in this ranking system. A prominent example is Demetrious Johnson, the long-time 125-pound UFC champion, typically considered a top-ten fighter of all time, who comes in at only #37. He is also the only fighter in the top 50 from the bantamweight or flyweight divisions (excluding Frankie Edgar’s brief late-career run at bantamweight). Lower-weight fighters seem disadvantaged by lower SoS and QAW scores. This likely reflects MMA’s history: these divisions were introduced much later than heavier ones. The WEC was the first major organization to feature weight classes below 155 lbs (beginning in 2001), the UFC did not incorporate them until acquiring the WEC in 2010, and the UFC flyweight division was created only in 2012. As a result, these fighters had fewer years to accumulate AUEC and fewer highly-rated opponents available to boost SoS and QAW. This is evident in the table from José Aldo’s relatively modest SoS and QAW scores, despite facing some of the most accomplished opponents in featherweight and bantamweight history.
+
+**TABLE 4. MMA Greatest of All Time List**
+
+|   Rank | Fighter                  |   z-Peak Elo |   z-AUEC |   z-SoS |   z-QAW |   Legacy Score |
+|-------:|:-------------------------|-------------:|---------:|--------:|--------:|---------------:|
+|      1 | Fedor Emelianenko        |         4.5  |    10.03 |    2.21 |    2.37 |          19.11 |
+|      2 | Georges St-Pierre        |         4.13 |     7.1  |    2.98 |    2.82 |          17.03 |
+|      3 | Jon Jones                |         3.95 |     7.86 |    2.48 |    2.48 |          16.77 |
+|      4 | Anderson Silva           |         4.47 |     7.61 |    2.14 |    2.22 |          16.43 |
+|      5 | Antônio Rodrigo Nogueira |         3.36 |     6.26 |    2.34 |    2.37 |          14.33 |
+|      6 | Daniel Cormier           |         4.3  |     4.79 |    2.86 |    2.25 |          14.19 |
+|      7 | José Aldo                |         3.62 |     7.02 |    1.92 |    1.63 |          14.18 |
+|      8 | Dan Henderson            |         3.16 |     5.14 |    2.92 |    2.64 |          13.86 |
+|      9 | Fabrício Werdum          |         3.01 |     5.05 |    2.85 |    2.51 |          13.41 |
+|     10 | Lyoto Machida            |         2.67 |     5.12 |    2.9  |    2.44 |          13.13 |
+</div>
+
+Overall, the Legacy Score performs well in identifying the sport’s consensus all-time greats. A natural next step would be to reweight the score by weight class to address structural differences across divisions, which I leave for future work.
 
 ## Code
 If you'd like to explore this dataset more, you can find the data and code [here](https://github.com/seanfkiely/mma-elo-ratings/tree/main).

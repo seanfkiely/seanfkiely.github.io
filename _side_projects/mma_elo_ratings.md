@@ -12,7 +12,7 @@ tags:
   - MMA
 thumbnail: /images/fg_kicks_final.png
 header:
-  overlay_image: /images/fg_kicks_final.png
+  overlay_image: /images/elo_vs_win_rate.png
   overlay_filter: 0.4
   caption: "Apply Elo-style ratings to MMA"
 ---

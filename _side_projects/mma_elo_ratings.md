@@ -309,7 +309,9 @@ Second, on the other end of the size distribution, fighters in lower weight clas
 
 Overall, the Legacy Score performs well in identifying the sport’s consensus all-time greats. A natural next step would be to reweight the score by weight class to address structural differences across divisions, which I leave for future work.
 
+<!--
 ## Code
 If you'd like to explore this dataset more, you can find the data and code [here](https://github.com/seanfkiely/mma-elo-ratings/tree/main).
+-->
 
 [^1]: For those interested in doing similar scraping, note that you may have to try different slugs at the end of a URL if there are multiple people with a Wikipedia page who have the same name (see e.g., [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva_(fighter)) the mixed martial artist and [Thiago Silva](https://en.wikipedia.org/wiki/Thiago_Silva) the soccer player) you can review my code for how I handle this on the link to the Github folder.

@@ -240,7 +240,7 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. Overall, we see a positive correlation between win rate and ELO rating. On the bottom left corner of the figure, we see lower-level fighters such as WWE star turned MMA wannabe CM Punk, moving up and to the right, we start to see fighters like Clay Guida, who are "gatekeepers" of their weight classes, high-level fighters that never quite made it to the upper echelon. Beyond that, we see elite-level fighters like Demetrious Johnson and Ilia Topuria (and a bit lower, we have Dada 5000 with his uhh *interesting* fight with Kimbo Slice).  
 
 <figure class="figure-center">
-  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate"">
+  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate">
   <figcaption><strong>FIGURE 3: ELO Rating vs Win Rate %</strong></figcaption>
 </figure>
 

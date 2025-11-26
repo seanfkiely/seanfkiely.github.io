@@ -96,7 +96,7 @@ $$
 E_A = \frac{1}{1 + 10^{(R_B - R_A)/400}}
 $$
 
-where $R_A$ and $R_B$ are the current or baseline ratings of each fighter. I then define $S_A \in {0, 0.5, 1}$ if the result of the fight is a loss, draw, or win for Fighter A, respectively. Unlike most traditional Elo ratings, I also apply a decay function that accounts for inactivity. Decay functions in Elo ratings are used to prevent individuals from protecting a high ranking by remaining inactive. For MMA, the use of a decay function benefits more active fighters and also penalizes fighters who may duck fights (see e.g., Jon Jones vs. Tom Aspinall). However, some delays between fights are due to injuries, scheduling issues, and fight cancellations. Therefore, I implement a very conservative exponential decay function toward a lower bound to account for inactivity. Fighter A's inactivity decay is defined as:
+where $R_A$ and $R_B$ are the current or baseline ratings of each fighter. I then define $S_A \in \{0, 0.5, 1\}$ if the result of the fight is a loss, draw, or win for Fighter A, respectively. Unlike most traditional Elo ratings, I also apply a decay function that accounts for inactivity. Decay functions in Elo ratings are used to prevent individuals from protecting a high ranking by remaining inactive. For MMA, the use of a decay function benefits more active fighters and also penalizes fighters who may duck fights (see e.g., Jon Jones vs. Tom Aspinall). However, some delays between fights are due to injuries, scheduling issues, and fight cancellations. Therefore, I implement a very conservative exponential decay function toward a lower bound to account for inactivity. Fighter A's inactivity decay is defined as:
 
 $$
 R_{\text{new}} = R_{\min} + (R_{\text{old}} - R_{\min}) \cdot e^{-\ln(2)\cdot \frac{t}{t_{1/2}}}
@@ -136,7 +136,7 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 {: .table .table-center}
 
 |   Rank | Fighter                  |   Peak ELO Rating |   | Rank   | Fighter              |   Peak ELO Rating |
-|-------:|:-------------------------|------------------:|---|-------:|:---------------------|------------------:|
+|:-------|:-------------------------|------------------:|---|:-------|:---------------------|------------------:|
 |      1 | Fedor Emelianenko        |           2077.17 |   |     16 | Dan Henderson        |           1942.77 |
 |      2 | Anderson Silva           |           2073.81 |   |     17 | Donald Cerrone       |           1941.34 |
 |      3 | Daniel Cormier           |           2056.81 |   |     18 | Israel Adesanya      |           1940.36 |
@@ -169,7 +169,7 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 **TABLE 2. Best Current Fighters by ELO Rating**
 
 |   Rank | Fighter               |   ELO Rating |   |   Rank | Fighter           |   ELO Rating |
-|-------:|:----------------------|-------------:|---|-------:|:------------------|-------------:|
+|:-------|:----------------------|-------------:|---|:-------|:------------------|-------------:|
 |      1 | Islam Makhachev       |      2035.44 |   |     16 | Shavkat Rakhmonov |      1851.42 |
 |      2 | Max Holloway          |      1927.85 |   |     17 | Jiří Procházka    |      1848.28 |
 |      3 | Charles Oliveira      |      1917.56 |   |     18 | Alexander Volkov  |      1847.14 |
@@ -191,9 +191,10 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. By Elo rating, the trilogy fight between Daniel Cormier and Stipe Miocic tops the list. Cormier is involved in five of the top ten fights on the list, with his 1st fight against Jon Jones coming in at #7 and his 2nd fight against Anothy Johnson at #9. Cormier vs Jones 2 does not crack the top 10 as it was ruled a no-contest (omitted from the dataset) after Jones failed a drug test.
 
 **TABLE 3. Greatest Fights by ELO Rating**
-  
+
+
 |   Rank | Fighter 1             |   ELO Rating 1 |   | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
-|-------:|:----------------------|---------------:|---|:------------------|---------------:|----------------------:|
+|:-------|:----------------------|---------------:|---|:------------------|---------------:|----------------------:|
 |      1 | Daniel Cormier        |        2053.23 |   | Stipe Miocic      |        1890.61 |               3943.84 |
 |      2 | Stipe Miocic          |        1935.6  |   | Daniel Cormier    |        2002.63 |               3938.24 |
 |      3 | Stipe Miocic          |        1926.22 |   | Daniel Cormier    |        1992.24 |               3918.46 |
@@ -218,12 +219,12 @@ In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. 
 ### ELO over Time
 Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While the first recorded MMA match was in 1980 (Rei Zulu vs. Rickson Gracie), fights were relatively uncommon (five fights in the 1980s) until 1993, when both Pancrase and the UFC held their first events. Therefore, this bar chart begins in 1993, updating the top 10 ELO ratings every month thereafter. 
 
-<p align="center">
+<figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_race_small.gif" width="850">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
     <strong>FIGURE 4: ELO Ratings Since 1993</strong>
   </figcaption>
-</p>
+</figure>
 
 ### MMA GOAT
 The final analysis I will share in this post is a multi-metric assessment attempting to quantify the greatest mixed martial artists of all time. I use four distinct metrics: 1) peak ELO rating, 2) area under the ELO curve (AUEC), 3) strength of schedule (SoS), and 4) quality-adjusted wins (QAW). I then standardize each metric to have a mean of 0 and a standard deviation of 1 and sum them together to create a Legacy Score. The peak ELO rating, as presented in Table 1, is again the highest ELO rating a fighter achieves at the pinnacle of their career. The AUEC captures sustained success by measuring how long and how far above an elite level a fighter stayed over their career. The AUEC is defined as: 

@@ -1,7 +1,7 @@
 ---
 title: "MMA Elo Ratings"
 collection: side_projects
-published: false
+published: true
 date: 2025-10-28
 excerpt: "A rating system for mixed martial artists"
 tags:

@@ -142,7 +142,7 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 |     15 | Demetrious Johnson       |           1946.36 |     30 | Merab Dvalishvili    |           1914.8  
 </div>
 
-This metric also correlates reasonably well with consensus picks for the greatest fighters, which usually include Fedor, Silva, St. Pierre, etc (see, e.g., community rankings on [Tapology] (https://www.tapology.com/rankings/top-ten-all-time-greatest-mma-and-ufc-fighters)). One notable fighter who ranks lower in my ELO rating system than in most rankings is Khabib Nurmagomedov. While Khabib tore through the UFC lightweight division, eventually capturing the belt and retiring undefeated, he barely cracks the top 30 list here. In Figure 1, I plot the ELO Ratings over time of Khabib and some of the other consensus greatest fighters. While Khabib's rating dropped somewhat between 2014 and 2016 due to a layoff from injuries and one bout cancellation (the first of five attempts to schedule the infamous never-to-be fight between Nurmagomedov and Tony Ferguson), Khabib's rating is mostly stunted due to a string of fights against lesser competition early in his career. In his first sixteen professional fights, he only faced two fighters notable enough to have their own Wikipedia page, twelve of whom never competed in more than five professional fights. These opponents had a combined record of 47-51-1 and excluding the two "notable" fighters, they had a combined record of 7-38. Given that these lower-quality matches make up over half of Khabib's career fights, his peak rating seems much more reasonable.
+This metric also correlates reasonably well with consensus picks for the greatest fighters, which usually include Fedor, Silva, St. Pierre, etc (see, e.g., community rankings on [Tapology](https://www.tapology.com/rankings/top-ten-all-time-greatest-mma-and-ufc-fighters)). One notable fighter who ranks lower in my ELO rating system than in most rankings is Khabib Nurmagomedov. While Khabib tore through the UFC lightweight division, eventually capturing the belt and retiring undefeated, he barely cracks the top 30 list here. In Figure 1, I plot the ELO Ratings over time of Khabib and some of the other consensus greatest fighters. While Khabib's rating dropped somewhat between 2014 and 2016 due to a layoff from injuries and one bout cancellation (the first of five attempts to schedule the infamous never-to-be fight between Nurmagomedov and Tony Ferguson), Khabib's rating is mostly stunted due to a string of fights against lesser competition early in his career. In his first sixteen professional fights, he only faced two fighters notable enough to have their own Wikipedia page, twelve of whom never competed in more than five professional fights. These opponents had a combined record of 47-51-1 and excluding the two "notable" fighters, they had a combined record of 7-38. Given that these lower-quality matches make up over half of Khabib's career fights, his peak rating seems much more reasonable.
 
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
@@ -180,7 +180,7 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 ### Greatest Fights
 I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. By Elo rating, the trilogy fight between Daniel Cormier and Stipe Miocic tops the list. Cormier is involved in five of the top ten fights on the list, with his 1st fight against Jon Jones coming in at #7 and his 2nd fight against Anothy Johnson at #9. Cormier vs Jones 2 does not crack the top 10 as it was ruled a no-contest (omitted from the dataset) after Jones failed a drug test.
 
-<div = "center">
+<div align = "center">
 
 **TABLE 3. Greatest Fights by ELO Rating**
   
@@ -224,6 +224,7 @@ The final analysis I will share in this post is a multi-metric assessment attemp
 $$
 AUEC = \sum_{i = 1}^{N} max(ELO_{i} - ELO_{threshold}, 0) \times \Delta t
 $$
+
 where $N$ is the number of fights in a fighter's career, $E_{i}$ is the fighter's ELO rating before fight $i$, $ELO_{threshold}$ is the cutoff for an elite fighter, which I define as 1600, and $\Delta t_{i}$ is the number of days between fights. Therefore, every day a fighter stays above the elite-level threshold contributes to their score. This measure weighs both peak achievements and sustained success, so a fighter who is moderately successful is comparable to a fighter who reached a higher peak but had a shorter career (e.g., Jim Miller vs. Anthony Pettis).
 
 SoS is simply the mean ELO rating of opponents a fighter faces, i.e.:
@@ -231,7 +232,7 @@ SoS is simply the mean ELO rating of opponents a fighter faces, i.e.:
 $$
 SoS = \frac{1}/{N} \sum_{i=1}^{N} E_{i}^{opp}
 $$
-<div = "center">
+
 where $N$ is the number of fights in a fighter's career and $E_{i}^{opp}$ is the pre-fight ELO rating of the opponent for each fight $i$. Using this measure in the legacy score rewards fighters who consistently fight high-level opponents compared to those you pad their records against low-level competition.
 
 The last measure, QAW is defined as:
@@ -239,6 +240,7 @@ The last measure, QAW is defined as:
 $$
 QAW = \sum_{i}^{N} max(E_{i}^{opp} - E_{baseline}, 0) \cdot 1\{win_{i}\}
 $$
+
 where $E_{i}^{opp}$ is again the opponent's pre-fight ELO rating, $E_{baseline}$ is the average-level fighter who had a sustained career in MMA (1500), and $1\{win_{i}\}$ is an indicator equal to 1 if the fighter wone fight $i$ and 0 otherwise. This measure rewards those who have won against high-level competition.
 
 The sample of fighters used in this analysis is as follows. First, I only use fights from 1993 or later. This prevents those who fought infrequently in the 1980s from distorting the AUEC metric. Second, I restrict the sample to fighters with at least ten professional bouts and a minimum career length of five years. Any legitimate all-time great comfortably exceeds these thresholds, and the filters help remove short-career or low-activity fighters who would contribute noise rather than information. Importantly, these filters also ensure that z-scores for each metric are calculated relative to a population of reasonably accomplished fighters, which is more appropriate for assessing the greatest mixed martial artists of all time. By focusing on athletes with meaningful careers, the resulting comparisons are more relevant for evaluating long-term excellence.
@@ -254,6 +256,8 @@ Table 4 lists the top ten fighters by Legacy Score alongside their standardized 
 Two main patterns emerge from this analysis. First, heavyweight fighters tend to dominate the rankings. This appears to stem from structural features of the division. There are simply fewer athletes large enough to compete at heavyweight, which means the number of elite heavyweights at any time is small. Because organizations heavily promote the division, established heavyweights often receive more opportunities, remain in the spotlight longer, and accumulate long careers. These factors likely inflate AUEC scores.
 
 Second, on the other end of the size distribution, fighters in lower weight classes tend to underperform in this ranking system. A prominent example is Demetrious Johnson, the long-time 125-pound UFC champion, typically considered a top-ten fighter of all time, who comes in at only #37. He is also the only fighter in the top 50 from the bantamweight or flyweight divisions (excluding Frankie Edgar’s brief late-career run at bantamweight). Lower-weight fighters seem disadvantaged by lower SoS and QAW scores. This likely reflects MMA’s history: these divisions were introduced much later than heavier ones. The WEC was the first major organization to feature weight classes below 155 lbs (beginning in 2001), the UFC did not incorporate them until acquiring the WEC in 2010, and the UFC flyweight division was created only in 2012. As a result, these fighters had fewer years to accumulate AUEC and fewer highly-rated opponents available to boost SoS and QAW. This is evident in the table from José Aldo’s relatively modest SoS and QAW scores, despite facing some of the most accomplished opponents in featherweight and bantamweight history.
+
+<div align = "center">
 
 **TABLE 4. MMA Greatest of All Time List**
 

@@ -6,7 +6,7 @@ collection: side_projects
 published: true
 ---
 
-#  An MMA Elo Rating System
+# An MMA Elo Rating System
 
 This project uses fight outcomes and opponent quality to construct an Elo-based rating system for mixed martial artists. Using these ratings, I generate tables and visualizations identifying the best current fighters, the greatest fighters of all time, the most competitive matchups, and other insights into MMA performance.
 
@@ -57,8 +57,6 @@ R_0 =
 \end{cases}
 $$
 
-
-
 If a fighter has more than 10 professional fights, they receive a baseline rating of 1500. If the fighter has fewer than 10 fights but has a Wikipedia page, I take this to mean that the fighter is more notable and may be of higher quality. Their baseline therefore, ranges between 1300 and 1500, scaling linearly depending on the number of fights they've competed in. For fighters without a Wikipedia page and less than 10 points I use a baseline from 1100 and 1500 again scaling linearly based on the number of fights completed. This allows ratings to adjust more realistically based on fighters' skill levels while also preventing fighters from "stat-padding" wins against lower ability fighters (see e.g., [Jeremy Horn](https://en.wikipedia.org/wiki/Jeremy_Horn)). 
 
 The K-factor governs the sensitivity of the Elo ratings to new information; the higher the K-factor, the more sensitive the ratings are to change. Games that can be played frequently may have lower K-factors, such as 20, where multiple matches can be played in a single day. However, it is common in MMA to average about 2-4 fights per year, so I use a K-factor of 60. I also employ a dynamic K-factor that scales with opponents' experience. If a fighter faces an opponent with fewer than five fights the update is dampened, otherwise the update uses the full K value. This prevents large ratings jumps from wins over unproven fighters.
@@ -104,7 +102,6 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 
 
 **TABLE 1. Peak ELO Ratings**
-{: .table .table-center}
 
 |   Rank | Fighter                  |   Peak ELO Rating |   | Rank   | Fighter              |   Peak ELO Rating |
 |:-------|:-------------------------|------------------:|---|:-------|:---------------------|------------------:|

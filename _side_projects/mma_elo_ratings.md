@@ -1,6 +1,6 @@
 ---
 title: "MMA Elo Ratings"
-mathjax: true
+math: true
 collection: side_projects
 published: true
 date: 2025-10-28
@@ -122,25 +122,25 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 
 
 **TABLE 1. Peak ELO Ratings**
-
 {: .table .table-center}
-|   Rank | Fighter                  |   Peak ELO Rating |   Rank | Fighter              |   Peak ELO Rating |
-|-------:|:-------------------------|------------------:|-------:|:---------------------|------------------:|
-|      1 | Fedor Emelianenko        |           2077.17 |     16 | Dan Henderson        |           1942.77 |
-|      2 | Anderson Silva           |           2073.81 |     17 | Donald Cerrone       |           1941.34 |
-|      3 | Daniel Cormier           |           2056.81 |     18 | Israel Adesanya      |           1940.36 |
-|      4 | Georges St-Pierre        |           2040.13 |     19 | Max Holloway         |           1937.65 |
-|      5 | Islam Makhachev          |           2035.44 |     20 | Wanderlei Silva      |           1936.89 |
-|      6 | Jon Jones                |           2021.89 |     21 | Dustin Poirier       |           1936.61 |
-|      7 | Kamaru Usman             |           1993.51 |     22 | Robbie Lawler        |           1932.88 |
-|      8 | José Aldo                |           1988.46 |     23 | Matt Hughes          |           1931.98 |
-|      9 | Charles Oliveira         |           1982.92 |     24 | Chuck Liddell        |           1929.73 |
-|     10 | Gegard Mousasi           |           1968.75 |     25 | Fabrício Werdum      |           1927.55 |
-|     11 | Stipe Miocic             |           1967.85 |     26 | Benson Henderson     |           1924.99 |
-|     12 | Antônio Rodrigo Nogueira |           1962.84 |     27 | Cain Velasquez       |           1922.82 |
-|     13 | Alexander Volkanovski    |           1962.73 |     28 | Valentina Shevchenko |           1916.61 |
-|     14 | Ryan Bader               |           1960.35 |     29 | Khabib Nurmagomedov  |           1915.37 |
-|     15 | Demetrious Johnson       |           1946.36 |     30 | Merab Dvalishvili    |           1914.8  
+
+|   Rank | Fighter                  |   Peak ELO Rating |   | Rank   | Fighter              |   Peak ELO Rating |
+|-------:|:-------------------------|------------------:|---|-------:|:---------------------|------------------:|
+|      1 | Fedor Emelianenko        |           2077.17 |   |     16 | Dan Henderson        |           1942.77 |
+|      2 | Anderson Silva           |           2073.81 |   |     17 | Donald Cerrone       |           1941.34 |
+|      3 | Daniel Cormier           |           2056.81 |   |     18 | Israel Adesanya      |           1940.36 |
+|      4 | Georges St-Pierre        |           2040.13 |   |     19 | Max Holloway         |           1937.65 |
+|      5 | Islam Makhachev          |           2035.44 |   |     20 | Wanderlei Silva      |           1936.89 |
+|      6 | Jon Jones                |           2021.89 |   |     21 | Dustin Poirier       |           1936.61 |
+|      7 | Kamaru Usman             |           1993.51 |   |     22 | Robbie Lawler        |           1932.88 |
+|      8 | José Aldo                |           1988.46 |   |     23 | Matt Hughes          |           1931.98 |
+|      9 | Charles Oliveira         |           1982.92 |   |     24 | Chuck Liddell        |           1929.73 |
+|     10 | Gegard Mousasi           |           1968.75 |   |     25 | Fabrício Werdum      |           1927.55 |
+|     11 | Stipe Miocic             |           1967.85 |   |     26 | Benson Henderson     |           1924.99 |
+|     12 | Antônio Rodrigo Nogueira |           1962.84 |   |     27 | Cain Velasquez       |           1922.82 |
+|     13 | Alexander Volkanovski    |           1962.73 |   |     28 | Valentina Shevchenko |           1916.61 |
+|     14 | Ryan Bader               |           1960.35 |   |     29 | Khabib Nurmagomedov  |           1915.37 |
+|     15 | Demetrious Johnson       |           1946.36 |   |     30 | Merab Dvalishvili    |           1914.8  
 
 
 This metric also correlates reasonably well with consensus picks for the greatest fighters, which usually include Fedor, Silva, St. Pierre, etc (see, e.g., community rankings on [Tapology](https://www.tapology.com/rankings/top-ten-all-time-greatest-mma-and-ufc-fighters)). One notable fighter who ranks lower in my ELO rating system than in most rankings is Khabib Nurmagomedov. While Khabib tore through the UFC lightweight division, eventually capturing the belt and retiring undefeated, he barely cracks the top 30 list here. In Figure 1, I plot the ELO Ratings over time of Khabib and some of the other consensus greatest fighters. While Khabib's rating dropped somewhat between 2014 and 2016 due to a layoff from injuries and one bout cancellation (the first of five attempts to schedule the infamous never-to-be fight between Nurmagomedov and Tony Ferguson), Khabib's rating is mostly stunted due to a string of fights against lesser competition early in his career. In his first sixteen professional fights, he only faced two fighters notable enough to have their own Wikipedia page, twelve of whom never competed in more than five professional fights. These opponents had a combined record of 47-51-1 and excluding the two "notable" fighters, they had a combined record of 7-38. Given that these lower-quality matches make up over half of Khabib's career fights, his peak rating seems much more reasonable.

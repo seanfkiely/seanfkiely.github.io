@@ -233,12 +233,12 @@ $$
 SoS = \frac{1}{N} \sum_{i=1}^{N} E_{i}^{opp}
 $$
 
-where $N$ is the number of fights in a fighter's career and $E_{i}^{opp}$ is the pre-fight ELO rating of the opponent for each fight $i$. Using this measure in the legacy score rewards fighters who consistently fight high-level opponents compared to those you pad their records against low-level competition.
+where $N$ is the number of fights in a fighter's career and $E_{i}^{opp}$ is the pre-fight ELO rating of the opponent for each fight $i$. Using this measure in the legacy score rewards fighters who consistently fight high-level opponents compared to those who pad their records against low-level competition.
 
 The last measure, QAW is defined as:
 
 $$
-QAW = \sum_{i}^{N} max(E_{i}^{opp} - E_{baseline}, 0) \cdot 1\{win_{i}\}
+QAW = \sum_{i=1}^{N} \max(E_{i}^{\text{opp}} - E_{\text{baseline}}, 0)\,\mathbf{1}\left\{\text{win}_{i}\right\}
 $$
 
 where $E_{i}^{opp}$ is again the opponent's pre-fight ELO rating, $E_{baseline}$ is the average-level fighter who had a sustained career in MMA (1500), and $1\{win_{i}\}$ is an indicator equal to 1 if the fighter wone fight $i$ and 0 otherwise. This measure rewards those who have won against high-level competition.

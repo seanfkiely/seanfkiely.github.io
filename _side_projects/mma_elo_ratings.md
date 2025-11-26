@@ -4,19 +4,6 @@ mathjax: true
 math: true
 collection: side_projects
 published: true
-date: 2025-10-28
-excerpt: "An ELO rating system for mixed martial artists"
-tags:
-  - Web Scraping
-  - Elo
-  - Sports Analytics
-  - Python
-  - MMA
-thumbnail: /images/elo_vs_win_rate.png
-header:
-  overlay_image: /images/elo_vs_win_rate.png
-  overlay_filter: 0.4
-  caption: "Apply Elo-style ratings to MMA"
 ---
 
 #  An MMA Elo Rating System

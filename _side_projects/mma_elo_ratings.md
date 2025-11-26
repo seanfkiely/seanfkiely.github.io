@@ -22,16 +22,6 @@ header:
 <div markdown="1">
 
 #  An MMA Elo Rating System
-{% if page.tags %}
-<p style="margin-top:1em;">
-  {% for t in page.tags %}
-    <a href="{{ '/tags/#' | append: t | slugify | relative_url }}"
-       style="font-size:0.85em; background:#f0f3f7; border:1px solid #e2e6ea; border-radius:999px; padding:0.2em 0.6em; margin-right:0.35em; text-decoration:none; color:#334;">
-      #{{ t }}
-    </a>
-  {% endfor %}
-</p>
-{% endif %}
 
 This project uses fight outcomes and opponent quality to construct an Elo-based rating system for mixed martial artists. Using these ratings, I generate tables and visualizations identifying the best current fighters, the greatest fighters of all time, the most competitive matchups, and other insights into MMA performance.
 
@@ -73,14 +63,14 @@ Each fighter begins with a baseline Elo rating. The model uses informative prior
   - W = 1 if the fighter has a Wikipedia page
   - W = 0 otherwise
 
-\[
+$$
 R_0 =
 \begin{cases}
 1500, & \text{if } n \ge 10 \\
 1300 + 200\left(\frac{n}{10}\right), & \text{if } n < 10 \text{ and } W = 1 \\
 1100 + 400\left(\frac{n}{10}\right), & \text{if } n < 10 \text{ and } W = 0
 \end{cases}
-\]
+$$
 
 
 

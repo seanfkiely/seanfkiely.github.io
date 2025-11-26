@@ -94,7 +94,7 @@ $$
 
 where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity, but those below 1500 are not, and  $t_{1/2}$ to 1825. The figure below shows the decay in Elo rating due to inactivity with a half-life of 1825 days. This means that after 5 years of inactivity, the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again, this is a conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the mixed martial artists' control. Therefore, a fighter loses about 100 points for 3 years of inactivity. It is not a substantial drop in their rating, but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the fighter's ability over time. 
 
-<p = align="center">
+<p align="center">
 <figure style="text-align:center; margin: 2em 0;">
   <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
   <strong>FIGURE 1: Decay Function</strong>

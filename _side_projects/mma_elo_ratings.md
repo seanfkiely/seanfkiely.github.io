@@ -138,9 +138,9 @@ $$
 
 where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity, but those below 1500 are not, and  $t_{1/2}$ to 1825. The figure below shows the decay in Elo rating due to inactivity with a half-life of 1825 days. This means that after 5 years of inactivity, the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again, this is a conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the mixed martial artists' control. Therefore, a fighter loses about 100 points for 3 years of inactivity. It is not a substantial drop in their rating, but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the fighter's ability over time. 
 
+**FIGURE 1: Decay Function**
 <figure class="figure-center">
   <img src="/images/decay-function.png" alt="Decay Function">
-  <figcaption><strong>FIGURE 1: Decay Function</strong></figcaption>
 </figure>
 
 
@@ -190,7 +190,6 @@ This metric also correlates reasonably well with consensus picks for the greates
 **FIGURE 2: ELO Trajectories of MMA Greats**
 <figure class="figure-center">
   <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats">
-  <figcaption><strong>FIGURE 2: ELO Trajectories of MMA Greats</strong></figcaption>
 </figure>
 
 ### Best Current Mixed Martial Artists
@@ -240,19 +239,17 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 ### ELO vs Win Rate
 In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. Overall, we see a positive correlation between win rate and ELO rating. On the bottom left corner of the figure, we see lower-level fighters such as WWE star turned MMA wannabe CM Punk, moving up and to the right, we start to see fighters like Clay Guida, who are "gatekeepers" of their weight classes, high-level fighters that never quite made it to the upper echelon. Beyond that, we see elite-level fighters like Demetrious Johnson and Ilia Topuria (and a bit lower, we have Dada 5000 with his uhh *interesting* fight with Kimbo Slice).  
 
+**FIGURE 3: ELO Rating vs Win Rate %**
 <figure class="figure-center">
   <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate">
-  <figcaption><strong>FIGURE 3: ELO Rating vs Win Rate %</strong></figcaption>
 </figure>
 
 ### ELO over Time
 Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While the first recorded MMA match was in 1980 (Rei Zulu vs. Rickson Gracie), fights were relatively uncommon (five fights in the 1980s) until 1993, when both Pancrase and the UFC held their first events. Therefore, this bar chart begins in 1993, updating the top 10 ELO ratings every month thereafter. 
 
+**FIGURE 4: ELO Ratings Since 1993**
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_race_small.gif" width="850">
-  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-    <strong>FIGURE 4: ELO Ratings Since 1993</strong>
-  </figcaption>
 </figure>
 
 ### MMA GOAT

@@ -230,7 +230,7 @@ where $N$ is the number of fights in a fighter's career, $E_{i}$ is the fighter'
 SoS is simply the mean ELO rating of opponents a fighter faces, i.e.:
 
 $$
-SoS = \frac{1}/{N} \sum_{i=1}^{N} E_{i}^{opp}
+SoS = \frac{1}{N} \sum_{i=1}^{N} E_{i}^{opp}
 $$
 
 where $N$ is the number of fights in a fighter's career and $E_{i}^{opp}$ is the pre-fight ELO rating of the opponent for each fight $i$. Using this measure in the legacy score rewards fighters who consistently fight high-level opponents compared to those you pad their records against low-level competition.
@@ -248,7 +248,7 @@ The sample of fighters used in this analysis is as follows. First, I only use fi
 After standardizing these measures, the Legacy Score is then:
 
 $$
-Legacy Score = z_{peak_ELO} + z_{AUEC} + z_{SoS} + z_{QAW}
+Legacy  Score = z_{peak_ELO} + z_{AUEC} + z_{SoS} + z_{QAW}
 $$
 
 Table 4 lists the top ten fighters by Legacy Score alongside their standardized metrics. Fedor, GSP, Silva, and Jones take the top spots, which is highly consistent with most subjective lists where they are consistently ranked in the all-time top five. Perhaps most surprising in this list is Lyoto Machida. While he certainly had a great career, challenging for UFC titles in two weight classes and capturing the belt at light heavyweight, he also has the lowest peak ELO rating among this group. Machida's Legacy Score is mainly bolstered by his tough strength of schedule and strong quality-adjusted wins; throughout his career he faced unusually elite opposition, including 20 bouts against current or former UFC, PRIDE, Bellator, or Strikeforce champions.

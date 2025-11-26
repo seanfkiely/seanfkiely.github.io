@@ -3,14 +3,14 @@ title: "MMA Elo Ratings"
 collection: side_projects
 published: true
 date: 2025-10-28
-excerpt: "A rating system for mixed martial artists"
+excerpt: "An ELO rating system for mixed martial artists"
 tags:
   - Web Scraping
   - Elo
   - Sports Analytics
   - Python
   - MMA
-thumbnail: /images/fg_kicks_final.png
+thumbnail: /images/elo_vs_win_rate.png
 header:
   overlay_image: /images/elo_vs_win_rate.png
   overlay_filter: 0.4

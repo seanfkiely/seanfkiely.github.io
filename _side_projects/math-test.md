@@ -3,6 +3,8 @@ layout: default
 title: "Math test"
 math: true
 mathjax: true
+collection: side_projects
+published: true
 ---
 Plain inline math: $E = mc^2$.
 

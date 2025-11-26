@@ -19,6 +19,10 @@ header:
   caption: "Apply Elo-style ratings to MMA"
 ---
 
+<div markdown="1">
+
+#  An MMA Elo Rating System
+
 <p style="margin-top:1em;">
   {% for t in page.tags %}
     <a href="{{ '/tags/#' | append: t | slugify | relative_url }}"
@@ -28,21 +32,6 @@ header:
   {% endfor %}
 </p>
 {% endif %}
-
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$','$$'], ['\\[','\\]']]
-    }
-  };
-</script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-        id="MathJax-script"></script>
-
-<div markdown="1">
-
-#  An MMA Elo Rating System
 
 This project uses fight outcomes and opponent quality to construct an Elo-based rating system for mixed martial artists. Using these ratings, I generate tables and visualizations identifying the best current fighters, the greatest fighters of all time, the most competitive matchups, and other insights into MMA performance.
 

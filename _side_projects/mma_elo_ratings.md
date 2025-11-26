@@ -1,6 +1,7 @@
 ---
 title: "MMA Elo Ratings"
 mathjax: true
+math: true
 collection: side_projects
 published: true
 date: 2025-10-28

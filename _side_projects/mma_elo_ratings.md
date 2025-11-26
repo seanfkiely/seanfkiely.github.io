@@ -238,7 +238,7 @@ where $N$ is the number of fights in a fighter's career and $E_{i}^{opp}$ is the
 The last measure, QAW is defined as:
 
 $$
-QAW = \sum_{i=1}^{N} \max(E_{i}^{\text{opp}} - E_{\text{baseline}}, 0)\,\mathbf{1}\left\{\text{win}_{i}\right\}
+QAW = \sum_{i=1}^{N} \max(E_{i}^{\text{opp}} - E_{\text{baseline}}, 0)\,\mathbf{1}\{\text{win}_{i}\}
 $$
 
 where $E_{i}^{opp}$ is again the opponent's pre-fight ELO rating, $E_{baseline}$ is the average-level fighter who had a sustained career in MMA (1500), and $1\{win_{i}\}$ is an indicator equal to 1 if the fighter wone fight $i$ and 0 otherwise. This measure rewards those who have won against high-level competition.

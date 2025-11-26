@@ -5,7 +5,25 @@ mathjax: true
 math: true
 collection: side_projects
 published: true
+excerpt: "An ELO rating system for mixed martial artists."
+tags:
+  - Webscraping
+  - Data Visualization
+  - Sports Analytics
+  - Python
+  - MMA
+thumbnail: /images/elo_vs_win_rate.png
+header:
+  overlay_image: /images/elo_vs_win_rate.png
+  overlay_filter: 0.4
+  caption: ""
 ---
+
+<div class="page__content" markdown="1">
+<body style="background-color:#f8f9fa;">
+<div style="background:#fafafa; border:1px solid #eee; border-radius:10px; padding:2em; box-shadow:0 2px 4px rgba(0,0,0,0.05);" markdown="1">
+<div style="font-family: 'Georgia', serif;" markdown="1">
+
 
 # An MMA Elo Rating System
 

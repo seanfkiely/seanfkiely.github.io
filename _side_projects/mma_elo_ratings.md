@@ -24,6 +24,40 @@ header:
 <div style="background:#fafafa; border:1px solid #eee; border-radius:10px; padding:2em; box-shadow:0 2px 4px rgba(0,0,0,0.05);" markdown="1">
 <div style="font-family: 'Georgia', serif;" markdown="1">
 
+<style>
+/* Centered figure styling */
+figure.figure-center {
+  text-align: center;
+  margin: 2em auto;
+}
+
+figure.figure-center img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+figure.figure-center figcaption {
+  text-align: center;
+  margin-top: 0.5em;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+/* Narrow table styling */
+.table-narrow {
+  max-width: 900px;       /* adjust narrower/wider as you like */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-narrow th,
+.table-narrow td {
+  padding: 0.3em 0.6em;   /* reduces empty space in wide tables */
+}
+</style>
+
+
 
 # An MMA Elo Rating System
 {% if page.tags %}
@@ -104,12 +138,11 @@ $$
 
 where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the previous rating, $R_{\text{min}}$ is the lower bound, $t$ is the number of days since Fighter A's last fight, and $t_{1/2}$ is the half life. I set $R_{\text{min}}$ to 1500 where fighters above 1500 are penalized for inactivity, but those below 1500 are not, and  $t_{1/2}$ to 1825. The figure below shows the decay in Elo rating due to inactivity with a half-life of 1825 days. This means that after 5 years of inactivity, the fighter's rating falls halfway between their current rating (1800) and the floor (1500). Again, this is a conservative decay function, meant to penalize fighters for purposeful inactivity with the caveat that inactivity can arise for multiple reasons outside of the mixed martial artists' control. Therefore, a fighter loses about 100 points for 3 years of inactivity. It is not a substantial drop in their rating, but it does effectively prevent fighters from sitting on their high rating and may more accurately reflect the fighter's ability over time. 
 
-<figure style="text-align:center; margin: 2em 0;">
-  <img src="/images/decay-function.png" alt="Decay Function" style="width:70%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
-  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-  <strong>FIGURE 1: Decay Function</strong>
-  </figcaption>
+<figure class="figure-center">
+  <img src="/images/decay-function.png" alt="Decay Function">
+  <figcaption><strong>FIGURE 1: Decay Function</strong></figcaption>
 </figure>
+
 
 Finally, I incorporate two types of bonuses for wins: 1) finishes and 2) championships. Each fighter receives additional points for each victory that ends in a finish. This rewards dominant performances without over-weighting them, as finishes are positively correlated with weight class. Fighters also receive a bonus for winning a championship fight as it signals higher quality opposition, higher stakes, and in many cases involves extra "championship rounds". I give greater weight to titles won in top-tier promotions (UFC, PRIDE, WEC, Strikeforce, or Bellator) and award a lower bonus to championships in lower-tier promotions. This tiering system prevents those who dominate lower-tier organizations but infrequently face higher-quality competition from inflating their rating (see e.g., [Hector Lombard's](https://en.wikipedia.org/wiki/H%C3%A9ctor_Lombard) multiple Cage FC title defenses and subsequent UFC run). 
 
@@ -131,6 +164,7 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 
 
 **TABLE 1. Peak ELO Ratings**
+{: .table .table-center .table-narrow}
 
 |   Rank | Fighter                  |   Peak ELO Rating | Rank   | Fighter              |   Peak ELO Rating |
 |:-------|:-------------------------|------------------:|:-------|:---------------------|------------------:|
@@ -153,17 +187,16 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 
 This metric also correlates reasonably well with consensus picks for the greatest fighters, which usually include Fedor, Silva, St. Pierre, etc (see, e.g., community rankings on [Tapology](https://www.tapology.com/rankings/top-ten-all-time-greatest-mma-and-ufc-fighters)). One notable fighter who ranks lower in my ELO rating system than in most rankings is Khabib Nurmagomedov. While Khabib tore through the UFC lightweight division, eventually capturing the belt and retiring undefeated, he barely cracks the top 30 list here. In Figure 1, I plot the ELO Ratings over time of Khabib and some of the other consensus greatest fighters. While Khabib's rating dropped somewhat between 2014 and 2016 due to a layoff from injuries and one bout cancellation (the first of five attempts to schedule the infamous never-to-be fight between Nurmagomedov and Tony Ferguson), Khabib's rating is mostly stunted due to a string of fights against lesser competition early in his career. In his first sixteen professional fights, he only faced two fighters notable enough to have their own Wikipedia page, twelve of whom never competed in more than five professional fights. These opponents had a combined record of 47-51-1 and excluding the two "notable" fighters, they had a combined record of 7-38. Given that these lower-quality matches make up over half of Khabib's career fights, his peak rating seems much more reasonable.
 
-<figure style="text-align:center; margin: 2em 0;">
-  <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
-  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-    <strong>FIGURE 2: ELO Trajectories of MMA Greats</strong>
-  </figcaption>
+<figure class="figure-center">
+  <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats">
+  <figcaption><strong>FIGURE 2: ELO Trajectories of MMA Greats</strong></figcaption>
 </figure>
 
 ### Best Current Mixed Martial Artists
 Table 2 lists the current best fighters by ELO rating. Note that I only include fighters who have been active in the last two years. Here we see Islam Makhachev at the top of the heap. Makhachev has been on a tremendous string of wins and increased his ELO rating by 161 points after beating perennial favorites Charles Oliveira (9th peak all-time ELO at the time of the fight), Alexander Volkanovski (13th peak all-time ELO), and Dustin Poirier (21st). We will see if he can extend his lead in the rankings by facing current UFC lightweight champion Ilia Topuria (#7), who has been calling for a match with Makhachev. Valentina Shevchenko, Zhang Weili, and Cris Cyborg are also the top three women who enter the list. In the near future, I plan to extend this analysis to WMMA and create current rankings by weight class for both women and men.
 
 **TABLE 2. Best Current Fighters by ELO Rating**
+{: .table .table-center .table-narrow}
 
 |   Rank | Fighter               |   ELO Rating |   Rank | Fighter           |   ELO Rating |
 |:-------|:----------------------|-------------:|:-------|:------------------|-------------:|
@@ -188,7 +221,7 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. By Elo rating, the trilogy fight between Daniel Cormier and Stipe Miocic tops the list. Cormier is involved in five of the top ten fights on the list, with his 1st fight against Jon Jones coming in at #7 and his 2nd fight against Anothy Johnson at #9. Cormier vs Jones 2 does not crack the top 10 as it was ruled a no-contest (omitted from the dataset) after Jones failed a drug test.
 
 **TABLE 3. Greatest Fights by ELO Rating**
-
+{: .table .table-center .table-narrow}
 
 |   Rank | Fighter 1             |   ELO Rating 1 | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
 |:-------|:----------------------|---------------:|:------------------|---------------:|----------------------:|
@@ -206,11 +239,9 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 ### ELO vs Win Rate
 In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. Overall, we see a positive correlation between win rate and ELO rating. On the bottom left corner of the figure, we see lower-level fighters such as WWE star turned MMA wannabe CM Punk, moving up and to the right, we start to see fighters like Clay Guida, who are "gatekeepers" of their weight classes, high-level fighters that never quite made it to the upper echelon. Beyond that, we see elite-level fighters like Demetrious Johnson and Ilia Topuria (and a bit lower, we have Dada 5000 with his uhh *interesting* fight with Kimbo Slice).  
 
-<figure style="text-align:center; margin: 2em 0;">
-  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:90%; max-width:800px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
-  <figcaption style="font-style:italic; font-size:0.9em; margin-top:0.5em;">
-    <strong>FIGURE 3: ELO Rating vs Win Rate %</strong>
-  </figcaption>
+<figure class="figure-center">
+  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate"">
+  <figcaption><strong>FIGURE 3: ELO Rating vs Win Rate %</strong></figcaption>
 </figure>
 
 ### ELO over Time
@@ -263,6 +294,7 @@ Two main patterns emerge from this analysis. First, heavyweight fighters tend to
 Second, on the other end of the size distribution, fighters in lower weight classes tend to underperform in this ranking system. A prominent example is Demetrious Johnson, the long-time 125-pound UFC champion, typically considered a top-ten fighter of all time, who comes in at only #37. He is also the only fighter in the top 50 from the bantamweight or flyweight divisions (excluding Frankie Edgar’s brief late-career run at bantamweight). Lower-weight fighters seem disadvantaged by lower SoS and QAW scores. This likely reflects MMA’s history: these divisions were introduced much later than heavier ones. The WEC was the first major organization to feature weight classes below 155 lbs (beginning in 2001), the UFC did not incorporate them until acquiring the WEC in 2010, and the UFC flyweight division was created only in 2012. As a result, these fighters had fewer years to accumulate AUEC and fewer highly-rated opponents available to boost SoS and QAW. This is evident in the table from José Aldo’s relatively modest SoS and QAW scores, despite facing some of the most accomplished opponents in featherweight and bantamweight history.
 
 **TABLE 4. MMA Greatest of All Time List**
+{: .table .table-center .table-narrow}
 
 |   Rank | Fighter                  |   z-Peak Elo |   z-AUEC |   z-SoS |   z-QAW |   Legacy Score |
 |-------:|:-------------------------|-------------:|---------:|--------:|--------:|---------------:|

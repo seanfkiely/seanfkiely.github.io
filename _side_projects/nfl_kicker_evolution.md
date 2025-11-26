@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Evolution of the NFL Kicking Game"
 collection: side_projects
 date: 2025-10-28

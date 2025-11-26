@@ -155,8 +155,6 @@ This metric also correlates reasonably well with consensus picks for the greates
 ### Best Current Mixed Martial Artists
 Table 2 lists the current best fighters by ELO rating. Note that I only include fighters who have been active in the last two years. Here we see Islam Makhachev at the top of the heap. Makhachev has been on a tremendous string of wins and increased his ELO rating by 161 points after beating perennial favorites Charles Oliveira (9th peak all-time ELO at the time of the fight), Alexander Volkanovski (13th peak all-time ELO), and Dustin Poirier (21st). We will see if he can extend his lead in the rankings by facing current UFC lightweight champion Ilia Topuria (#7), who has been calling for a match with Makhachev. Valentina Shevchenko, Zhang Weili, and Cris Cyborg are also the top three women who enter the list. In the near future, I plan to extend this analysis to WMMA and create current rankings by weight class for both women and men.
 
-<div align = "center">
-
 **TABLE 2. Best Current Fighters by ELO Rating**
 
 |   Rank | Fighter               |   ELO Rating |   |   Rank | Fighter           |   ELO Rating |
@@ -176,12 +174,10 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 |     13 | Arman Tsarukyan       |      1853.06 |   |     28 | Movsar Evloev     |      1814.27 |
 |     14 | Aljamain Sterling     |      1852.78 |   |     29 | Francis Ngannou   |      1808.74 |
 |     15 | Belal Muhammad        |      1851.51 |   |     30 | Ciryl Gane        |      1808.23 |
-</div>
+
 
 ### Greatest Fights
 I also sum the ELO ratings of fighters and their opponents to create a list of the top fights of all time in Table 3. By Elo rating, the trilogy fight between Daniel Cormier and Stipe Miocic tops the list. Cormier is involved in five of the top ten fights on the list, with his 1st fight against Jon Jones coming in at #7 and his 2nd fight against Anothy Johnson at #9. Cormier vs Jones 2 does not crack the top 10 as it was ruled a no-contest (omitted from the dataset) after Jones failed a drug test.
-
-<div align = "center">
 
 **TABLE 3. Greatest Fights by ELO Rating**
   
@@ -197,7 +193,6 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 |      8 | Dustin Poirier        |        1898.04 |   | Islam Makhachev   |        1973.18 |               3871.22 |
 |      9 | Daniel Cormier        |        1956.09 |   | Anthony Johnson   |        1912.28 |               3868.37 |
 |     10 | Andrei Arlovski       |        1813.39 |   | Fedor Emelianenko |        2051.75 |               3865.14
-</div>
 
 ### ELO vs Win Rate
 In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. Overall, we see a positive correlation between win rate and ELO rating. On the bottom left corner of the figure, we see lower-level fighters such as WWE star turned MMA wannabe CM Punk, moving up and to the right, we start to see fighters like Clay Guida, who are "gatekeepers" of their weight classes, high-level fighters that never quite made it to the upper echelon. Beyond that, we see elite-level fighters like Demetrious Johnson and Ilia Topuria (and a bit lower, we have Dada 5000 with his uhh *interesting* fight with Kimbo Slice).  
@@ -258,8 +253,6 @@ Two main patterns emerge from this analysis. First, heavyweight fighters tend to
 
 Second, on the other end of the size distribution, fighters in lower weight classes tend to underperform in this ranking system. A prominent example is Demetrious Johnson, the long-time 125-pound UFC champion, typically considered a top-ten fighter of all time, who comes in at only #37. He is also the only fighter in the top 50 from the bantamweight or flyweight divisions (excluding Frankie Edgar’s brief late-career run at bantamweight). Lower-weight fighters seem disadvantaged by lower SoS and QAW scores. This likely reflects MMA’s history: these divisions were introduced much later than heavier ones. The WEC was the first major organization to feature weight classes below 155 lbs (beginning in 2001), the UFC did not incorporate them until acquiring the WEC in 2010, and the UFC flyweight division was created only in 2012. As a result, these fighters had fewer years to accumulate AUEC and fewer highly-rated opponents available to boost SoS and QAW. This is evident in the table from José Aldo’s relatively modest SoS and QAW scores, despite facing some of the most accomplished opponents in featherweight and bantamweight history.
 
-<div align = "center">
-
 **TABLE 4. MMA Greatest of All Time List**
 
 |   Rank | Fighter                  |   z-Peak Elo |   z-AUEC |   z-SoS |   z-QAW |   Legacy Score |
@@ -274,7 +267,6 @@ Second, on the other end of the size distribution, fighters in lower weight clas
 |      8 | Dan Henderson            |         3.16 |     5.14 |    2.92 |    2.64 |          13.86 |
 |      9 | Fabrício Werdum          |         3.01 |     5.05 |    2.85 |    2.51 |          13.41 |
 |     10 | Lyoto Machida            |         2.67 |     5.12 |    2.9  |    2.44 |          13.13 |
-</div>
 
 Overall, the Legacy Score performs well in identifying the sport’s consensus all-time greats. A natural next step would be to reweight the score by weight class to address structural differences across divisions, which I leave for future work.
 

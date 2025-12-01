@@ -18,9 +18,10 @@ header:
   overlay_filter: 0.4
   caption: ""
 ---
+
 <style>
 figure.figure-center img {
-  max-width: 700px;   /* change this number */
+  max-width: 300px;   
   width: 100%;
   height: auto;
   margin: 0 auto;

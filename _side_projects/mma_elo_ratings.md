@@ -18,6 +18,14 @@ header:
   overlay_filter: 0.4
   caption: ""
 ---
+<style>
+figure.figure-center img {
+  max-width: 700px;   /* change this number */
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+</style>
 
 <div class="page__content" markdown="1">
 <body style="background-color:#f8f9fa;">

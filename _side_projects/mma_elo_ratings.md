@@ -20,11 +20,18 @@ header:
 ---
 
 <style>
-figure.figure-center img {
-  max-width: 300px;   
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
+/* NARROW TABLES */
+.table-narrow {
+  max-width: 900px;     /* adjust this number */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* optional: reduce excessive column spacing */
+.table-narrow th,
+.table-narrow td {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
 }
 </style>
 
@@ -149,7 +156,7 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 
 **FIGURE 1: Decay Function**
 <figure class="figure-center">
-  <img src="/images/decay-function.png" alt="Decay Function">
+  <img src="/images/decay-function.png" alt="Decay Function" style="width:70%;>
 </figure>
 
 
@@ -198,7 +205,7 @@ This metric also correlates reasonably well with consensus picks for the greates
 
 **FIGURE 2: ELO Trajectories of MMA Greats**
 <figure class="figure-center">
-  <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats">
+  <img src="/images/elo_trajectories.png" alt="ELO Trajectories of MMA Greats" style="width:70%;>
 </figure>
 
 ### Best Current Mixed Martial Artists
@@ -250,7 +257,7 @@ In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. 
 
 **FIGURE 3: ELO Rating vs Win Rate %**
 <figure class="figure-center">
-  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate">
+  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:70%;>
 </figure>
 
 ### ELO over Time
@@ -258,7 +265,7 @@ Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While th
 
 **FIGURE 4: ELO Ratings Since 1993**
 <figure style="text-align:center; margin: 2em 0;">
-  <img src="/images/elo_race_small.gif" width="850">
+  <img src="/images/elo_race_small.gif" style="width:70%;>
 </figure>
 
 ### MMA GOAT

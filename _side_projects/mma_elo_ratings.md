@@ -156,7 +156,7 @@ where $R_{\text{new}}$ is the fighters updated rating, $R_{\text{old}}$ is the p
 
 **FIGURE 1: Decay Function**
 <figure class="figure-center">
-  <img src="/images/decay-function.png" alt="Decay Function" style="width:70%">
+  <img src="/images/decay-function.png" alt="Decay Function" style="width:50%">
 </figure>
 
 
@@ -257,14 +257,14 @@ In Figure 2, I plot the current ELO ratings and fighters' win rate percentages. 
 
 **FIGURE 3: ELO Rating vs Win Rate %**
 <figure class="figure-center">
-  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:70%">
+  <img src="/images/elo_vs_win_rate.png" alt="ELO Rating vs Win Rate" style="width:50%">
 </figure>
 
 ### ELO over Time
 Figure 4 plots the top 10 ELO ratings over time using a bar chart race. While the first recorded MMA match was in 1980 (Rei Zulu vs. Rickson Gracie), fights were relatively uncommon (five fights in the 1980s) until 1993, when both Pancrase and the UFC held their first events. Therefore, this bar chart begins in 1993, updating the top 10 ELO ratings every month thereafter. 
 
 **FIGURE 4: ELO Ratings Since 1993**
-<figure style="text-align:center; margin: 2em 0;">
+<figure class="figure-center" style="text-align:center; margin: 2em 0;">
   <img src="/images/elo_race_small.gif" style="width:70%">
 </figure>
 

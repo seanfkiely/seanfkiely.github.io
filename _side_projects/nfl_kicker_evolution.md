@@ -36,6 +36,19 @@ figure.figure-center figcaption {
   font-size: 0.9em;
 }
 
+/* Narrow table styling */
+.table-narrow {
+  max-width: 900px;       /* adjust narrower/wider as you like */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-narrow th,
+.table-narrow td {
+  padding: 0.3em 0.6em;   /* reduces empty space in wide tables */
+}
+</style>
+
 <div class="page__content" markdown="1">
 <body style="background-color:#f8f9fa;">
 <div style="background:#fafafa; border:1px solid #eee; border-radius:10px; padding:2em; box-shadow:0 2px 4px rgba(0,0,0,0.05);" markdown="1">

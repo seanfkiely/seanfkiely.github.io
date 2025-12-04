@@ -15,6 +15,27 @@ header:
   overlay_filter: 0.4
   caption: "NFL field goal attempt distribution, 1999–2025"
 ---
+
+<style>
+/* Centered figure styling */
+figure.figure-center {
+  text-align: center;
+  margin: 2em auto;
+}
+
+figure.figure-center img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+figure.figure-center figcaption {
+  text-align: center;
+  margin-top: 0.5em;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
 <div class="page__content" markdown="1">
 <body style="background-color:#f8f9fa;">
 <div style="background:#fafafa; border:1px solid #eee; border-radius:10px; padding:2em; box-shadow:0 2px 4px rgba(0,0,0,0.05);" markdown="1">

@@ -191,23 +191,23 @@ I speculate that the rise of champion vs champion fights across weight classes, 
 **TABLE 1. Peak ELO Ratings**
 {: .table .table-center .table-narrow}
 
-|   Rank | Fighter                  |   Peak ELO Rating | Rank   | Fighter              |   Peak ELO Rating |
-|:-------|:-------------------------|------------------:|:-------|:---------------------|------------------:|
-|      1 | Fedor Emelianenko        |           2077.17 |     16 | Dan Henderson        |           1942.77 |
-|      2 | Anderson Silva           |           2073.81 |     17 | Donald Cerrone       |           1941.34 |
-|      3 | Daniel Cormier           |           2056.81 |     18 | Israel Adesanya      |           1940.36 |
-|      4 | Georges St-Pierre        |           2040.13 |     19 | Max Holloway         |           1937.65 |
-|      5 | Islam Makhachev          |           2035.44 |     20 | Wanderlei Silva      |           1936.89 |
-|      6 | Jon Jones                |           2021.89 |     21 | Dustin Poirier       |           1936.61 |
-|      7 | Kamaru Usman             |           1993.51 |     22 | Robbie Lawler        |           1932.88 |
-|      8 | José Aldo                |           1988.46 |     23 | Matt Hughes          |           1931.98 |
-|      9 | Charles Oliveira         |           1982.92 |     24 | Chuck Liddell        |           1929.73 |
-|     10 | Gegard Mousasi           |           1968.75 |     25 | Fabrício Werdum      |           1927.55 |
-|     11 | Stipe Miocic             |           1967.85 |     26 | Benson Henderson     |           1924.99 |
-|     12 | Antônio Rodrigo Nogueira |           1962.84 |     27 | Cain Velasquez       |           1922.82 |
-|     13 | Alexander Volkanovski    |           1962.73 |     28 | Valentina Shevchenko |           1916.61 |
-|     14 | Ryan Bader               |           1960.35 |     29 | Khabib Nurmagomedov  |           1915.37 |
-|     15 | Demetrious Johnson       |           1946.36 |     30 | Merab Dvalishvili    |           1914.8  
+|   Rank | Fighter                  |   Peak ELO Rating |   Rank | Fighter              |   Peak ELO Rating |
+|-------:|:-------------------------|------------------:|-------:|:---------------------|------------------:|
+|      1 | Anderson Silva           |           2070.43 |     16 | Dan Henderson        |           1941.96 |
+|      2 | Fedor Emelianenko        |           2042.7  |     17 | Wanderlei Silva      |           1939.39 |
+|      3 | Georges St-Pierre        |           2037.04 |     18 | Donald Cerrone       |           1938.09 |
+|      4 | Daniel Cormier           |           2034.26 |     19 | Israel Adesanya      |           1937.7  |
+|      5 | Islam Makhachev          |           2017.27 |     20 | Max Holloway         |           1933.87 |
+|      6 | Jon Jones                |           2013.62 |     21 | Matt Hughes          |           1933.1  |
+|      7 | Kamaru Usman             |           1991.11 |     22 | Robbie Lawler        |           1932.32 |
+|      8 | Jose Aldo                |           1983.68 |     23 | Chuck Liddell        |           1923.76 |
+|      9 | Charles Oliveira         |           1978.09 |     24 | Benson Henderson     |           1920.54 |
+|     10 | Gegard Mousasi           |           1961.38 |     25 | Mirko Filipovic      |           1919.59 |
+|     11 | Alexander Volkanovski    |           1960.24 |     26 | Merab Dvalishvili    |           1916.52 |
+|     12 | Antonio Rodrigo Nogueira |           1954.05 |     27 | Valentina Shevchenko |           1915.46 |
+|     13 | Ryan Bader               |           1950.54 |     28 | Dustin Poirier       |           1915.24 |
+|     14 | Stipe Miocic             |           1946.13 |     29 | Khabib Nurmagomedov  |           1909.59 |
+|     15 | Demetrious Johnson       |           1944.45 |     30 | Justin Gaethje       |           1906.25 |
 
 </div>
 
@@ -227,22 +227,22 @@ Table 2 lists the current best fighters by ELO rating. Note that I only include 
 {: .table .table-center .table-narrow}
 
 |   Rank | Fighter               |   ELO Rating |   Rank | Fighter           |   ELO Rating |
-|:-------|:----------------------|-------------:|:-------|:------------------|-------------:|
-|      1 | Islam Makhachev       |      2035.44 |     16 | Shavkat Rakhmonov |      1851.42 |
-|      2 | Max Holloway          |      1927.85 |     17 | Jiří Procházka    |      1848.28 |
-|      3 | Charles Oliveira      |      1917.56 |     18 | Alexander Volkov  |      1847.14 |
-|      4 | Valentina Shevchenko  |      1916.61 |     19 | Ryan Bader        |      1841.42 |
-|      5 | Merab Dvalishvili     |      1914.8  |     20 | Alexandre Pantoja |      1840.76 |
-|      6 | Justin Gaethje        |      1889.06 |     21 | Kamaru Usman      |      1840.54 |
-|      7 | Ilia Topuria          |      1882.59 |     22 | Zhang Weili       |      1838.97 |
-|      8 | Alexander Volkanovski |      1878.22 |     23 | Khamzat Chimaev   |      1835.12 |
-|      9 | Alex Pereira          |      1871.46 |     24 | Cris Cyborg       |      1833.32 |
-|     10 | Jon Jones             |      1864.55 |     25 | Vadim Nemkov      |      1828.87 |
-|     11 | Dricus du Plessis     |      1854.68 |     26 | Dustin Poirier    |      1828.13 |
-|     12 | Magomed Ankalaev      |      1853.91 |     27 | Corey Anderson    |      1824.57 |
-|     13 | Arman Tsarukyan       |      1853.06 |     28 | Movsar Evloev     |      1814.27 |
-|     14 | Aljamain Sterling     |      1852.78 |     29 | Francis Ngannou   |      1808.74 |
-|     15 | Belal Muhammad        |      1851.51 |     30 | Ciryl Gane        |      1808.23 |
+|-------:|:----------------------|-------------:|-------:|:------------------|-------------:|
+|      1 | Islam Makhachev       |      2017.27 |     16 | Kamaru Usman      |      1837.29 |
+|      2 | Max Holloway          |      1922.47 |     17 | Alexandre Pantoja |      1837.26 |
+|      3 | Merab Dvalishvili     |      1916.52 |     18 | Dricus du Plessis |      1836.57 |
+|      4 | Valentina Shevchenko  |      1915.46 |     19 | Cris Cyborg       |      1833.03 |
+|      5 | Charles Oliveira      |      1911.49 |     20 | Khamzat Chimaev   |      1832.97 |
+|      6 | Justin Gaethje        |      1881.59 |     21 | Zhang Weili       |      1830.83 |
+|      7 | Ilia Topuria          |      1881.32 |     22 | Ryan Bader        |      1828.57 |
+|      8 | Alexander Volkanovski |      1873.67 |     23 | Arman Tsarukyan   |      1821.55 |
+|      9 | Jiri Prochazka        |      1870.78 |     24 | Corey Anderson    |      1814.36 |
+|     10 | Alex Pereira          |      1868.29 |     25 | Movsar Evloev     |      1813.95 |
+|     11 | Jon Jones             |      1858.65 |     26 | Dustin Poirier    |      1804.73 |
+|     12 | Aljamain Sterling     |      1852.83 |     27 | Kyoji Horiguchi   |      1803.47 |
+|     13 | Magomed Ankalaev      |      1850.57 |     28 | Francis Ngannou   |      1802.6  |
+|     14 | Shavkat Rakhmonov     |      1850.38 |     29 | Ciryl Gane        |      1802.24 |
+|     15 | Alexander Volkov      |      1839.23 |     30 | Vadim Nemkov      |      1793.86 |
 
 </div>
 
@@ -254,18 +254,18 @@ I also sum the ELO ratings of fighters and their opponents to create a list of t
 **TABLE 3. Greatest Fights by ELO Rating**
 {: .table .table-center .table-narrow}
 
-|   Rank | Fighter 1             |   ELO Rating 1 | Fighter 2         |   ELO Rating 2 |   Combined ELO Rating |
-|:-------|:----------------------|---------------:|:------------------|---------------:|----------------------:|
-|      1 | Daniel Cormier        |        2053.23 | Stipe Miocic      |        1890.61 |               3943.84 |
-|      2 | Stipe Miocic          |        1935.6  | Daniel Cormier    |        2002.63 |               3938.24 |
-|      3 | Stipe Miocic          |        1926.22 | Daniel Cormier    |        1992.24 |               3918.46 |
-|      4 | Jake Shields          |        1894.11 | Georges St-Pierre |        1997.36 |               3891.48 |
-|      5 | Chael Sonnen          |        1845.49 | Anderson Silva    |        2045.23 |               3890.71 |
-|      6 | Alexander Volkanovski |        1950.65 | Islam Makhachev   |        1933.72 |               3884.38 |
-|      7 | Jon Jones             |        1994.77 | Daniel Cormier    |        1888.75 |               3883.52 |
-|      8 | Dustin Poirier        |        1898.04 | Islam Makhachev   |        1973.18 |               3871.22 |
-|      9 | Daniel Cormier        |        1956.09 | Anthony Johnson   |        1912.28 |               3868.37 |
-|     10 | Andrei Arlovski       |        1813.39 | Fedor Emelianenko |        2051.75 |               3865.14 |
+|   Rank | Fighter 1         |   ELO Rating 1 | Fighter 2             |   ELO Rating 2 |   Combined ELO Rating |
+|-------:|:------------------|---------------:|:----------------------|---------------:|----------------------:|
+|      1 | Daniel Cormier    |        2030.82 | Stipe Miocic          |        1868.08 |               3898.9  |
+|      2 | Stipe Miocic      |        1911.88 | Daniel Cormier        |        1978.91 |               3890.78 |
+|      3 | Georges St-Pierre |        1993.45 | Jake Shields          |        1892.6  |               3886.05 |
+|      4 | Anderson Silva    |        2042.21 | Chael Sonnen          |        1836.61 |               3878.82 |
+|      5 | Daniel Cormier    |        1970.61 | Stipe Miocic          |        1904.49 |               3875.1  |
+|      6 | Islam Makhachev   |        1913.84 | Alexander Volkanovski |        1946.78 |               3860.62 |
+|      7 | Johny Hendricks   |        1845.11 | Georges St-Pierre     |        2014.62 |               3859.73 |
+|      8 | Anderson Silva    |        2029.78 | Yushin Okami          |        1819.45 |               3849.24 |
+|      9 | Daniel Cormier    |        1856.03 | Jon Jones             |        1988.54 |               3844.57 |
+|     10 | Daniel Cormier    |        2011.19 | Derrick Lewis         |        1821.44 |               3832.63 |
 
 </div>
 
@@ -329,18 +329,18 @@ Second, on the other end of the size distribution, fighters in lower weight clas
 **TABLE 4. MMA Greatest of All Time List**
 {: .table .table-center .table-narrow}
 
-|   Rank | Fighter                  |   z-Peak Elo |   z-AUEC |   z-SoS |   z-QAW |   Legacy Score |
-|-------:|:-------------------------|-------------:|---------:|--------:|--------:|---------------:|
-|      1 | Fedor Emelianenko        |         4.5  |    10.03 |    2.21 |    2.37 |          19.11 |
-|      2 | Georges St-Pierre        |         4.13 |     7.1  |    2.98 |    2.82 |          17.03 |
-|      3 | Jon Jones                |         3.95 |     7.86 |    2.48 |    2.48 |          16.77 |
-|      4 | Anderson Silva           |         4.47 |     7.61 |    2.14 |    2.22 |          16.43 |
-|      5 | Antônio Rodrigo Nogueira |         3.36 |     6.26 |    2.34 |    2.37 |          14.33 |
-|      6 | Daniel Cormier           |         4.3  |     4.79 |    2.86 |    2.25 |          14.19 |
-|      7 | José Aldo                |         3.62 |     7.02 |    1.92 |    1.63 |          14.18 |
-|      8 | Dan Henderson            |         3.16 |     5.14 |    2.92 |    2.64 |          13.86 |
-|      9 | Fabrício Werdum          |         3.01 |     5.05 |    2.85 |    2.51 |          13.41 |
-|     10 | Lyoto Machida            |         2.67 |     5.12 |    2.9  |    2.44 |          13.13 |
+|   Rank | Fighter                  |   z-Peak Elo |   z-AUEC |   z-SoS |   z-QAW |   Score |
+|-------:|:-------------------------|-------------:|---------:|--------:|--------:|--------:|
+|      1 | Fedor Emelianenko        |         4.24 |    10    |    2.16 |    2.15 |   18.55 |
+|      2 | Georges St-Pierre        |         4.19 |     7.23 |    2.97 |    2.8  |   17.19 |
+|      3 | Jon Jones                |         3.95 |     7.91 |    2.43 |    2.41 |   16.7  |
+|      4 | Anderson Silva           |         4.53 |     7.69 |    2.18 |    2.21 |   16.6  |
+|      5 | Jose Aldo                |         3.65 |     7.05 |    2    |    1.7  |   14.4  |
+|      6 | Antonio Rodrigo Nogueira |         3.35 |     6.01 |    2.44 |    2.33 |   14.13 |
+|      7 | Dan Henderson            |         3.22 |     5.21 |    2.92 |    2.56 |   13.92 |
+|      8 | Daniel Cormier           |         4.16 |     4.44 |    2.78 |    2.11 |   13.49 |
+|      9 | Lyoto Machida            |         2.72 |     5.17 |    2.9  |    2.41 |   13.19 |
+|     10 | Josh Barnett             |         2.75 |     6.12 |    2.13 |    1.92 |   12.92 |
 
 </div>
 

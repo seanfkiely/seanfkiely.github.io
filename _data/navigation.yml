@@ -1,9 +1,12 @@
 main:
   - title: Research
     url: /research/
+
   - title: Teaching
     url: /teaching/
+
   - title: CV
     url: /files/Kiely%20CV.pdf
+
   - title: Side Projects
     url: /side-projects/

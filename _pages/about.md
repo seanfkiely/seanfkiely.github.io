@@ -31,4 +31,4 @@ Pennsylvania State University
 
 Job Market Candidate
 ====================
-Please feel free to contact me with any inquiries at [kielys[at]nber.org](mailto:kielys@nber.org)
+Please feel free to contact me with any inquiries at [seanfkiely4@gmail.com](mailto:seanfkiely4@gmail.com)

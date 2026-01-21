@@ -4,7 +4,4 @@ main:
     url: /research/
   - title: "Teaching"
     url: /teaching/
-  - title: "CV"
-    url: /files/Kiely CV.pdf
-  - title: "Side Projects"
-    url: /side-projects/
+

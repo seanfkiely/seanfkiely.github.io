@@ -6,11 +6,8 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Publications"
-    url: https://scholar.google.com/citations?user=DFt5QqsAAAAJ&hl=en&oi=ao     
-
   - title: "CV"
     url: "/files/Kiely CV.pdf"
-    
+
   - title: "Side Projects"
     url: /side-projects/

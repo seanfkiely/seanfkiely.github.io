@@ -12,7 +12,7 @@ I received my Ph.D. in the **[ARE Department](https://are.ucdavis.edu/)** at the
 
 I am an applied economist specializing in causal inference and experimentation, with hands-on experience applying quasi-experimental methods using Python, R, Stata, and SQL. I like to dive deep into complex data, improve analytical workflows and visualizations, and clearly translate findings into recommendations to non-technical audiences. 
 
-You can find my résumé here and my CV here.
+You can find my résumé [here](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Sean_Kiely_Resume.pdf) and my CV [here](https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Kiely_CV.pdf).
 
 Education 🎓
 =========

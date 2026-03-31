@@ -35,7 +35,7 @@ We study how individuals' risk preferences, subjective beliefs about future shoc
 ### Incentivize or Penalize? The Effects of Teaching Approach and Course Design on Student Performance and Learning Experiences 
 (with Saloni Chopra, Kristin Kiesel, Steve Boucher, and Jeffrey Williams)  
 
-<i>Under Review/i>.
+<i> Under Review /i>.
 <details>
 <summary>Abstract</summary> | <a href="https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Incentivize_or_Penalize.pdf">PDF</a></summary>
 <br>

@@ -32,6 +32,18 @@ Information provision can act as an effective quality signal preventing market f
 We study how individuals' risk preferences, subjective beliefs about future shocks, and related behavior change following a natural disaster. We focus on the impact of Typhoon Ketsana in 2009—one of the most devastating storms to hit Southeast Asia in recent times. Our analysis reveals that individuals who were affected by the typhoon become more risk averse a year after landfall. This effect persists up to four years later. We base our findings on household-level panel data from Vietnam and a difference-in-differences strategy with a continuous treatment variable that exploits variation in the intensity of the typhoon. We conclude that a standard deviation (SD) increase in excess rainfall during the typhoon leads to a 0.23 SD increase in risk averseness one year after landfall, and a 0.24 SD increase four years after landfall. Moreover, individuals exposed to higher excess rainfall are more likely to believe that storms will not transpire in the following five years or will occur with reduced frequency. This result supports the view that the main observed effects on risk preferences indeed reflect updated risk attitudes, rather than changes in the subjective probability structure assigned to the occurrence of storms. Finally, we show that individuals exposed to the typhoon increase their insurance purchasing in the long term. Our paper contributes to the literature that empirically documents how negative shocks may alter risk preferences and helps illuminate the way climate-related hazards can induce changes in the attitudes and economic behavior of individuals.
 </details>
 
+### Incentivize or Penalize? The Effects of Teaching Approach and Course Design on Student Performance and Learning Experiences 
+(with Saloni Chopra, Kristin Kiesel, Steve Boucher, and Jeffrey Williams)  
+
+<i>Under Review/i>.
+<details>
+<summary>Abstract</summary> | <a href="https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Kiely%20Job%20Market%20Paper.pdf">PDF</a></summary>
+<br>
+Employment in the U.S. agricultural sector is highly diverse. Technological advancements, demographic change, and targeted immigration policies have reduced the demand for seasonal farm labor. However, the demand for well-trained college graduates is less frequently discussed. Enrollment in agricultural disciplines across all higher education institutions has been trending downward, and the recent COVID-19 pandemic has not only created new pedagogical challenges but also exacerbated the misperception that the path to success is to eschew a career in agriculture, especially among historically underrepresented and disadvantaged students, who grew up in communities comprised of agricultural and food supply workers. This study analyzes which teaching methods and course designs can leverage students’ diverse backgrounds and identities to effectively engage
+and retain new talent in agricultural economics as an academic discipline, accelerate innovation in
+the agricultural and food industry, and strengthen the economic resilience of local communities. More specifically, we exploit exogenous variation in lecture attendance policies and test for differences in academic performance, course-specific sense of belonging, and students' overall learning experiences. Our findings suggest that Agribusiness courses adopting inclusive teaching approaches and course designs supporting learning growth can attract and retain talent and effectively prepare all students for successful careers in agriculture and related fields.
+</details> 
+
 ### Disentangling disability and poverty: A panel analysis of risk attitudes, behaviors, and the long-term effects of unexpected health shocks in Vietnam
 (with Dorothee Buehler, Ute Rink, and Kristin Kiesel) 
 <details>
@@ -47,18 +59,6 @@ The livelihoods of households with a disabled member have been vastly underexami
 ### The Effect of Ignition-Interlock Device Mandates on Alcohol-Related Traffic Fatalities
 
 ## Publications
-
-### Incentivize or Penalize? The Effects of Teaching Approach and Course Design on Student Performance and Learning Experiences 
-(with Saloni Chopra, Kristin Kiesel, Steve Boucher, and Jeffrey Williams)  
-
-<i>Forthcoming. Applied Economics and Teaching Resources</i>.
-<details>
-<summary>Abstract</summary>
-<br>
-Employment in the U.S. agricultural sector is highly diverse. Technological advancements, demographic change, and targeted immigration policies have reduced the demand for seasonal farm labor. However, the demand for well-trained college graduates is less frequently discussed. Enrollment in agricultural disciplines across all higher education institutions has been trending downward, and the recent COVID-19 pandemic has not only created new pedagogical challenges but also exacerbated the misperception that the path to success is to eschew a career in agriculture, especially among historically underrepresented and disadvantaged students, who grew up in communities comprised of agricultural and food supply workers. This study analyzes which teaching methods and course designs can leverage students’ diverse backgrounds and identities to effectively engage
-and retain new talent in agricultural economics as an academic discipline, accelerate innovation in
-the agricultural and food industry, and strengthen the economic resilience of local communities. More specifically, we exploit exogenous variation in lecture attendance policies and test for differences in academic performance, course-specific sense of belonging, and students' overall learning experiences. Our findings suggest that Agribusiness courses adopting inclusive teaching approaches and course designs supporting learning growth can attract and retain talent and effectively prepare all students for successful careers in agriculture and related fields.
-</details> 
 
 ### Product Innovation and Promotion of Value-added Products via Marketing Cooperatives
 (with Kristin Kiesel and Rachael Goodhue) 

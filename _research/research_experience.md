@@ -35,9 +35,9 @@ We study how individuals' risk preferences, subjective beliefs about future shoc
 ### Incentivize or Penalize? The Effects of Teaching Approach and Course Design on Student Performance and Learning Experiences 
 (with Saloni Chopra, Kristin Kiesel, Steve Boucher, and Jeffrey Williams)  
 
-<i> Under Review /i>.
+<i>Under Review</i>
 <details>
-<summary>Abstract</summary> | <a href="https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Incentivize_or_Penalize.pdf">PDF</a></summary>
+<summary>Abstract | <a href="https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/Incentivize_or_Penalize.pdf">PDF</a></summary>
 <br>
 This study analyzes whether and how differences in course design and teaching approach affect not only lecture attendance, but also individual and collective learning outcomes. More specifically, we utilize a quasi-natural experiment and exploit variation in attendance policies adopted across four upper-level agribusiness courses to test for differences in course-specific academic outcomes and learning growth. Rather than solely relying on an evaluation of letter grades, we use quantitative measures of overall course performance and improvements in performance. We further provide descriptive evidence of differences in students' learning experiences and sense of belonging. While we find that both mandatory attendance policies and incentivized participation effectively increase lecture attendance, the latter may offer additional benefits. Our findings consistently suggest that adopting a student-centered and inclusive teaching approach that incentivizes active engagement (rather than penalizes absences) supports student learning and can contribute to closing academic achievement gaps.
 </details> 

@@ -50,9 +50,14 @@ This study analyzes whether and how differences in course design and teaching ap
 The livelihoods of households with a disabled member have been vastly underexamined in the existing literature, partly due to data limitations. Using unique household-level panel data from Vietnam, we investigate differences in the immediate effects of shocks on the income of households with a disabled member (DHs) and without a disabled member (NDHs) and the longer-term poverty dynamics of these households. Key to our analysis is that many of the disabilities reported in our data can be linked to the Vietnam War and exposure to chemical defoliants. When examining the immediate impact of shocks, we find that DHs are more resilient to each incremental health shock than NDHs, but more vulnerable when confronted with natural shocks (e.g., natural disasters, livestock diseases). While these immediate effects suggest that policies for DHs should offer assistance to cope with natural shocks, our poverty dynamics analysis paints a more nuanced picture. DHs are significantly more likely to have experienced chronic or transitory poverty when faced with additional health shocks than NDHs. Conversely, DHs are no more likely to end up in poverty than NDHs when faced with shocks outside of the health domain. Our analysis suggests that DHs have developed a greater resilience to health shocks, but the greater cumulative number of shocks experienced over time makes them more vulnerable to falling into poverty overall.
 </details>
 
-## Works in Progress
-
 ### Lowering the Legal Limit: Evidence from Utah’s 0.05 BAC Law
+<details>
+<summary>Abstract | <a href="https://github.com/seanfkiely/seanfkiely.github.io/raw/master/files/utah_bac.pdf">Paper</a></summary>
+<br>
+In December 2018, Utah became the first U.S. state to lower its legal blood alcohol concentration (BAC) limit from 0.08 to 0.05 grams per deciliter. Using synthetic difference-in-differences (SDID) on a balanced state-year panel covering all 50 states from 1994 to 2023, I estimate the causal effect of the law on traffic fatalities. The law reduces traffic fatalities per 100 million vehicle miles traveled by approximately 12 percent, marginally significant at the 10 percent level under permutation-based placebo inference, a result that holds up when COVID-affected years are excluded. Heterogeneity analysis finds a weakly statistically significant weekday reduction, consistent with deterrence concentrated among moderate weekday drinkers in the newly criminalized 0.05--0.08 BAC range, a pattern likely reflecting Utah's large Latter-day Saints population, though this interpretation remains exploratory. A welfare analysis of the policy implies an average of approximately 40 lives and \$530 million in avoided fatality costs per year in Utah. However, as the main effect is only significant at the 10\% level, no positive lower bound on welfare can be established.
+</details>
+
+## Works in Progress
 
 ### The Effect of Ignition-Interlock Device Mandates on Alcohol-Related Traffic Fatalities
 
